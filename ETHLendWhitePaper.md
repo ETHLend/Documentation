@@ -6,6 +6,8 @@
 
 <p>Copyright 2017 ETHLend.io</p>
 
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/logo_300DPI-05-1.png)
+
 <p>Without explicit permission, anyone has the right to use, reproduce or distribute any material in this white paper for non-commercial purposes and educational use, provided that the original source and the applicable copyright notice are cited.</p>
 
 DISCLAIMER: This White Paper is inteded for distribution solely on information purposes. ETHLend.io does not guarantee the accuracy of the conclusions and statements reached in this white paper. Moreover, this white paper is provided "as is" with no representations and warranties, express or implied, whatsoever, including, but not limited to: (i) warranties of merchantability, fitness for a particular purpose, title or noninfringement; (ii) that the contents of this white paper are free from error or suitable for any purpose; and (iii) that such contents will not infringe third-party rights. All warranties are expressly disclaimed. ETHLend.io and its affiliates expressly disclaim all liability for and damages of any kind (direct or indirect, including loss of profit) arising out of the use, reference to, or reliance on any information contained in this white paper, even if advised of the possibility of such damages. In no event will ETHLend.io or its affiliates be liable to any person or entity for any direct, indirect, special or consequential damages (including, but not limited to loss of profit) for the use of, reference to, or reliance on this white paper or any of the content contained herein.</p>
@@ -810,3 +812,5 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 <p>Reddit:</p>
 
 <p>https://www.reddit.com/r/ETHLend/ </p>
+
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/logo_300DPI-02.png)
