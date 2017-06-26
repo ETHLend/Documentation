@@ -224,6 +224,31 @@ Background
 
 <p>Borrower creates a Smart Contract by creating a New Loan Request</p>
 
+     function createNewLendingRequest()payable byAnyone returns(address out){
+          // 1 - send Fee to wherToSendFee 
+
+          uint feeAmount = borrowerFeeAmount;
+          if(msg.value<feeAmount){
+               throw;
+          }
+
+          if(!whereToSendFee.call.gas(200000).value(feeAmount)()){
+               throw;
+          }
+
+          // 2 - create new LR
+          // will be in state 'WaitingForData'
+          out = new LendingRequest(mainAddress,msg.sender,whereToSendFee);
+
+          // 3 - add to list
+          uint currentCount = lrsCountPerUser[msg.sender];
+          lrsPerUser[msg.sender][currentCount] = out;
+          lrsCountPerUser[msg.sender]++;
+
+          lrs[totalLrCount] = out;
+          totalLrCount++;
+     }
+
 <p>Borrower places data on the Smart Contract, such as the loan amount, premium, which token is used for collateral, amount of tokens and the collateral token address</p>
 
 <p>Borrower sends the tokens to the Smart Contract</p>
@@ -410,14 +435,14 @@ Background
 
 <p>Valuable data for lending. Ethereum addresses provide data that could be used to assess the risk level of the loan request. To analyse the risk of the loan we would need some background information from the borrower. Just as a bank might evaluate the transaction or income history of the borrower, a similar approach can be done by exploring the Ethereum blockchain. The data that would be important to decide whether the borrower has a stable address is:</p>
 
-•	Age of the address (time from the first transaction)
-•	Total number of transaction
-•	To how many addresses ETH is sent
-•	From how many addresses received ETH
-•	What is the average monthly ETH balance
-•	Does the address hold tokens
-•	Does the address create or interact with Smart Contracts
-•	Is the address name registered at blockexplorer services or any such
+*	Age of the address (time from the first transaction)
+*	Total number of transaction
+*	To how many addresses ETH is sent
+*	From how many addresses received ETH
+*	What is the average monthly ETH balance
+*	Does the address hold tokens
+*	Does the address create or interact with Smart Contracts
+*	Is the address name registered at blockexplorer services or any such
 
 
 <p>Stability and indication of willingness to pay. The idea behind the address data is to capture information that would indicate that the borrower uses the address regularly. For example, an address that does not have any of the above stated data, would be more risky to lend 1 ETH to a borrower compared to lending to an address that had its first transaction two years ago, has over 2 000 transactions from the first one, has sent to over 100 different addresses and received from over 100 different addresses with a monthly balance of 1 ETH and has previously held tokens.</p>
@@ -498,16 +523,16 @@ Background
 
 <p>We consider ETHLend as a long term project. However, to make most of us, concrete deadlines are necessary. Therefore, we shall introduce the following roadmap for technical implementations:</p>
 
-1.	Implementing ENS Domain Collateral  26.6.2017
-2.	Implementing CRE for Repayments 26.6.217
-3.	Token Crowdsale  Late August / Early September 2017
-4.	User Experience Upgrade  September 2017
-5.	On-Demand Lending  October 2017
-6.	uPort Integration  October 2017
-7.	Second User Experience Upgrade  January 2018
-8.	Lending Bitcoin and Litecoin  March 2018
-9.	KYC on-board implementation  May 2018
-10.	Lending Other Altcoins  August 2018
+1.	Implementing ENS Domain Collateral on 26.6.2017
+2.	Implementing CRE for Repayments on 26.6.217
+3.	Token Crowdsale during Late August / Early September 2017
+4.	User Experience Upgrade during September 2017
+5.	On-Demand Lending during October 2017
+6.	uPort Integration during October 2017
+7.	Second User Experience Upgrade during January 2018
+8.	Lending Bitcoin and Litecoin during March 2018
+9.	KYC on-board implementation during May 2018
+10.	Lending Other Altcoins during August 2018
 
 <h2>3.8	Map of ETHLend</h2>
 
@@ -595,18 +620,18 @@ Background
 
 <p>Road to decentralization. ETHLend introduces the following roadmap adopting changes, improvements and governance to ETHLend:</p>
 
-1.	ETHLend DAPP v. 1.0  May 2017
-2.	White Paper on ETHLend  June 2017
-3.	Token Sale Smart Contract Testing  July 2017
-4.	Token Sale  August-September 2017
-5.	Swiss Foundation or Swiss LLC  October 2017
-6.	CRE Trading on Exchanges  November 2017
-7.	Relocation to Zug, Switzerland  January 2018
-8.	New Recruits on the ETHLend Team  February 2018
-9.	Opening Proposition Forum for Token Holders  May 2018
-10.	Creating and Testing Democracy DAO  November 2018
-11.	Voting on Proposition Deployed  May 2019
-12.	Vesting for CRE Ends  August-September 2019
+1.	ETHLend DAPP v. 1.0 on May 2017
+2.	White Paper on ETHLend on June 2017
+3.	Token Sale Smart Contract Testing on July 2017
+4.	Token Sale on August-September 2017
+5.	Swiss Foundation or Swiss LLC on October 2017
+6.	CRE Trading on Exchanges on November 2017
+7.	Relocation to Zug, Switzerland on January 2018
+8.	New Recruits on the ETHLend Team on February 2018
+9.	Opening Proposition Forum for Token Holders on May 2018
+10.	Creating and Testing Democracy DAO on November 2018
+11.	Voting on Proposition Deployed on May 2019
+12.	Vesting for CRE Ends on August-September 2019
 
 <h1>6.	Token Sale</h1>
 
@@ -662,11 +687,11 @@ Background
 
 <p>Most of the funds are allocated to further development of the DAPP. ETHLend provides the following funds allocation based on needs for application that ETHLend is developing:</p>
 
-•	35% on core development
-•	20% on user experience development
-•	20% on management of ETHLend Foundation or LLC (including legal and management costs)
-•	15% on promotions
-•	10% on unexpected costs
+*	35% on core development
+*	20% on user experience development
+*	20% on management of ETHLend Foundation or LLC (including legal and management costs)
+*	15% on promotions
+*	10% on unexpected costs
 
 <p>Funds allocation is subject to change for providing flexibility. ETHLend will use best practices on funds allocation and its own discretion.</p>
 
