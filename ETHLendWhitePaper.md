@@ -65,16 +65,14 @@ Background
 6.6	Security
 6.7	Funds Allocation
 7.	Further Updates
-
-
-Executive Summary
-Text here
  
 <h1>1.	Background</h1>
-We are not professionals. We are people who want to develop something important and to break unworkable and unfair lending market. We want make lending available on global scale. Instead of relying on local banks and lenders, we believe that borrower should have the possibility to obtain a loan from anywhere in the loan. We believe that Canadian borrower could obtain a loan from Sweden, China, Brazil, Japan or Germany and vice versa. 
+We are not professionals. We are people who want to develop something important and to break unworkable and unfair lending market. We want make lending available on global scale. Instead of relying on local banks and lenders, we believe that borrower should have the possibility to obtain a loan from anywhere in the loan. We believe that Canadian borrower could obtain a loan from Sweden, China, Brazil, Japan or Germany and vice versa.
+
 Why global lending market is important? When lending market is not bound by the borders and jurisdictions, there is true competition and liquidity available for the lending market. This means that same amount of liquidity is available for example in China as in Europe. The effect is revolutionary. Interest rate differences between countries and regions will disappear since there is more liquidity and competition.
 Less control for the banks. Banks lend money that is deposited by the account holders. This liquidity is lend to the market. Practically it means that banks charge 5-12% interest on loans and compensate you 0-1% for holding your assets at the bank. Since the rise of crypto-currency, you can become your own banking institution. With ETHLend, you become your own lending institution. You decide whom you lend to, on which interest rate securely or insecurely. This all is available with blockchain technology, on which ETHLend relies on.
-1.1	About the White Paper
+
+<h2>1.1	About the White Paper</h2>
 This white paper is an overview on ETHLend, a decentralized lending application (DAPP) running on Ethereum Network. Besides the DAPP, this white paper covers the ideology of ETHLend, the team behind the innovation and the upcoming token sale for contributing to ETHLend.
 Readability on focus. Since the popular adaption on Ethereum-based applications and interest on blockchain economy, we aimed to write this white paper to be understandable without wide knowledge or experience on technology associated with Ethereum. We tried to present the functions of the DAPP in much as possible in textual form and pictures. Moreover, when we present code, we explain it sufficiently enough to understand the function behind the code.
 This white paper was compiled together with persistent effort. ETHLend team wanted to produce a coherent, understandable and plausible concept out to the public. We want to make sure that anyone associated or is contributing to ETHLend does understand our vision, who we are, how the DAPP works and how the token sale takes place. We hope that our white paper inspires you for new ideas and innovations on blockchain technology.
