@@ -463,9 +463,9 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
  
 <p>Borrower has received back his token pledged earlier for collateral</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img34.jpg
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img34.jpg)
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img35.jpg
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img35.jpg)
 
 <h3>3.1.6	Default Scenario</h3>
  
@@ -628,7 +628,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 <p>We consider ETHLend as a long term project. However, to make most of us, concrete deadlines are necessary. Therefore, we shall introduce the following roadmap for technical implementations:</p>
 
 1.	Implementing ENS Domain Collateral on 26.6.2017
-2.	Implementing CRE for Repayments on 26.6.217
+2.	Implementing CRE for Repayments on 26.6.2017
 3.	Token Crowdsale during Late August / Early September 2017
 4.	User Experience Upgrade during September 2017
 5.	On-Demand Lending during October 2017
