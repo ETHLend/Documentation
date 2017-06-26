@@ -1,4 +1,4 @@
-# ETHLend.IO White Paper - Democratizing Lending
+# ETHLend.io White Paper - Democratizing Lending
 
 26 June 2017
 
@@ -212,7 +212,7 @@ Background
 
 <p>On the other hand, this is not a problem if the borrower lives in the crypto-currency economy. This might be the case for many within the next five years. It would mean that the user would get his income in ETH (or any other crypto-currency). In this case, the borrower do not need to bear the cost of rising ETH price. However, if there would be high amount of users from the FIAT economy, this would eventually mean that it would make more sense to borrow bigger amounts that resorting to microlending. This could raise the bar for access to finance, which worries us the most.</p>
 
-<h1>3.	Fully Decentralized On-Chain Solution for Lending Market<h1>
+<h1>3.	Fully Decentralized On-Chain Solution for Lending Market</h1>
 
 <p>Decentralized lending. Ethereum provides the ecosystem for lending that is conducted on-chain. By decentralized lending we refer that all transactions are made on blockchain and all data that is associated with the loans are stored and running on the blockchain network. The solution provides safety, trust and transparency between the borrowers and the lenders.</p>
 
@@ -561,23 +561,27 @@ Background
 
 <p>Introducing our team:</p>
 
-<p>Stani Kulechov, Founder of ETHLend. stani@ETHLend.io</p>
+<p>Stani Kulechov, Founder of ETHLend & Development, stani@ETHLend.io</p>
 
-<p>Jordan Lazaro Gustave, Head of Management. jordan@ETHLend.io</p>
+<p>Jordan Lazaro Gustave, Head of Management, jordan@ETHLend.io</p>
 
 <p>Martin Wichmann, Head of Token Sale, martin@ETHLend.io</p>
 
-<p>Sergej Stein, Financial Advisor, sergej@ETHLend.io</p>
+<p>Sergej Stein, Financial Advisor & Blog, sergej@ETHLend.io</p>
 
 <p>Scott Malsbury, Head of Communications, scott@ETHLend.io</p>
 
 <p>Jin Park, Head of Marketing, jin@ETHLend.io</p>
 
-<p>Slack Wizard</p>
+<p>Rowan vab Ginkel, Graphics & Visualization</p>
 
-<p>Vlogger</p>
+<p>Edmund To, Lead Junior Developer<p>
 
-<p>Rowan, Graphics & Visualization</p>
+<p>Anastasija Plotnikova, Translations</p>
+
+<p>Andreas Haraldsvik, Slack Wizard</p>
+
+<p>Nolvia Serrano, Vlog</p>
 
 <h2>5.2	Governance</h2>
 
