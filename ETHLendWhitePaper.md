@@ -454,28 +454,32 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 <p>Click return token and confirm via MetaMask</p>
 
 ![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img31.jpg)
+
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img32.jpg)
  
 <p>You can see in the balance borrower has returned to lender the loan amount plus interest</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img32.jpg)
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img33.jpg)
  
 <p>Borrower has received back his token pledged earlier for collateral</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img32.jpg)
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img34.jpg
+
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img35.jpg
 
 <h3>3.1.6	Default Scenario</h3>
  
 <p>We are going to demonstrate a default scenario next</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img33.jpg)
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img36.jpg)
  
 <p>We follow identical steps except for the number of days we are putting 0 day to simulate the loan defaulting</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img34.jpg)
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img37.jpg)
  
 <p>After the loan is defaulted, lender can see the message has changed to get token</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img35.jpg)
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img38.jpg)
  
 <p>Lender can claim the token and we can confirm on token factory</p>
 
