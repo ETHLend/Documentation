@@ -377,7 +377,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 <h3>3.1.2	The Loan Contract</h3>
  
-<p>After that you clicking into the contract just created, please enter the details of the contract</p>
+<p>After that you clicked into the contract you just created, enter the details of the contract</p>
 
 ![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img14.jpg)
  
@@ -425,53 +425,57 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
  
 <p>After that is competed, you will see the status of your loan has changed to waiting for lender</p>
 
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img25.jpg)
+
 <h3>3.1.4	Funding the Loan</h3>
  
 <p>This is an example we are going to switch to a lender account. In practice, the following steps will be conducted by a lender</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img25.jpg)
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img26.jpg)
  
 <p>After selecting the loan, lender can click fund this loan request</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img26.jpg)
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img27.jpg)
  
 <p>Confirm via MetaMask</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img27.jpg)
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img28.jpg)
  
 <p>Borrower has successfully received his loan</p>
+
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img29.jpg)
 
 <h3>3.1.5	Paying the Loan Back</h3>
  
 <p>As the borrower, you can choose the loan you would like to repay</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img28.jpg)
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img30.jpg)
  
 <p>Click return token and confirm via MetaMask</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img29.jpg)
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img31.jpg)
  
 <p>You can see in the balance borrower has returned to lender the loan amount plus interest</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img30.jpg)
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img32.jpg)
  
 <p>Borrower has received back his token pledged earlier for collateral</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img31.jpg)
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img32.jpg)
 
 <h3>3.1.6	Default Scenario</h3>
  
 <p>We are going to demonstrate a default scenario next</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img32.jpg)
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img33.jpg)
  
 <p>We follow identical steps except for the number of days we are putting 0 day to simulate the loan defaulting</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img33.jpg)
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img34.jpg)
  
 <p>After the loan is defaulted, lender can see the message has changed to get token</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img34.jpg)
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img35.jpg)
  
 <p>Lender can claim the token and we can confirm on token factory</p>
 
