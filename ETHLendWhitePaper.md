@@ -1,93 +1,76 @@
-# Documentation
-ETHLend White Paper
+# ETHLend.IO White Paper - Democratizing Lending
 
-Releasing soon
+26 June 2017
 
-ETHLend
-Democratizing Lending
+Abstract:
 
-
-
- 
-
-
-
-
-
-
-
-
-
-
-Version 0.3
-June 26, 2017
- 
+Disclaimer:
 
 Table of Contents
-Table of Contents	I
-Executive Summary	III
-1.	Background	1
-1.1	About the White Paper	1
-1.2	Lack of True Global Lending Market	1
-1.3	Peer to Peer Lending and Cryptocurrency	2
-1.4	Benefits of Decentralized Lending	3
-1.4.1	Trustless	3
-1.4.2	Transparency	3
-1.4.3	Democracy and Access to Finance	4
-1.4.4	Tokenization of Things	5
-1.4.5	Current and Future Use-Cases for Decentralized Lending	6
-2.	Why Ethereum Network?	7
-2.1	Smart Contracts	7
-2.2	Ether	8
-2.3	Tokenization	9
-2.4	Paradox of Value: Smart Contract Deployment	10
-3.	Fully Decentralized On-Chain Solution for Lending Market	10
-3.1	Secured Lending by Pledging Ethereum-Based Digital Tokens	11
-3.1.1	New Loan Request	15
-3.1.2	The Loan Contract	17
-3.1.3	Sending Digital Tokens to the Smart Contract	18
-3.1.4	Funding the Loan	21
-3.1.5	Paying the Loan Back	23
-3.1.6	Default Scenario	24
-3.2	On-Demand Lending	26
-3.3	Secured Lending by Pledging Ethereum Name Service Domains (ENS)	27
-3.4	Unsecured Lending	29
-3.4.1	uPort	30
-3.4.2	Address Data	30
-3.5	Introducing Credit Token (CRE) as the Reputation System	32
-3.5.1	Rewarding Liquidity and Repayments	33
-3.5.2	Credit Token as Reputation	34
-3.5.3	Prevention of Misuse	35
-3.6	User Experience on ETHLend	35
-3.6.1	Accessibility	35
-3.6.2	User Interface	35
-3.6.3	Performance	35
-3.6.4	Translations	36
-3.7	Technical Roadmap	36
-3.8	Map of ETHLend	37
-4.	Legal Evaluation of the Loan agreement on ETHLend	37
-4.1	Contractual Relationship	38
-4.2	Collateral	39
-4.3	Know Your Customer (KYC)	39
-5.	ETHLend	40
-5.1	The Team	41
-5.2	Governance	41
-5.3	Roadmap	41
-6.	Token Sale	42
-6.1	Token Distribution	43
-6.2	Purchase Price	43
-6.3	Burning Tokens	43
-6.4	Vesting	44
-6.5	Minting	44
-6.6	Security	44
-6.7	Funds Allocation	45
-7.	Further Updates	45
+Table of Contents
+Executive Summary
+Background
+1.1	About the White Paper
+1.2	Lack of True Global Lending Market
+1.3	Peer to Peer Lending and Cryptocurrency
+1.4	Benefits of Decentralized Lending
+1.4.1	Trustless
+1.4.2	Transparency
+1.4.3	Democracy and Access to Finance
+1.4.4	Tokenization of Things
+1.4.5	Current and Future Use-Cases for Decentralized Lending
+2.	Why Ethereum Network?
+2.1	Smart Contracts
+2.2	Ether
+2.3	Tokenization
+2.4	Paradox of Value: Smart Contract Deployment
+3.	Fully Decentralized On-Chain Solution for Lending Market
+3.1	Secured Lending by Pledging Ethereum-Based Digital Tokens
+3.1.1	New Loan Request
+3.1.2	The Loan Contract
+3.1.3	Sending Digital Tokens to the Smart Contract
+3.1.4	Funding the Loan
+3.1.5	Paying the Loan Back
+3.1.6	Default Scenario
+3.2	On-Demand Lending
+3.3	Secured Lending by Pledging Ethereum Name Service Domains (ENS)
+3.4	Unsecured Lending
+3.4.1	uPort
+3.4.2	Address Data
+3.5	Introducing Credit Token (CRE) as the Reputation System
+3.5.1	Rewarding Liquidity and Repayments
+3.5.2	Credit Token as Reputation
+3.5.3	Prevention of Misuse
+3.6	User Experience on ETHLend
+3.6.1	Accessibility
+3.6.2	User Interface
+3.6.3	Performance
+3.6.4	Translations
+3.7	Technical Roadmap
+3.8	Map of ETHLend
+4.	Legal Evaluation of the Loan agreement on ETHLend
+4.1	Contractual Relationship
+4.2	Collateral
+4.3	Know Your Customer (KYC)
+5.	ETHLend
+5.1	The Team
+5.2	Governance
+5.3	Roadmap
+6.	Token Sale
+6.1	Token Distribution
+6.2	Purchase Price
+6.3	Burning Tokens
+6.4	Vesting
+6.5	Minting
+6.6	Security
+6.7	Funds Allocation
+7.	Further Updates
 
- 
+
 Executive Summary
 Text here
  
-1.	Background
+<h1>1.	Background</h1>
 We are not professionals. We are people who want to develop something important and to break unworkable and unfair lending market. We want make lending available on global scale. Instead of relying on local banks and lenders, we believe that borrower should have the possibility to obtain a loan from anywhere in the loan. We believe that Canadian borrower could obtain a loan from Sweden, China, Brazil, Japan or Germany and vice versa. 
 Why global lending market is important? When lending market is not bound by the borders and jurisdictions, there is true competition and liquidity available for the lending market. This means that same amount of liquidity is available for example in China as in Europe. The effect is revolutionary. Interest rate differences between countries and regions will disappear since there is more liquidity and competition.
 Less control for the banks. Banks lend money that is deposited by the account holders. This liquidity is lend to the market. Practically it means that banks charge 5-12% interest on loans and compensate you 0-1% for holding your assets at the bank. Since the rise of crypto-currency, you can become your own banking institution. With ETHLend, you become your own lending institution. You decide whom you lend to, on which interest rate securely or insecurely. This all is available with blockchain technology, on which ETHLend relies on.
