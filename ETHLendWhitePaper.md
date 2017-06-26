@@ -309,19 +309,31 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
  
 <p>Click Add to Chrome</p>
 
-
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img2.jpg)
  
 <p>Click Add extension</p>
+
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img3.jpg)
  
 <p>In the top right corner, you will see the icon of MetaMask</p>
+
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img4.jpg)
  
 <p>Click accept after reading and accepting the privacy policy</p>
+
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img5.jpg)
  
 <p>You will then create your MetaMask account here</p>
+
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img6.jpg)
  
 <p>After creating the account, you will be provided 12 words, which will be used to recover your account</p>
+
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img7.jpg)
  
 <p>You can see the details of your account and you can request a loan or fund a loan of ETH using ETHLend now</p>
+
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img8.jpg)
 
 <h3>3.1.1	New Loan Request</h3>
 
@@ -342,72 +354,124 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 <p>Ether Delta: https://etherdelta.github.io/ - Exchange for trading tokens. For lenders to sell ERC-20 tokens and purchase ETH if they wish when the loan is defaulted</p>
 
 <p>We will have three accounts - lender, borrower1 and borrower2.</p>
+
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img9.jpg)
  
 <p>We are going to use Basic Attention Token (BAT) as collateral. For more information about BAT, please visit https://basicattentiontoken.org/</p>
+
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img10.jpg)
  
 <p>To create a loan, first click New Loan Request</p>
+
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img11.jpg)
  
 <p>MetaMask should pop up, and after reviewing you would need to click accept to continue</p>
+
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img12.jpg)
  
 <p>The message ‘Done!’ will be displayed after the transaction goes through</p>
+
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img13.jpg)
  
 <p>If you go back to All Loan Requests and shuffle the loans, you will see that a new loan is created. The red dot indicates that it is your address.</p>
 
 <h3>3.1.2	The Loan Contract</h3>
  
 <p>After that you clicking into the contract just created, please enter the details of the contract</p>
+
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img14.jpg)
  
 <p>Then click Set Data and MetaMask will pop up again for you to confirm</p>
+
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img15.jpg)
  
 <p>The message ‘Done!’ will be displayed when the transaction is completed.</p>
+
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img16.jpg)
 
 <h3>3.1.3	Sending Digital Tokens to the Smart Contract</h3>
  
 <p>We will see the status of the contract is changed to ‘waiting for tokens’</p>
+
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img17.jpg)
  
 <p>You will need to transfer the amount token set in the contract to the address given</p>
+
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img18.jpg)
  
 <p>You can visit Token Factory to transfer tokens to the address, first click ‘interact with token contract’ (Alternatively, you can go to your Ethereum wallet and sent the tokens to the loan Smart Contract).</p>
  
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img19.jpg)
+ 
 <p>You will be asked for the token address</p>
+
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img20.jpg)
  
 <p>You can find out the contract address information on Etherscan</p>
+
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img21.jpg)
  
 <p>You can also check your balance here to ensure you have sufficient amount of tokens</p>
+
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img22.jpg)
  
 <p>You can transfer the token to the address given in ETHLend here</p>
+
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img23.jpg)
  
 <p>Once transfer is completed, you can go to ETHLend to check on the status and you will be asked to confirm on MetaMask</p>
+
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img24.jpg)
  
 <p>After that is competed, you will see the status of your loan has changed to waiting for lender</p>
 
 <h3>3.1.4	Funding the Loan</h3>
  
 <p>This is an example we are going to switch to a lender account. In practice, the following steps will be conducted by a lender</p>
+
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img25.jpg)
  
 <p>After selecting the loan, lender can click fund this loan request</p>
+
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img26.jpg)
  
 <p>Confirm via MetaMask</p>
+
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img27.jpg)
  
 <p>Borrower has successfully received his loan</p>
 
 <h3>3.1.5	Paying the Loan Back</h3>
  
 <p>As the borrower, you can choose the loan you would like to repay</p>
+
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img28.jpg)
  
 <p>Click return token and confirm via MetaMask</p>
+
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img29.jpg)
  
-<p>You can see in the balance borrower has returned to lender the loan amount plus ineterst</p>
+<p>You can see in the balance borrower has returned to lender the loan amount plus interest</p>
+
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img30.jpg)
  
 <p>Borrower has received back his token pledged earlier for collateral</p>
+
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img31.jpg)
 
 <h3>3.1.6	Default Scenario</h3>
  
 <p>We are going to demonstrate a default scenario next</p>
+
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img32.jpg)
  
 <p>We follow identical steps except for the number of days we are putting 0 day to simulate the loan defaulting</p>
+
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img33.jpg)
  
 <p>After the loan is defaulted, lender can see the message has changed to get token</p>
+
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img34.jpg)
  
 <p>Lender can claim the token and we can confirm on token factory</p>
 
