@@ -2,69 +2,13 @@
 
 26 June 2017
 
-Abstract:
+<p>Abstract: ETHLend.io introduces decentralized lending on Ethereum network by using ERC-20 compatible tokens or Ethereum Name Service (ENS) domains as a collateral.
 
-Disclaimer:
+<p>Copyright 2017 ETHLend.io</p>
 
-Table of Contents
-Table of Contents
-Executive Summary
-Background
-1.1	About the White Paper
-1.2	Lack of True Global Lending Market
-1.3	Peer to Peer Lending and Cryptocurrency
-1.4	Benefits of Decentralized Lending
-1.4.1	Trustless
-1.4.2	Transparency
-1.4.3	Democracy and Access to Finance
-1.4.4	Tokenization of Things
-1.4.5	Current and Future Use-Cases for Decentralized Lending
-2.	Why Ethereum Network?
-2.1	Smart Contracts
-2.2	Ether
-2.3	Tokenization
-2.4	Paradox of Value: Smart Contract Deployment
-3.	Fully Decentralized On-Chain Solution for Lending Market
-3.1	Secured Lending by Pledging Ethereum-Based Digital Tokens
-3.1.1	New Loan Request
-3.1.2	The Loan Contract
-3.1.3	Sending Digital Tokens to the Smart Contract
-3.1.4	Funding the Loan
-3.1.5	Paying the Loan Back
-3.1.6	Default Scenario
-3.2	On-Demand Lending
-3.3	Secured Lending by Pledging Ethereum Name Service Domains (ENS)
-3.4	Unsecured Lending
-3.4.1	uPort
-3.4.2	Address Data
-3.5	Introducing Credit Token (CRE) as the Reputation System
-3.5.1	Rewarding Liquidity and Repayments
-3.5.2	Credit Token as Reputation
-3.5.3	Prevention of Misuse
-3.6	User Experience on ETHLend
-3.6.1	Accessibility
-3.6.2	User Interface
-3.6.3	Performance
-3.6.4	Translations
-3.7	Technical Roadmap
-3.8	Map of ETHLend
-4.	Legal Evaluation of the Loan agreement on ETHLend
-4.1	Contractual Relationship
-4.2	Collateral
-4.3	Know Your Customer (KYC)
-5.	ETHLend
-5.1	The Team
-5.2	Governance
-5.3	Roadmap
-6.	Token Sale
-6.1	Token Distribution
-6.2	Purchase Price
-6.3	Burning Tokens
-6.4	Vesting
-6.5	Minting
-6.6	Security
-6.7	Funds Allocation
-7.	Further Updates
+<p>Without explicit permission, anyone has the right to use, reproduce or distribute any material in this white paper for non-commercial purposes and educational use, provided that the original source and the applicable copyright notice are cited.</p>
+
+DISCLAIMER: This White Paper is inteded for distribution solely on information purposes. ETHLend.io does not guarantee the accuracy of the conclusions and statements reached in this white paper. Moreover, this white paper is provided "as is" with no representations and warranties, express or implied, whatsoever, including, but not limited to: (i) warranties of merchantability, fitness for a particular purpose, title or noninfringement; (ii) that the contents of this white paper are free from error or suitable for any purpose; and (iii) that such contents will not infringe third-party rights. All warranties are expressly disclaimed. ETHLend.io and its affiliates expressly disclaim all liability for and damages of any kind (direct or indirect, including loss of profit) arising out of the use, reference to, or reliance on any information contained in this white paper, even if advised of the possibility of such damages. In no event will ETHLend.io or its affiliates be liable to any person or entity for any direct, indirect, special or consequential damages (including, but not limited to loss of profit) for the use of, reference to, or reliance on this white paper or any of the content contained herein.</p>
  
 <h1>1.	Background</h1>
 
@@ -220,21 +164,11 @@ Background
 
 <p>Smart Contracts for decentralized lending. Smart Contract are suitable for lending that does not happen on local or centralized services. In decentralized environment, there is need to secure or provide reputation based trust between the borrower and lender since we must trust that the loan is repaid back. Smart Contracts can handle complex transactions such as future payments, sending tokens, sending ENS domains and conducting all sorts of calculations. Moreover, Smart Contracts are capable to store and group data on blockchain which is important for the loan agreements since we need to store information on-chain regarding to the loan amount, premium, days to loan, collateral, the parties of the loan agreement.</p>
 
-<p>Smart contracts are perfect for secured lending. In secured lending, we use a collateral such as an Ethereum-based ERC20 Token or ENS domain. Basic secured lending works in the following way:</p>
+<p>Smart contracts are perfect for secured lending. In secured lending, we use a collateral such as an Ethereum-based ERC20 Token or ENS domain. Basic secured lending Smart Contract works in the following way:</p>
 
-<p>Borrower creates a Smart Contract by creating a New Loan Request</p>
+<p>Borrower creates a Smart Contract by creating a New Loan Request. </p>
 
      function createNewLendingRequest()payable byAnyone returns(address out){
-          // 1 - send Fee to wherToSendFee 
-
-          uint feeAmount = borrowerFeeAmount;
-          if(msg.value<feeAmount){
-               throw;
-          }
-
-          if(!whereToSendFee.call.gas(200000).value(feeAmount)()){
-               throw;
-          }
 
           // 2 - create new LR
           // will be in state 'WaitingForData'
@@ -251,15 +185,109 @@ Background
 
 <p>Borrower places data on the Smart Contract, such as the loan amount, premium, which token is used for collateral, amount of tokens and the collateral token address</p>
 
+     State public currentState = State.WaitingForData;
+
+     // This must be set by borrower:
+     address public borrower = 0x0;
+     uint public wanted_wei = 0;
+     uint public token_amount = 0;
+     uint public premium_wei = 0;
+     string public token_name = "";
+     string public token_infolink = "";
+     address public token_smartcontract_address = 0x0;
+     uint public days_to_lend = 0;
+
 <p>Borrower sends the tokens to the Smart Contract</p>
+
+     function checkTokens()byLedgerMainOrBorrower onlyInState(State.WaitingForTokens){
+          ERC20Token token = ERC20Token(token_smartcontract_address);
+
+          uint tokenBalance = token.balanceOf(this);
+          if(tokenBalance >= token_amount){
+               // we are ready to search someone 
+               // to fund the loan
+               currentState = State.WaitingForLender;
+          }
+     }
 
 <p>Lender funds the loan by sending loan amount to the Smart Contract</p>
 
+     function waitingForLender()payable onlyInState(State.WaitingForLender){
+          if(msg.value<safeAdd(wanted_wei,lenderFeeAmount)){
+               throw;
+          }
+
+          // send platform fee first
+          if(!whereToSendFee.call.gas(200000).value(lenderFeeAmount)()){
+               throw;
+          }
+
+          // if you sent this -> you are the lender
+          lender = msg.sender;     
+
+          // ETH is sent to borrower in full
+          // Tokens are kept inside of this contract
+          if(!borrower.call.gas(200000).value(wanted_wei)()){
+               throw;
+          }
+          currentState = State.WaitingForPayback;
+
+          start = now;
+     }
+
 <p>a) Borrower repays the loan by sending loan amount back and the premium to the Smart Contract. Lender receives the loan amount and premium and borrower receives the tokens back from pledge; or</p>
+
+     // if time hasn't passed yet - Borrower can return loan back
+     // and get his tokens back
+     // 
+     // anyone can call this (not only the borrower)
+     function waitingForPayback()payable onlyInState(State.WaitingForPayback){
+          if(msg.value<safeAdd(wanted_wei,premium_wei)){
+               throw;
+          }
+
+          // ETH is sent back to lender in full
+          // with premium
+          if(!lender.call.gas(200000).value(msg.value)()){
+               throw;
+          }
+
+          // tokens are released back to borrower
+          ERC20Token token = ERC20Token(token_smartcontract_address);
+          uint tokenBalance = token.balanceOf(this);
+          token.transfer(borrower,tokenBalance);
+
+          // finished
+          currentState = State.Finished;
+     }
+
+     // How much should lender send
+     function getNeededSumByLender()constant returns(uint out){
+          uint total = safeAdd(wanted_wei,lenderFeeAmount);
+          out = total;
+          return;
+     }
 
 <p>b) Borrower does not repay the loan on time, the tokens are transferred to the lender (who can sell the tokens on exchange)</p>
 
-<p>Let us now review the full code of the Smart Contract</p>
+     // After time has passed but lender hasn't returned the loan ->
+     // move tokens to lender
+     // 
+     // anyone can call this (not only the lender)
+     function requestDefault()onlyInState(State.WaitingForPayback){
+          if(now < (start + days_to_lend * 1 days)){
+               throw;
+          }
+
+          // tokens are released to the lender 
+          ERC20Token token = ERC20Token(token_smartcontract_address);
+          uint tokenBalance = token.balanceOf(this);
+          token.transfer(lender,tokenBalance);
+
+          currentState = State.Default; 
+     }
+	 
+<p>Above was excerpts of the solidity-based Smart Contract on secured lending. The above demostrates how a simple loan transaction where the collateral is stored on the contract and all transactions are handled within the Smart Contract that the borrower creates.</p>
 
 <p>Smart Contracts provide the solution for the borrower and the lender to perform a secured loan without relying on third parties. Since Smart Contracts can store ERC-20 compatible tokens and ENS domains, the collateral is easily moved to in any direction. This might not be the case in real life. Moreover, since ERC-20 tokens can represent any value from centralized world, Smart Contracts would provide the possibility to control this value on blockchain. Theoretically, anything can be used as a collateral once tokenized, even a dog.</p>
 
@@ -276,8 +304,12 @@ Background
 <p>https://metamask.io/</p>
  
 <p>Click ‘GET CHROME PLUGIN’</p>
+
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img1.jpg)
  
 <p>Click Add to Chrome</p>
+
+
  
 <p>Click Add extension</p>
  
