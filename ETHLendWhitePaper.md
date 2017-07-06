@@ -190,7 +190,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 <p>Since the collaterals and the crypto-currency used for lending is within the ecosystem of Ethereum, it was convienient for us to choose Ethereum for the ledger. Alternative ledger would have to communicate with Ethereum network, which would create more complex engineering, which would not benefit the users.</p>
 
-<p>Track record for lending. Another important function that ETHLend needed was a way to handle reputation-based lending. If the borrower would need always ERC-20 tokens to place a loan request, lending would be limited to users that have “token wealth”. Therefore, we introduce that on each repaid loan, the borrower and the lender are rewarded by our native ERC-20 Token called, Credit Token or CRE. By creating a Smart Contract for Credit Token, the reputation system is painless. Moreover, by using the Ethereum-based ERC-20 compatible token we are still working within the decentralized ecosystem, instead of resorting to off-chain credit ratings and the old tarnished banking and credit system.</p>
+<p>Track record for lending. Another important function that ETHLend needed was a way to handle reputation-based lending. If the borrower would need always ERC-20 tokens to place a loan request, lending would be limited to users that have “token wealth”. Therefore, we introduce that on each repaid loan, the borrower is rewarded by our native ERC-20 Token called, Credit Token or CRE. By creating a Smart Contract for Credit Token, the reputation system is painless. Moreover, by using the Ethereum-based ERC-20 compatible token we are still working within the decentralized ecosystem, instead of resorting to off-chain credit ratings and the old tarnished banking and credit system. Therefore, by using ERC-20 token we factually create a decentralized credit rating system.</p>
 
 <h2>2.2	Ether</h2>
 
@@ -579,130 +579,77 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 <p>The rapid growth of ENS domains will lock down vast amount of ETH in to the ENS Smart Contracts. This means that at some point there shall be ETH locked that could be worth of billions of USD. Therefore, ENS domain pledge provides a convenient way to “unlock” these funds for use by obtaining funding and pledging the ENS domain. Eventually ENS domains could end up being even more suitable alternative for a collateral for a loan. ENS domains do not have the volatility that some of the ERC-20 tokens might have. Of course, the volatility with the tokens might disappear eventually and would follow such volatility that is seen on stock market or currency exchange. However, since tokens do differ this not the case for all tokens.</p>
 
-<h2>3.4	Unsecured Lending</h2>
+<h2>3.4.1	Unsecured Lending</h2>
 
-<p>Unsecured loan brings wider use for borrowers. Secured loans which requires a collateral such as ERC-20 tokens or ENS domains do raise the bar for access to finance. However, secured loans provides the starting point for decentralized lending. Without using collateral, it would be challenging for borrowers and lenders who do not know each other to trust. Therefore, secured loans is truly a trustless solution for decentralized lending. Although, eventually to achieve a burst in crypto-lending, unsecured lending should be adopted. However, current crypto-lending options do not live in the decentralized environment. Moreover, an option that would implement real-wold credit scores would not be in our mind a sufficient solution, merely an escape route back to the centralized environment.</p>
+<p>Unsecured loan brings wider use for borrowers. Secured loans which require a collateral such as ERC-20 tokens or ENS domains do raise the bar for access to finance. However, secured loans provides the starting point for decentralized lending. Without using collateral, it would be challenging for borrowers and lenders who do not know each other to trust. Therefore, secured loans are truly a trustless solution for decentralized lending. Although, eventually to achieve a burst in crypto-lending, unsecured lending should be adopted. However, current crypto-lending options do not live in the decentralized environment. Moreover, an option that would implement real-wold credit scores would not be in our mind a sufficient solution, merely an escape route back to the centralized environment.</p>
 
 <p>Decentralized solutions for unsecured lending. When the borrower repays the loans, the borrower (and lender) will receive 10 CRE (against 1 ETH loan). This CRE is used as any other ERC-20 token collateral. By using CRE, the borrower can spare other ERC-20 Tokens and eventually by volume would use solely CRE for securing loans on ETHLend. In one way, CRE would provide a way to avoid placing a collateral. However, using CRE based on reputation, requires repayment of loans. This means that we would still need a solution for first time borrowers. Of course, unsecured lending would add more risk of default, but this risk is compensated with higher interest rate (provided by the market) to satisfy lenders who are willing to bare the risk of unsecured lending.</p>
 
 <p>Next we will introduce couple of functions that could be added to ETHLend to cover unsecured lending. These solutions presented are not yet implemented to the decentralized application. On a general basis, we believe that unsecured lending shall be part of ETHLend accordingly with the development roadmap. However, the technical solution that we shall implement the functions is yet to be determined due to vast phase of evolvement of the Ethereum ecosystems. Following solutions would be added to ETHLend to provide unsecured loans.</p>
 
-<h3>3.4.1	uPort</h3>
+<h3>3.4.1	Decentralized Credit Rating with Credit Token (CRE)</h3>
 
-<p>Self-sovereignty as reputation. uPort provides a self-sovereign identity system. uPort identity system provides the possibility to create identity based lending. User could register credentials through uPort. This would mean that if the loan is not repaid, the address or the identity would be banned from ETHLend and the data would be transferred to uPort. The default of the loan would eventually mean that the sovereignty of the uPort user would be affected in other Ethereum-based applications as well. This would be a risk and loss for the user that has built his reputation on uPort.</p>
+<p>Reputation is gained. Reputation system is a convenient way to establish trust between the borrowers and the lenders. Trust means that the lender is willing to provide a loan even if the loan is not secured. Unsecured decentralized lending is mostly based on previous repayments of secured loans. This means that the borrower needs to present previous behaviour of repayments. Due to the pseudo-anonymous nature of cryptocurrencies and Ethereum addresses, willingness of repayment is difficult to achieve without an indication of past compliance. By using reputation, we can lower the risk of default on unsecured loans. The outcome is that unsecured decentralized lending is more attractive when risk level is lower compared to lending for the first time borrower without any reputation.</p>
 
-<p>On the other hand, uPort would not eliminate the risk of default completely. It reduces the risk same way as ETHLend’s native Credit Tokens are reducing. The distinctive here is that uPort would provide reputation from other applications. However, nothing stops using Credit Tokens on other Ethereum-based applications. In fact, Credit Token represents the repayments of loan, therefore the most vital trust that is known in the financial economy.</p>
+<p>ETHLend manages reputation with Credit Token. Credit Token (CRE) is an ERC-20 compatible token that is used within the ETHLend. Credit Token cannot be traded or even transferred to another address. The sole function of CRE is to represent the borrower’s reputation on ETHLend. Each repayment of the loan mints CRE (1 ETH loan mints 0.1 CRE). This CRE is used in two different ways. First, on secured lending, high amount of CRE indicates reputation and attracts the lenders even if the interest rate solely would not compensate the risk. Secondly, the important aspect of CRE is that it provides access to unsecure lending, which will be adopted on ETHLend.</p>
 
-<h3>3.4.2	Address Data</h3>
+<p>Access to unsecured lending. On each loan repayment, CRE is minted. This means that if the borrower repays 10 different loans, each of 1 ETH (10 ETH on total), 1 CRE is minted and transferred to the borrower. The borrower now can use the 1 CRE to access unsecured lending. This means that the borrower does not have to use a collateral for the maximum of 1 ETH. If the borrower does not repay secured or unsecured loan, all borrower’s CRE is burned. The idea here is to raise the threshold on defaults. The borrower might not be eager to default a loan for the sake of losing all his CRE balance.</p>
 
-<p>Ethereum addresses provide much useful data. Addresses that are used as a base for transactions of ETH are all open to exploration on blockexplorers. Since these addresses are open for review, they do hold interesting information that could have lot of valuable use-cases. One of the use case could be connected with unsecured lending.</p>
+<p>Risks of unsecured lending. Unsecured lending does not come without risks. Unsecured lending means that if the borrower does not repay the loan, there is no collateral, which would compensate the lender for even part of the losses. However, CRE provides a higher threshold for defaults since CRE represents decentralized credit rating, which accumulates on repayments. CRE can be compared to centralized credit score or rating systems. For example, if you default by not paying your electricity bill, you might not get a bank loan or even an insurance in most countries. The distinctive difference between centralized credit rating system and the decentralized is that in most countries centralized systems start with the default of person being creditworthy. On the other hand, in decentralized credit rating the creditworthiness must be accredited due to the pseudo-anonymous nature.</p>
 
-<p>Valuable data for lending. Ethereum addresses provide data that could be used to assess the risk level of the loan request. To analyse the risk of the loan we would need some background information from the borrower. Just as a bank might evaluate the transaction or income history of the borrower, a similar approach can be done by exploring the Ethereum blockchain. The data that would be important to decide whether the borrower has a stable address is:</p>
+<p>Even though, a reputation system is not a new invention, using an ERC-20 token for reputation management is a fascinating method to create the system in decentralized environment. Other means would be merely by broadcasting reputation value on the blockchain. However, digital tokens provide more transparency and trust, since the ERC-20 token is created with its own smart contract. Moreover, the data is easily removed from defaulted borrower since digital tokens can be burned on default.</p>
 
-*	Age of the address (time from the first transaction)
-*	Total number of transaction
-*	To how many addresses ETH is sent
-*	From how many addresses received ETH
-*	What is the average monthly ETH balance
-*	Does the address hold tokens
-*	Does the address create or interact with Smart Contracts
-*	Is the address name registered at blockexplorer services or any such
+<h3>3.4.2	Self-sovereignty</h3>
 
+<p>Self-sovereignty as reputation. uPort provides a self-sovereign identity system. uPort identity system provides the possibility to create identity based lending. User could register credentials through uPort. This would mean that if the loan is not repaid, the address or the identity would be banned from ETHLend and the data would be transferred to uPort. The loan default would eventually mean that the sovereignty of the uPort user would be affected in other Ethereum-based applications as well. This would be a risk and loss for the user that has built his reputation on uPort.</p>
 
-<p>Stability and indication of willingness to pay. The idea behind the address data is to capture information that would indicate that the borrower uses the address regularly. For example, an address that does not have any of the above stated data, would be more risky to lend 1 ETH to a borrower compared to lending to an address that had its first transaction two years ago, has over 2 000 transactions from the first one, has sent to over 100 different addresses and received from over 100 different addresses with a monthly balance of 1 ETH and has previously held tokens.</p>
+<p>Gateway for first time borrowers. uPort could be a solution for borrowers that do not own ERC-20 tokens or ENS domains to use as a collateral for the loan. Since the borrower needs to repay secured loans to receive Credit Tokens to access unsecured lending, uPort would be a solution to access unsecured lending without the need to participate to secured loans in the first place. Since using self-sovereignty as a reputation, the high risk of default can be limited by the amount of ETH that the borrower can loan. For example, uPort loans can be limited to 0.1 ETH and only to a one loan per sovereign user. Therefore, by active lending the borrower can gain Credit Token, which eventually replaces the need for uPort on unsecured loans and provides access to higher and less restricted loan amounts.</p>
 
-<p>Ways to control malicious use. Unsecured loans provides that if the borrower would default, the loan capital would be lost. The fact that there is “nothing to loose” except the Ethereum address reputation sounds tempting for misuses. The common tools for discouraging such behaviour would be banning the defaulted address or even harsher solution would be locking the address down (taking control) by using private keys (encrypted) when an unsecured loan takes place.</p>
+<p>uPort would not eliminate the risk of default completely. It reduces the risk in similar manner as the ETHLend’s native Credit Token is reducing. The distinctive here is that uPort would provide reputation from outside ETHLend, from other applications. However, nothing stops using Credit Tokens on other Ethereum-based applications (at some future point). In fact, Credit Token represents the repayments of loan, therefore the most vital trust that is known in the financial economy.</p>
 
-<p>However, we should mind that these two solutions would ban the address but not the user. Therefore, using address data is a good way to widen the use of unsecured loans from Credit Token System and uPort, but it does not guarantee always the full repayment of the loan. Moreover, address data might be a good starting point for new borrowers to gain reputation with small loans on ETHLend for gaining Credit Tokens. When the borrower has enough CRE, the borrower could start securing the loans with CRE. Thus, moving from unsecured to secured lending market.</p>
+<h2>3.5	User Experience on ETHLend</h2>
 
-<p>Rewarding rehabilitation on default. One innovation that the ETHLend team had in mind was using Credit Tokens as a reward for successful rehabilitation. Let us assume that the borrower did not pay the loan and defaulted. The borrower is added to the blacklist and his address is confiscated. If the borrower would at some point repay the full amount including the premium, the borrower would be rewarded with motivational amount of CRE. This would provide that the lender would receive the loan capital and premium, and the borrower can continue to borrow.</p>
-
-<p>Factually, the solution would mean that there would be slightly more CRE minted on the market. Eventually, the solution would still benefit the token holders, the borrowers and the lenders since the default risk would be shared. Instead of letting the lender bear the default risk, the default risk would be shared amongst all. Therefore, it would not be in borrowers or anyone else’s interest to create bad debt.</p>
-
-<p>Time will provide the end-solution for unsecured decentralized loans. Even though we provided few examples on unsecured decentralized lending without the affiliation and resorting to traditional banking system or credit rating systems, the developing ecosystem of Ethereum and blockchain technology will provide means to solve the issue. Now the most representing way to borrow for a first time borrower (without a collateral)s would be with the use of uPort and slightly moving towards secured lending with CRE. Consequently, using any centralized solution such as identification verification, credit score would merely stall the fascinating findings of Ethereum and blockchain technology itself.</p>
-
-<h2>3.5	Introducing Credit Token (CRE) as the Reputation System</h2>
-
-<p>Native token to boost and create trust on value. By its function Token crowdsale in its purest form is based on believe and trust that the venture behind the token sale will provide future value on the token that is sold. Tokenization itself has many potential uses in decentralized environment such as the Ethereum blockchain and our decentralized application, ETHLend. The use of tokens in decentralized lending needs to benefit the borrower, the lender and the token holders. Actually, these three parties need each other to create more value for the minted token.</p>
-
-<p>Revealing Credit Token. ETHLend introduces Credit Token, simply as CRE. The token holds and represents value of the decentralized lending market. First, the value of lending market depends on successful and repaid loans, which indicates the health of the lending market. On the other hand, lending market with increasing default rate would otherwise indicate of unworkable lending market. The value would eventually affect the demand and supply of loans. This representation of value is now placed on ERC-20 token, just as any other value such as gold or attention can be placed. Credit tokens has two important functions. First, it derives supply and demand on ETHLend by rewarding repayments of the loan and lending itself. Secondly, CRE functions as reputation on past performance on ETHLend. This reputation is transferrable to third party Ethereum applications.</p>
-
-<h3>3.5.1	Rewarding Liquidity and Repayments</h3>
-
-<p>Borrower and lender are rewarded. The main idea of CRE is to reward successful and healthy lending. Successful lending means that loans are repaid and the lender gets the loan capital and the premium taking the risk to lend. There are two reason why users should be rewarded. First, rewarding the borrower for repayment incentivises repayment and reduces the default rate even if the collateral is sufficient to cover the loan capital and the premium. Secondly, rewarding the lenders is equally important since the lenders are providing liquidity to the market.</p>
-
-<p>On a successful repayment, the borrower receives 10 CRE and the lenders receives 10 CRE for a loan amount that equals to 1 ETH. This means that in case the loan amount is 10 ETH, the both parties equally receive 100 CRE. On the other hand, if the loan amount is 0.1 ETH, the parties receive 1 CRE. Even though, borrower and lender have different roles, it is important to reward the parties equally since without one, the loan does not take place.</p>
-
-<p>Rewarding CRE would not affect severely the token holders position. On Token Sale, there will be 1 000 000 000 (one billion) CRE available for purchase. Approximately 1 ETH would amount to 5 000 CRE depending on the purchase time and amount. There shall be 300 000 000 CRE reserved for the development team.</p>
-
-<p>Eventually since 1 ETH repayments of the loan mints 20 CRE, it has a minor effect on the total supply of 1 300 000 000 CRE. However, the added value by the repayments and eventually trust on lending market, is more beneficial compared to the fact that more CRE is added to the total supply. When loans are repaid, there is more trust on the market. As there is more trust, there is more value since trust is the base of CRE. Therefore, repayments and liquidity on ETHLend should indicate as value added and overcomes the minting effect on total supply. Consequently, small minting with value added considered as a factor that drives vast speculation away and provides less volatility for the token for further development of the market value of CRE.</p>
-
-<h3>3.5.2	Credit Token as Reputation</h3>
-
-<p>Reputation on CRE. As CRE is granted on repayments of loans, CRE is an easy way to establish reputation management on ETHLend. Reputation system is a convenient way to establish trust between the borrowers and the lenders. Trust means that the lender is willing to provide loan eve if the loan is not secured. CRE is a solution to (i) secure a loan and (ii) to get access to unsecured loans.</p>
-
-<p>Securing a loan with CRE. Since CRE is ERC-20 compatible token, it can be used to secure a loan on ETHLend. Practically it would mean that on each repaid loan the borrower receives CRE, which could be pledged as a collateral for the loan. Therefore, the borrower can spare other ERC-20 tokens and use CRE instead as eventually the borrower will have sufficient amount of CRE. Let us review a case-example:</p>
-
-<p>The borrower has repaid the following loans on ETHLend:</p>
-
-1.	0.1 ETH Loan with BAT Collateral = Receives 1 CRE
-2.	0.5 ETH Loan with GOLEM Collateral = Receives 5 CRE
-3.	1 ETH Loan with REP Collateral = Receives 10 CRE
-4.	5 ETH Loan with DigixDAO Collateral = Receives 50 CRE
-5.	10 ETH Loan with Status.im Collateral = Receives 100 CRE
-
-<p>After these loans, the borrower has 166 CRE that can be used as a collateral instead of BAT, GOLEM, REP, DigixDAO and Status.im ERC-20 tokens. The question on how much the borrower could receive ETH for loan would naturally depend on the CRE value at the moment of the loan request.
-
-<p>By using CRE instead of other ERC-20 tokens, the borrower is factually using his reputation on past performance to secure the loans on ETHLend.
-
-<p>CRE for unsecured loans. When borrower repays a loan and receives CRE, this CRE balance is also indicated on the next loan request in the field of Borrower’s Reputation. The idea behind the reputation is to indicate that the borrower has successful past performance and the past performance was credited on ETHLend.
-
-<h3>3.5.3	Prevention of Misuse</h3>
-
-<p>Repayments back and forth. Since repayments of the loan creates new CRE for the lender and the borrower, it might become tempting for misusing ETHLLend for creating CRE. One might create false borrower’s and lender’s account and loan back and forth for the purpose of creating more CRE. First, creating a Loan Smart Contract exhaust small amount of gas and a mining fee, which reduces the motivation on such behaviour. Secondly, such behaviour would be reduced by ip-address recording on the Ethereum blockchain and placing time limits and using other tools to prevent such behaviour. The focus should be on value. Unwanted behaviour should be much more labour intense compared to the motivation of misuse.</p>
-
-<h2>3.6	User Experience on ETHLend</h2>
-
-<h3>3.6.1	Accessibility</h3>
+<h3>3.5.1	Accessibility</h3>
 
 <p>Providing wide usage. Currently ETHLend DAPP is accessed with Google Chrome or Mozilla Firefox browser together with MetaMask plugin. To provide full coverage, the ETHLend DAPP shall be developed further for implementing mobile usage, parity and MyEtherWallet. The ETHLend team considers that the DAPP should be easily available with less learning curve as possible.</p>
 
-<h3>3.6.2	User Interface</h3>
+<h3>3.5.2	User Interface</h3>
 
 <p>Focus on user experience. ETHLend team considers that the user interface is the game breaker for adopting Ethereum-based applications for a wider audience. Eventually, our goal is to eliminate the learning curve as much as possible on blockchain applications. Moreover, we are bound to follow any innovations and improvements when it comes to user experience on decentralized applications. It is surely true that decentralization and blockchain-based Smart Contracts do create challenges for user experience and might require prior knowledge on blockchain and Ethereum basics. However, we believe that these challenges could be overcome merely by pushing hard development on the user experience.</p>
 
-<h3>3.6.3	Performance</h3>
+<h3>3.5.3	Performance</h3>
 
 <p>Choices between on-chain and off-chain. Today ETHLend is a fully decentralized application running on Ethereum blockchain network. This means that all functionalities and data are on blockchain (on-chain). Once a wise man said that one should not force everything on the chain. This saying means now more than ever since the Ethereum blockchain network is growing on data to such the extend that it takes few days to load the full chain. Even though some functions could be left off-chain, we are trying to avoid these functions. ETHLend team’s aim is to create decentralized solutions by pushing innovation further instead of falling back to centralized solutions. However, we should not be always naive and we should not live in a vacuum, instead ETHLend should follow the directions that the mainstream blockchain development.</p>
 
 <p>In regards of performance of the DAPP, we are aiming to provide ways to get as much as possible unnecessary functions from Smart Contract to develop the best technical experience that can be achieved on Ethereum network.</p>
 
-<h3>3.6.4	Translations</h3>
+<h3>3.5.4	Translations</h3>
 
 <p>Languages are part of access. Translations provides wider accessibility to use ETHLend. Moreover, since we have a lending market at hand, accessibility would mean here access to finance as well, the very core and fundamental principle of funding, that not everyone is granted in today’s world.</p>
 
 <p>Since the development of ETHLend, the team has recruited language skilled individuals who are part of the Ethereum community or starting with the community that were willing to assist the ETHLend project. We received lot of interest and eventually were able to receive translations of the ETHLend site and the DAPP, totalling into multiple languages. The languages that were included in the translations were Spanish, French, Chinese, Korean, Japanese, German, Russian, Portuguese, Dutch, Italian, Turkish, Norwegian, Danish, Finnish, Malay, Arabic, Filipino and Lithuanian. There translations are implemented during our upcoming user experience upgrade.</p>
 
-<h3>3.7	Technical Roadmap</h3>
+<h3>3.6	Technical Roadmap</h3>
 
 <p>We consider ETHLend as a long term project. However, to make most of us, concrete deadlines are necessary. Therefore, we shall introduce the following roadmap for technical implementations:</p>
 
-1.	Implementing ENS Domain Collateral on 26.6.2017
-2.	Implementing CRE for Repayments on 26.6.2017
-3.	Token Crowdsale during Late August / Early September 2017
-4.	User Experience Upgrade during September 2017
-5.	On-Demand Lending during October 2017
-6.	uPort Integration during October 2017
-7.	Second User Experience Upgrade during January 2018
-8.	Lending Bitcoin and Litecoin during March 2018
-9.	KYC on-board implementation during May 2018
-10.	Lending Other Altcoins during August 2018
+1.	Implementing ENS Domain Collateral on June 2017
+2.	Implementing CRE for Repayments on June 2017
+3.	LEND Token Crowdsale on September 2017
+4.	User Experience Upgrade during October 2017
+5.	Unsecured Lending with CRE on October 2017
+6.	uPort Integration on November 2017
+7.	On-Demand Lending on January 2018
+8.	Second User Experience Upgrade on February 2018
+9.	Lending Bitcoin and Litecoin on April 2018
+10.	KYC on-board implementation on May 2018
+11.	Lending Other Altcoins on August 2018
 
-<h2>3.8	Map of ETHLend</h2>
+<h2>3.7	Map of ETHLend</h2>
 
 <p>Below is provided the ecosphere of decentralized lending on ETHLend:<p>
 
-<p>Secured lending: ERC-20 Tokens, ENS domains + Unsecured Lending: CRE, uPort (to be implemented), Address data (to be implemented)</p>
+<p>Secured lending: ERC-20 Tokens, ENS domains + Unsecured Lending: CRE, uPort (to be implemented)</p>
 
 <p>Currencies: ETH + Upcoming Currencies: Bitcoin, Litecoin, Other Altcoins</p>
 
@@ -772,6 +719,12 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 <p>Nolvia Serrano, Vlog</p>
 
+<p>Kelly Pope, Social Media</p>
+
+<p>Andreas Haraldsvik, Slack Wizard</p>
+
+<p>Stephen You, Korean Desk</p>
+
 <h2>5.2	Governance</h2>
 
 <p>ETHLend follows decentralized governance. ETHLend introduces 3-tier governance for decentralized lending application. The decentralized application (DAPP) shall be governed by decentralized governance model similar to DAO. Each token holder can propose changes in provided procedure for the DAPP. Each proposition is voted within the CRE token holders. Regular changes would require majority of voters present and core changes would require 2/3 of the voters present. The aim is to create a democratic system to control on what direction the DAPP development will take place.</p>
@@ -787,69 +740,86 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 1.	ETHLend DAPP v. 1.0 on May 2017
 2.	White Paper on ETHLend on June 2017
 3.	Token Sale Smart Contract Testing on July 2017
-4.	Token Sale on August-September 2017
+4.	Token Sale on September 2017
 5.	Swiss Foundation or Swiss LLC on October 2017
-6.	CRE Trading on Exchanges on November 2017
-7.	Relocation to Zug, Switzerland on January 2018
-8.	New Recruits on the ETHLend Team on February 2018
+6.	LEND Trading on Exchanges on November 2017
+7.	Excemption for borrower's fees (LEND) starts from January 2018
+8.	Profit Sharing for LEND tokens holders starts from January 2018
 9.	Opening Proposition Forum for Token Holders on May 2018
 10.	Creating and Testing Democracy DAO on November 2018
 11.	Voting on Proposition Deployed on May 2019
-12.	Vesting for CRE Ends on August-September 2019
+12.	Vesting for LEND Ends on September 2019
 
-<h1>6.	Token Sale</h1>
+<h1>6.	Introducing LEND Token and the Token Sale</h1>
 
-<p>Providing value and finance. To provide a workable Reputation system on ETHLend that holds value, ETHLend is commencing its own native Credit Token (CRE) crowdsale. By commencing the token sale, there are more participants on ETHLend that provide additional value for CRE. Theoretically, CRE will hold the value on lending market since small amount of additional CRE is minted on successful loans. Therefore, the value of CRE is affected by the current value of lending market, the default rate to be precise.</p>
+<p>Raising funds for developing global peer-to-peer lending market. ETHLend issues ERC-20 compatible Ethereum-based LEND token for crowdsale. The aim for issuing the token sale is to finance the development and management of ETHLend. Currently, we are a team that is developing a global scale decentralized lending market. To provide a functional lending market to such extent, liquidity is required. Our aim is to attract early adopters and investors and reward the contribution with value such as the profit sharing and fee reductions.</p>
 
-<p>Principles of the tokens sale. ETHLend aims to provide a token sale that is democratic, decentralized, secure and fair. This also applies to the vesting model and to the future governance on ETHLend. To comply with democracy, anyone can buy CRE on Token Sale period. The Token Sale shall be provided in a decentralized manner by using an Ethereum-based Smart Contract which would provide more security due to the decentralized nature. Moreover, all the token purchases will be gone through manually before distribution to avoid any unwanted behaviour.</p>
+<p>Principles of the tokens sale. ETHLend aims to provide a token sale that is democratic, decentralized, secure and fair. This also applies to the vesting model and to the future governance on ETHLend. To comply with democracy, anyone can buy LEND on Token Sale period. The Token Sale shall be provided in a decentralized manner by using an Ethereum-based Smart Contract, which would provide more security due to the decentralized nature. Moreover, all the token purchases will be verified manually before distribution to avoid any misuse.</p>
 
-<p>Endorsing early purchase. The price on CRE is determined in different tiers based on timing and quantity of the purchase. We want to endorse token buyers that are amongst the first by reducing the token sale price. However, to retain democracy on token sale, the reduced price is restricted to certain amount of tokens. This would avoid the situation where few persons would buy within a certain time limit all the available tokens, and on discount. Next, we will introduce our preliminary structure on Token Sale. The structure is subject to change and final terms and conditions are released early before the Token Sale launch.</p>
+<h2>6.1	Profit Sharing</h2>
 
-<h2>6.1	Token Distribution</h2>
+<p>Token holders are entitled to profit derived from loan Smart Contract that are deployed on ETHLend. The goal of the token sale is to raise funds. Token sale contributors are the early adopters and investors of ETLend decentralized lending. To compensate the contribution on most crucial stage of the development, ETHLend will share profit with the token holders. This means that part of the profit is paid to the token holders address once claimed, on a monthly or quarterly basis.</p>
 
-<p>Small development fund, large circulation. Total of 1 000 000 000 (one billion) CRE is released on sale. Additionally, 300 000 000 CRE is held for development fund to incentivise the development team and to recruit more talent to ETHLend. There will be no follow-up sale on CRE. The token are available for purchase for the period of 30 days from the token sale launch.</p>
+<p>Profit from deploying Smart Contract. ETHLend derives cash-flow when loan requests are deployed or funded. These fees are in place to fund the development of decentralized lending. However, since token holders are contributing by token sale, ETHLend is able to share the revenue with the token holders and keep the fees low.</p>
 
-<h2>6.2	Purchase Price</h2>
+<p>Value increasing profit share. Currently, the fees for deploying a loan request is set to 0.01 ETH, which the borrower pays (unless LEND token is used for collateral). Similarly, the lender pays 0.01 ETH for funding the loan. ETHLend will distribute flat 5% of these fees to the token holders. Moreover, additional 1 to 5% is distributed on top of the flat 5% fee depending on the volume growth in ETLend (compared to previous year’s volume). Therefore, ETHLend can distribute as much as 10% as profit share. The profit sharing scheme starts on January 2018. Here is a demonstration of the profit share:</p>
+
+1.	First year (during 2018) = 5%
+2.	5% + additional 1% when fee revenue is 20% higher than in previous year
+3.	5% + additional 2% when fee revenue is 40% higher than in previous year
+4.	5% + additional 3% when fee revenue is 60% higher than in previous year
+5.	5% + additional 4% when fee revenue is 80% higher than in previous year
+6.	5% + additional 5% when fee revenue is 100% higher than in previous year
+
+<p>Rewarding token sale contributors. The profit sharing model aim to compensate those token holders that participated in the token sale or are early token holders. Since decentralized lending is forming it shape and growing, up to 10% could be achieved for few years. After the market gets more stable, the profit share might balance itself to 5-6%. This gives an edge to the tokens holders that are participating early on. Secondary aim for LEND token is to provide a token that has concrete value to hold and cash-flow. This makes LEND sought after token.</p>
+
+<h2>6.2	Excemption on Borrower's Fees</h2>
+
+<p>Pledging LEND exempts from the borrower’s fees. LEND tokens is primarily targeted to our contributors. Since most contributors are or will at some point use ETHLend, there are also benefits holding LEND tokens. When the borrower uses LEND as a collateral, the borrower is exempted from the loan request fee. Using a LEND as a collateral gives the LEND token holders an edge compared to other token holders, which should be soon as an value holding factor for the LEND token.</p>
+
+<h2>6.3	Token Distribution</h2>
+
+<p>Total of 1 000 000 000 (one billion) LEND is released for sale. Additionally, 300 000 000 LEND is held for development fund to incentivise the development team and to recruit more talent for ETHLend. There will be no follow-up sale on LEND. The tokens are available for purchase for the period of 30 days from the token sale launch. The date for the token sale is to be announced.</p>
+
+<h2>6.4	Purchase Price</h2>
+
+<p>Endorsing early purchase. The price on LEND is determined in different tiers based on timing and quantity of the purchase. We want to endorse token buyers that are amongst the first by reducing the token sale price for the first purchases.</p>
 
 <p>Multitier token sale. The purchase price for CRE is subject to time and quantity. ETHLend proposes the following tiers for the token sale:</p>
 
-1.	First 1 000 000 CRE priced at 15 000 CRE per 1 ETH
-2.	1 000 000 CRE to 10 000 000 CRE priced at 12 500 CRE per 1 ETH
-3.	10 000 000 CRE to 50 000 000 CRE priced at 10 000 CRE per 1 ETH
-4.	50 000 000 CRE to 100 000 000 CRE priced at  7 500 CRE per 1 ETH
-5.	100 000 000 CRE to 1 000 000 000 CRE priced at 5 000 CRE per 1 ETH
+1.	First 1 000 000 priced at 7 000 LEND per 1 ETH
+2.	1 000 001 to 10 000 000 LEND priced at 6 000 LEND per 1 ETH
+3.	10 000 001 to 500 000 000 LEND priced at 5 000 LEND per 1 ETH
+4.	500 000 001 to 750 000 000 LEND priced at  4 000 LEND per 1 ETH
+5.	750 000 001 to 1 000 000 000 LEND priced at 3 000 LEND per 1 ETH
 
-<h2>6.3	Burning Tokens</h2>
+<h2>6.5	Burning Tokens</h2>
 
-<p>All tokens that are not sold during the token sale, shall be burned. This means that these tokens cannot be used and the total supply of the tokens is reduced and the value of sold tokens increases. The maximum amount of tokens for sale is one billion. This limit cannot be exceeded.</p>
+<p>All tokens that are not sold during the token sale are burned. This means that these tokens cannot be used and the total supply of the tokens is reduced and the value of sold tokens increases. The maximum amount of tokens for sale is one billion. This limit cannot be exceeded and there will be no minting or a follow up sale for LEND.</p>
 
-<h2>6.4	Vesting</h2>
+<h2>6.6	Vesting</h2>
 
-<p>Ensuring continuation. All tokens distributed to the core team are subject to vesting. Vesting model ensures more value and security for the token contributors. Vesting provides more loyalty form the core team towards the project and ensures that CRE is not subject to market manipulation and provides stable market development for the CRE token.</p>
+<p>Ensuring commitment. All tokens distributed to the core team are subject to vesting. Vesting model ensures more value and security for the token contributors. Vesting provides more loyalty from the core team towards the project and ensures that LEND is not subject to market manipulation and provides stable market development for the LEND token. Eventually vesting is a way for the ETHLend team to show the commitment and loyalty for the ETHLend project.</p>
 
 <p>ETHLend introduces the following Vesting model for the core team:</p>
 
-1.	80% of CRE is locked once Token Sale distribution has ended
-2.	60% of CRE is locked after 6 months from Token Sale distribution
-3.	40% of CRE is locked after 12 months from Token Sale distribution
-4.	20% of CRE is locked after 18 months from Token Sale distribution
-5.	0% of CRE is locked after 24 months from Token Sale distribution
+1.	80% of LEND is locked once Token Sale distribution has ended
+2.	60% of LEND is locked after 6 months from Token Sale distribution
+3.	40% of LEND is locked after 12 months from Token Sale distribution
+4.	20% of LEND is locked after 18 months from Token Sale distribution
+5.	0% of LEND is locked after 24 months from Token Sale distribution
 
-<p>The vesting model is active for 24 months in total. All tokens that are distributed to new team members from the development fund after the CRE token sale follows the vesting model on a pro-rata basis (will join the vesting model from the next mark).</p>
+<p>The vesting model is active for 24 months in total. All tokens that are distributed to new team members from the development fund after the LEND token sale follows the vesting model on a pro-rata basis (will join the vesting model from the next mark).</p>
 
-<h2>6.5	Minting</h2>
+<h2>6.7	Security</h2>
 
-<p>Value minting. ETHLend will not mine any CRE to finance or to enlarge the total supply of CRE. Instead, the only time when new CRE is produced is the repayments of the loans on ETHLend. The repayment of the loans indicates the value of the lending market. Therefore, any new CRE that is minted will actually provide more value for the CRE. Each loan repayment that equals to 1 ETH would produce 10 CRE to the borrower and 10 CRE to the lender. Rewarding the borrower and the lender would incentivise lending on ETHLend.</p>
-
-<h2>6.6	Security</h2>
-
-<p>Security on focus. CRE token sale is performed on decentralized Ethereum Smart Contract. The token sale contract shall be tested on Kovan testnet and the Ethereum mainnet. There will be a manual due diligence of each token sale transaction that has taken place to make sure there is no misuse of the token sale.</p>
+<p>Security on focus. LEND token sale is performed on decentralized Ethereum Smart Contract. The token sale contract shall be tested on Kovan testnet and performed on Ethereum mainnet. There will be a manual due diligence of each token sale transaction that has taken place to make sure there is no misuse of the token sale.</p>
 
 <p>Storing the funds. All raised funds are stored in divided multi-signature Ethereum wallets. Therefore, the access to funds would require multiple people to sign. Diversification of wallets provides extra-safety in case private key would be compromised. A spending account with less than 5% of the funds can be held on a single-signature account.</p>
 
 <h2>6.7	Funds Allocation</h2>
 
-<p>Most of the funds are allocated to further development of the DAPP. ETHLend provides the following funds allocation based on needs for application that ETHLend is developing:</p>
+<p>Most of the funds are allocated to further development of the DAPP, either on core development or on user experience development. ETHLend provides the following funds allocation based on needs for application that ETHLend is developing:</p>
 
 *	35% on core development
 *	20% on user experience development
@@ -861,7 +831,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 <h1>7.	Further Updates</h1> </p>
 
-<p>Further updates on CRE Token Sale and DAPP updates are published on http://about.ETHLend.io and in our mailing list. The Token Sale launch will be announced on our mailing list and published on http://about.ETHLend.io/blog </p>
+<p>Further updates on LEND Token Sale and DAPP updates are published on http://about.ETHLend.io and in our mailing list. The Token Sale launch will be announced on our mailing list and published on http://about.ETHLend.io/blog </p>
 
 <p>For questions, join our slack:</p>
 
