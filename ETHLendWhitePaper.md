@@ -782,7 +782,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 <p>Endorsing early purchase. The price on LEND is determined in different tiers based on timing and quantity of the purchase. We want to endorse token buyers that are amongst the first by reducing the token sale price for the first purchases.</p>
 
-<p>Multitier token sale. The purchase price for CRE is subject to time and quantity. ETHLend proposes the following tiers for the token sale:</p>
+<p>Multitier token sale. The purchase price for LEND is subject to time and quantity. ETHLend proposes the following tiers for the token sale:</p>
 
 1.	First 1 000 000 priced at 7 000 LEND per 1 ETH
 2.	1 000 001 to 10 000 000 LEND priced at 6 000 LEND per 1 ETH
