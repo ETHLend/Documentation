@@ -726,7 +726,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 <h2>5.2	Governance</h2>
 
-<p>ETHLend follows decentralized governance. ETHLend introduces 3-tier governance for decentralized lending application. The decentralized application (DAPP) shall be governed by decentralized governance model similar to DAO. Each token holder can propose changes in provided procedure for the DAPP. Each proposition is voted within the CRE token holders. Regular changes would require majority of voters present and core changes would require 2/3 of the voters present. The aim is to create a democratic system to control on what direction the DAPP development will take place.</p>
+<p>ETHLend follows decentralized governance. ETHLend introduces 3-tier governance for decentralized lending application. The decentralized application (DAPP) shall be governed by decentralized governance model similar to DAO. Each token holder can propose changes in provided procedure for the DAPP. Each proposition is voted within the LEND token holders. Regular changes would require majority of voters present and core changes would require 2/3 of the voters present. The aim is to create a democratic system to control on what direction the DAPP development will take place.</p>
 
 <p>The third tier shall be the layer that owns the DAPP. This layer shall be Swiss Foundation or Swiss LLC, which would provide the surroundings for ETHLend and connects the decentralized environment to centralized world. Such connection might not be ideal when we are aiming for complete decentralization. However, such a layer is vital for protecting our users for any liabilities that might occur for the liabilities in respect to different jurisdictions. Swiss Foundation or Swiss LLC would offer limited liability on risk of liabilities. This veil is vital since the regulation on decentralized applications, crypto-currencies and token crowdsale is still living under uncertainty due to lack of regulation.</p>
 
@@ -774,7 +774,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 <h2>6.2	Excemption on Borrower's Fees</h2>
 
-<p>Pledging LEND exempts from the borrower’s fees. LEND tokens is primarily targeted to our contributors. Since most contributors are or will at some point use ETHLend, there are also benefits holding LEND tokens. When the borrower uses LEND as a collateral, the borrower is exempted from the loan request fee. Using a LEND as a collateral gives the LEND token holders an edge compared to other token holders, which should be soon as an value holding factor for the LEND token.</p>
+<p>Pledging LEND exempts from the borrower’s fees. LEND tokens is primarily targeted to our contributors. Since most contributors are or will at some point use ETHLend, there are also benefits from holding LEND tokens. When the borrower uses LEND as a collateral, the borrower is exempted from the loan request fee. Using a LEND as a collateral gives the LEND token holders an edge compared to other token holders, which should be soon as an value holding factor for the LEND token.</p>
 
 <h2>6.3	Token Distribution</h2>
 
