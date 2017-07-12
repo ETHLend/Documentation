@@ -13,61 +13,61 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 **Table of Contents**
 
 - [ETHLend.io White Paper - Democratizing Lending](#)
-- [1.	Background](#)
-	- [1.1	About the White Paper](#)
-	- [1.2	Lack of True Global Lending Market](#)
-	- [1.3	Peer to Peer Lending and Cryptocurrency](#)
-	- [1.4	Benefits of Decentralized Lending](#)
+- [Background](#background)
+	- [About the White Paper](#about-the-white-paper)
+	- [Lack of True Global Lending Market](#lack-of-true-global-lending-market)
+	- [Peer to Peer Lending and Cryptocurrency](#peer-to-peer-lending-and-cryptocurrency)
+	- [Benefits of Decentralized Lending](#benefits-of-decentralized-Lending)
 		- [Trustless](#trustless)
-		- [1.4.2	Transparency](#)
-		- [1.4.3	Democracy and Access to Finance](#)
-		- [1.4.4	Tokenization of Things](#)
-		- [1.4.5	Current and Future Use-Cases for Decentralized Lending](#)
-- [2.	Why Ethereum Network?](#)
-	- [2.1	Smart Contracts](#)
-	- [2.2	Ether](#)
-	- [2.3	Tokenization](#)
-	- [2.4	Paradox of Value: Smart Contract Deployment](#)
-- [3.	Fully Decentralized On-Chain Solution for Lending Market](#)
-	- [3.1	Secured Lending by Pledging Ethereum-Based Digital Tokens](#)
-		- [3.1.1	New Loan Request](#)
-		- [3.1.2	The Loan Contract](#)
-		- [3.1.3	Sending Digital Tokens to the Smart Contract](#)
-		- [3.1.4	Funding the Loan](#)
-		- [3.1.5	Paying the Loan Back](#)
-		- [3.1.6	Default Scenario](#)
-	- [3.2	On-Demand Lending](#)
-	- [3.3	Secured Lending by Pledging Ethereum Name Service Domains (ENS)](#)
-	- [3.4.1	Unsecured Lending](#)
-		- [3.4.1	Decentralized Credit Rating with Credit Token (CRE)](#)
-		- [3.4.2	Self-sovereignty](#)
-	- [3.5	User Experience on ETHLend](#)
-		- [3.5.1	Accessibility](#)
-		- [3.5.2	User Interface](#)
-		- [3.5.3	Performance](#)
-		- [3.5.4	Translations](#)
-		- [3.6	Technical Roadmap](#)
-	- [3.7	Map of ETHLend](#)
-- [4.	Legal Evaluation of the Loan agreement on ETHLend](#)
-	- [4.1	Contractual Relationship](#)
-	- [4.2	Collateral](#)
-	- [4.3	Know Your Customer (KYC)](#)
-- [5.	ETHLend](#)
-	- [5.1	The Team](#)
-	- [5.2	Governance](#)
-	- [5.3	Roadmap](#)
-- [6.	Introducing LEND Token and the Token Sale](#)
-	- [6.1	Profit Sharing](#)
-	- [6.2	Excemption on Borrower's Fees](#)
-	- [6.3	Token Distribution](#)
-	- [6.4	Purchase Price](#)
-	- [6.5	Burning Tokens](#)
-	- [6.6	Vesting](#)
-	- [6.7	Security](#)
-	- [6.7	Funds Allocation](#)
-- [7.	Further Updates](#)
+		- [Transparency](#transparency)
+		- [Democracy and Access to Finance](#democracy-and-access-to-finance)
+		- [Tokenization of Things](#tokenization-of-things)
+		- [Current and Future Use-Cases for Decentralized Lending](#current-and-future-use-cases-for-decentralized-lending)
+- [Why Ethereum Network?](#why-ethereum-network)
+	- [Smart Contracts](#smart-contracts)
+	- [Ether](#ether)
+	- [Tokenization](#tokenization)
+	- [Paradox of Value: Smart Contract Deployment](#paradox-of-value-smart-contract-deployment)
+- [Fully Decentralized On-Chain Solution for Lending Market](#fully-decentralized-on-chain-solution-for-lending-market)
+	- [Secured Lending by Pledging Ethereum-Based Digital Tokens](#secured-lending-by-pledging-ethereum-based-digital-tokens)
+		- [New Loan Request](#)
+		- [The Loan Contract](#)
+		- [Sending Digital Tokens to the Smart Contract](#)
+		- [Funding the Loan](#)
+		- [Paying the Loan Back](#)
+		- [Default Scenario](#)
+	- [On-Demand Lending](#)
+	- [Secured Lending by Pledging Ethereum Name Service Domains (ENS)](#)
+	- [Unsecured Lending](#)
+		- [Decentralized Credit Rating with Credit Token (CRE)](#)
+		- [Self-sovereignty](#)
+	- [User Experience on ETHLend](#)
+		- [Accessibility](#)
+		- [User Interface](#)
+		- [Performance](#)
+		- [Translations](#)
+		- [Technical Roadmap](#)
+	- [Map of ETHLend](#)
+- [Legal Evaluation of the Loan agreement on ETHLend](#)
+	- [Contractual Relationship](#)
+	- [Collateral](#)
+	- [Know Your Customer (KYC)](#)
+- [ETHLend](#)
+	- [The Team](#)
+	- [Governance](#)
+	- [Roadmap](#)
+- [Introducing LEND Token and the Token Sale](#)
+	- [Profit Sharing](#)
+	- [Excemption on Borrower's Fees](#)
+	- [Token Distribution](#)
+	- [Purchase Price](#)
+	- [Burning Tokens](#)
+	- [Vesting](#)
+	- [Security](#)
+	- [Funds Allocation](#)
+- [Further Updates](#)
  
- <h1>1.	Background</h1>
+## <h1>Background</h1>
 
 <p>Pioneers in the fintech industry. We want to develop something important and to break the process-heavy and unfair lending market we all know. We want to make lending available on global scale. Instead of relying on local banks and lenders, we believe that borrower should have the possibility to obtain a loan from anywhere in the world. We believe that Canadian borrower could obtain a loan from Sweden, China, Brazil, Japan or Germany and vice versa.</p>
 
@@ -75,7 +75,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 <p>Less control for the banks. Banks lend money that is deposited by account holders when banks need liquidity. This liquidity is lent to the market. Practically it means that banks charge 5-12% interest on loans and compensate you 0-1% for holding your assets at the bank. Since the rise of crypto-currency, you can become your own banking institution. With ETHLend, you become your own lending institution. You decide whom you lend to, on which interest rate securely or insecurely. All of this is available thanks to blockchain technology, on which ETHLend relies on.</p>
 
-<h2>1.1	About the White Paper</h2>
+## <h2>About the White Paper</h2>
 
 <p>This white paper is an overview on ETHLend, a decentralized lending application (DAPP) running on Ethereum Network. Besides the DAPP, this white paper covers the ideology of ETHLend, the team behind the innovation and the upcoming token sale for contributing to ETHLend.
 
@@ -83,7 +83,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 <p>This white paper was compiled together with persistent effort. ETHLend team wanted to produce a coherent, understandable and plausible concept out to the public. We want to make sure that anyone associated with or contributing to ETHLend does understand our vision, who we are, how the DAPP works and how the token sale takes place. We hope that our white paper inspires you for new ideas and innovations on blockchain technology.
 
-<h2>1.2	Lack of True Global Lending Market</h2>
+## <h2>Lack of True Global Lending Market</h2>
 
 <p>There is no access to true global lending market. This is about to change. Currently lending market is controlled by governmental monetary policies, which affect the competition on lending market. Moreover, politics casts a dark shadow on the lending market. Therefore, banks are controlled on how they loan and on what price.</p>
 
@@ -103,7 +103,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 <p>Tokenization of assets opens the door for true global liquidity. Asset tokenisation means that an ERC-20 token can represent assets such as gold, company shares or property. Tokenization would result that a borrower in Canada could place a property that the borrower is about to purchase in to an ERC-20 token. Then, the borrower could pledge the token on ETHLend and request funding not solely from Canadian lenders, but globally from any lender from any part of the world. This is a game changer in the financial industry.</p>
 
-<h2>1.3	Peer to Peer Lending and Cryptocurrency</h2>
+## <h2>Peer to Peer Lending and Cryptocurrency</h2>
 
 <p>Risk of default as a barrier in decentralised crypto-currency lending. There are no obstacles on lending crypto-currency as such. Any crypto-currency could be lend to anyone anywhere, and it would be a simple transaction. Then again, how do we know that the borrower will repay the loan? In FIAT economy, if you do not pay a loan back, your credit score or rating declines and legal consequenses may follow. This means that you might not get another loan from the market. However, in decentralized blockchain environment, securing the repayment of the loan needs more creativity in working solely on-chain.</p>
 
@@ -115,7 +115,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 <p>Example, we want to launch a rocket into the moon and we need to finance this venture. We could tokenize the rocket, all parts, rocket launcher, the company behind the venture to be represented as ERC-20 token called ROCK. Next, to finance the project we can pledge the tokens on decentralized lending platform such as ETHLend. Now anyone can participate in the funding of the rocket venture. The same is applicable on existing infrastructure projects such as nuclear power plants, solar power plants or privately held factories.</p>
 
-<h2>1.4	Benefits of Decentralized Lending</h2>
+## <h2>Benefits of Decentralized Lending</h2>
 
 <p>Decentralization provides more security and trust by design. Decentralization is a method to organise anything in a way that does not require trust on third parties. The trust is eliminated by executing code that does not require central government, management or central servers.</p>
 
@@ -129,7 +129,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 <p>For example, who bears the risk if the peer to peer lending platform would get hacked and all your deposited assets are stolen? The service providers usually shift the risk on the users in the hard-to-read-and-understand terms and conditions. However, such policies are not necessary in decentralized lending since the assets are locked and controlled by Smart Contracts that are broadcasted on blockchain. Therefore, a hacker must hack all the thousands of servers to make any difference and spend great deal of ETH doing that.</p>
 
-<h3>1.4.2	Transparency</h3>
+## <h3>Transparency</h3>
 
 <p>Transparency is subject to trustless environment. Ethereum network provides a ledger, which is open for inspection from transaction to transaction. This means that every transaction is recorded. Any transaction that is deployed on Ethereum blockchain could be explored though blockexplorers. Transparent ledger removes the trust that normally one would need to have when making a transaction between two banking institutions. In banking system, the sender has to trust the receiver and vice versa. Practically one needs a receipt of payment to confirm payment. However, such receipt is not protected against forgery.</p>
 
@@ -139,7 +139,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 <p>Moreover, ETHLend provides decentralized lending possible in the crypto-world without being exposed to loss of loan capital. The transparency that blockchain ledger provides is vital for a lending system that works complete out of the banking system since public ledger makes trustless lending possible. The lender is always able to check whether the borrower received the loan and vice versa. No trust needed.</p>
 
-<h3>1.4.3	Democracy and Access to Finance</h3>
+## <h3>Democracy and Access to Finance</h3>
 
 <p>Democracy to lending market. Blockchain-based lending removes barriers between segregated lending markets. By using ETH and the Ethereum network, lenders and borrowers can arrange loan transactions from anywhere to anyone, address-to-address. The effect is that there is more liquidity available at markets that have been previously restricted or segregated. Moreover, by using this structure lenders and borrowers do not need banks to transfer the loan capital back and forth. Therefore, fractioned and divided global lending market becomes more democratic and accessible.</p>
 
@@ -151,7 +151,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 <p>Inequality shadows the global lending market. Today, central banks impose lending rates on interbank loans or on lending to the end consumer or the businesses. Different risk level and FIAT currency inflation creates loan markets that are not equal in comparison. For example, a real estate backed loan in Brazil might have an interest rate of 32 percent (inflation adjusted). On the other hand, similar loan in Europe might have an interest rate between 0.5-5 percent. This inequality is removed with decentralized lending.</p>
 
-<h3>1.4.4	Tokenization of Things</h3>
+## <h3>Tokenization of Things</h3>
 
 <p>Tokenization unleashes the power of decentralization. Tokenization means that anything that represents value can be issued and represented on Ethereum-based ERC-20 compatible token. This means that instead of dealing the value itself, we can use the ERC-20 token that represent the value for our transaction. Tokens can theoretically represent any value such as company shares, real property, intellectual property, art or commodities. One of the first common example of tokenization is gold. DigixDAO issued tokens where one DigixDAO token represents 1 gram of gold. Therefore, when the token holder owns DigixDAO token, the token holders owns factually 1 gram of gold, which is located and audited somewhere in the world.</p>
 
@@ -159,7 +159,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 <p>Tokenization provides more opportunities on lending. When property is tokenized, the tokens could be traded or pledged against a loan. This means that there would be tokens at the loan market that have less volatility and are more suitable as a collateral.  In near future, we do not see any obstacles on having Apple or Facebook shares tokenized and pledged against a loan on ETHLend. Even further, one could tokenize his house that is under construction and pledge it to receive a loan from lenders all parts of the world. The global competition on lending market would provide the most competitive interest rate for the borrower.</p>
 
-<h3>1.4.5	Current and Future Use-Cases for Decentralized Lending</h3>
+## <h3>Current and Future Use-Cases for Decentralized Lending</h3>
 
 <p>Decentralized crypto-currency lending is the new kid on the block. Lending address-to-address does have demand in today’s blockchain world. Theoretically, crypto-currency lending could be used for similar purposes as lending in the centralized economy. However, since address-to-address lending requires the need to secure the repayment of the loan, decentralised lending is in the stage of development.</p>
 
@@ -171,13 +171,13 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 <p>Current finance market consist of barriers. In FIAT environment, there might not be a lender that would accept ERC-20 tokens or ENS domains as a collateral for the loan. Secondly, even if the crypto-trader would obtain FIAT-based loan, he would need to wait to get the loan into his bank account and after receiving it, exchange it to ETH and reverse the action when repaying the loan back. Therefore, the borrower would pay interest on days that the borrower factually is not using the loan capital for the borrower’s needs. Moreover, the circumstances might occur today that if the bank is not welcoming crypto-traders, the traders might not factually have even access to finance for his crypto-lending ventures.</p>
 
-<h1>2.	Why Ethereum Network?</h1>
+## <h1>Why Ethereum Network?</h1>
 
 <p>Ethereum Network provides decentralized ecosystem. Decentralized lending requires value that could be send and received, Smart Contracts to perform more complex transactions and additionally Ethereum is well known. Ethereum is the first widely known blockchain network that allows Smart Contracts. Ether (ETH), the native token of Ethereum has gained much popularity in the last couple of years. For users to adopt decentralized crypto-currency lending there should be a crypto-currency that is widely used. Secondly, the blockchain ledger should deal with more complex transactions than merely sending and receiving value. There should be the possibility to add, store data and perform complex requests and calls.</p>
 
 <p>Moreover, the possibility to use and create digital tokens ensures that Ethereum network is the right landscape for ETHLend. However, Ethereum is not perfect. We will cover the issues ETHLend might occur on Ethereum network, yet it does have the fullest potential where ETHLend might grow for wider use.</p>
 
-<h2>2.1	Smart Contracts</h2>
+## <h2>Smart Contracts</h2>
 
 <p>Lending requires more than sending Ether. Decentralized lending requires a blockchain ledger that is able to run more complex transactions than the fundamental sending and receiving value. The core power of Ethereum is the adoption of Smart Contracts. This function provides the ability to use blockchain ledger extensively. Smart Contracts in general definition provides a solution to deploy commands on the blockchain network, which affect the way on how data is stored, represented or handled in the Ethereum blockchain network. This means that we can deploy code that executes but cannot be modified once deployed.</p>
 
@@ -189,13 +189,13 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 <p>Track record for lending. Another important function that ETHLend needed was a way to handle reputation-based lending. If the borrower would need always ERC-20 tokens to place a loan request, lending would be limited to users that have “token wealth”. Therefore, we introduce that on each repaid loan, the borrower is rewarded by our native ERC-20 Token called, Credit Token or CRE. By creating a Smart Contract for Credit Token, the reputation system is painless. Moreover, by using the Ethereum-based ERC-20 compatible token we are still working within the decentralized ecosystem, instead of resorting to off-chain credit ratings and the old tarnished banking and credit system. Therefore, by using ERC-20 token we factually create a decentralized credit rating system.</p>
 
-<h2>2.2	Ether</h2>
+## <h2>Ether</h2>
 
 <p>Popular crypto-currency. Ether (ETH), the Ethereum native token (consider also as crypto-currency), was another decisive factor when choosing the ledger. Ether is widely used for dapps, trading and is growing for merchant payments. We believe that Ethereum with the use of Smart Contract is growing popularity not just developers but amongst users of Bitcoin and other Altcoins.</p>
 
 <p>To establish a decentralised lending application we needed a popular crypto-currency. Of course, Bitcoin was the one with largest market capitalization. Ether comes second. Since Ethereum has the power of Smart Contracts and we were working within the Ethereum ecosystem, it became clear that Ether would be our choice for the lending currency. Moreover, Ether is faster in transactions than Bitcoin. Using any other altcoin would have created the need for the discussion between blockchains, which might not be an ideal at the moment.</p>
 
-<h2>2.3	Tokenization</h2>
+## <h2>Tokenization</h2>
 
 <p>Tokenization of value is what fuels ETHLend. ERC-20 compatible tokens are used as a collateral to secure loans on ETHLend. When a token has value, the token can be pledged to secure the repayment of the loan. This practically means that the borrower promises to give up of the pledged token for the lender if the borrower does not pay the loan back. Pledging is quite common in the finance industry. Most commonly used collaterals are real property for mortgage or pledging shares of a listed stock company.</p>
 
@@ -207,13 +207,13 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 <p>Moreover, infrastructure projects are another example. Contractors could first issue a crowdsale of ERC-20 compatible tokens and after the crowdsale, the contractors could have even more access to liquidity by pledging the tokens that are left from the crowdsale and get more funding for the project. The opportunities and the use-cases are only limited by imagination.</p>
 
-<h2>2.4	Paradox of Value: Smart Contract Deployment</h2>
+## <h2>Paradox of Value: Smart Contract Deployment</h2>
 
 <p>Ethereum is not seamless. Ethereum has all the ingredients for developing decentralized Smart Contracts on-chain. However, deploying Smart Contract on Ethereum blockchain does not come without costs. Each time the borrower creates a loan agreement there will be exhaustion of small amount of gas. Besides the gas consumption, the deployment of the loan agreement would costs some small amount of ETH. Even though the consumed amount of ETH is currently small, the situation might change. When ETH price continues to surge, it will be more expensive to deploy the contract if the borrower is using funds that were shortly before the deployment converted from FIAT into ETH.</p>
 
 <p>On the other hand, this is not a problem if the borrower lives in the crypto-currency economy. This might be the case for many within the next five years. It would mean that the user would get his income in ETH (or any other crypto-currency). In this case, the borrower do not need to bear the cost of rising ETH price. However, if there would be high amount of users from the FIAT economy, this would eventually mean that it would make more sense to borrow bigger amounts that resorting to microlending. This could raise the bar for access to finance, which worries us the most.</p>
 
-<h1>3.	Fully Decentralized On-Chain Solution for Lending Market</h1>
+## <h1>Fully Decentralized On-Chain Solution for Lending Market</h1>
 
 <p>Decentralized lending. Ethereum provides the ecosystem for lending that is conducted on-chain. By decentralized lending we refer that all transactions are made on blockchain and all data that is associated with the loans are stored and running on the blockchain network. The solution provides safety, trust and transparency between the borrowers and the lenders.</p>
 
@@ -348,7 +348,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 <p>Smart Contracts provide the solution for the borrower and the lender to perform a secured loan without relying on third parties. Since Smart Contracts can store ERC-20 compatible tokens and ENS domains, the collateral is easily moved to in any direction. This might not be the case in real life. Moreover, since ERC-20 tokens can represent any value from centralized world, Smart Contracts would provide the possibility to control this value on blockchain. Theoretically, anything can be used as a collateral once tokenized, even a dog.</p>
 
-<h2>3.1	Secured Lending by Pledging Ethereum-Based Digital Tokens</h2>
+## <h2>Secured Lending by Pledging Ethereum-Based Digital Tokens</h2>
 
 <p>In this section, we will demonstrate how ETHLend DAPP works from the user experience perspective. We will go step-by-step walk-through on how to request a loan and to fund a loan. You will need to have Google Chrome and the MetaMask plugin installed. MetaMask is Google Chrome plugin to allow decentralized application, such as, ETHLend, to be run in the browser without downloading the full Ethereum node.</p>
 
@@ -392,7 +392,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 ![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img8.jpg)
 
-<h3>3.1.1	New Loan Request</h3>
+## <h3>New Loan Request</h3>
 
 <p>In the upcoming sections, we are going to demonstrate two scenarios:</p>
 
@@ -432,7 +432,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
  
 <p>If you go back to All Loan Requests and shuffle the loans, you will see that a new loan is created. The red dot indicates that it is your address.</p>
 
-<h3>3.1.2	The Loan Contract</h3>
+## <h3>The Loan Contract</h3>
  
 <p>After that you clicked into the contract you just created, enter the details of the contract</p>
 
@@ -446,7 +446,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 ![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img16.jpg)
 
-<h3>3.1.3	Sending Digital Tokens to the Smart Contract</h3>
+## <h3>Sending Digital Tokens to the Smart Contract</h3>
  
 <p>We will see the status of the contract is changed to ‘waiting for tokens’</p>
 
@@ -484,7 +484,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 ![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img25.jpg)
 
-<h3>3.1.4	Funding the Loan</h3>
+## <h3>Funding the Loan</h3>
  
 <p>This is an example we are going to switch to a lender account. In practice, the following steps will be conducted by a lender</p>
 
@@ -502,7 +502,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 ![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img29.jpg)
 
-<h3>3.1.5	Paying the Loan Back</h3>
+## <h3>Paying the Loan Back</h3>
  
 <p>As the borrower, you can choose the loan you would like to repay</p>
 
@@ -524,7 +524,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 ![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img35.jpg)
 
-<h3>3.1.6	Default Scenario</h3>
+## <h3>Default Scenario</h3>
  
 <p>We are going to demonstrate a default scenario next</p>
 
@@ -540,7 +540,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
  
 <p>Lender can claim the token and we can confirm on token factory</p>
 
-<h2>3.2	On-Demand Lending</h2>
+## <h2>On-Demand Lending</h2>
 
 <p>Learning curve for the borrower. Currently the ETHLend’s decentralized application provides solely that the borrower can create the loan request. This means that the borrower must have a basic understanding on lending. The borrower must place such data as the premium, amount of tokens for pledge and the token Smart Contract address. It might be difficult for a first time borrower to evaluate the value of the ERC-20 token (even if the token is traded on the exchange) and the amount of premium which borrower is willing to accept to pay. If the borrower sets too low premium or overvalues the collateral, the loan might not be attractive for the lenders. This would mean that the loan would not be funded.</p>
 
@@ -550,7 +550,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 <p>Flexibility and shorter learning curve for the borrower. On-demand lending provides flexibility for the lender. The lender does not need to fund single small loans, instead the lender can place the terms for the loan capital and anyone can borrow merely by sending the accepted ERC-20 token to the loan agreement. For the borrower, on-demand lending means less necessary knowledge on lending. The learning curve is transferred from borrower to the lender, which means that the borrower does not have to evaluate the value of the collateral or evaluate the attractiveness of the premium. Of course, if the borrower is not satisfied of the price of the liquidity that the lenders are providing, the borrower may always place a loan request with its own terms.</p>
 
-<h2>3.3	Secured Lending by Pledging Ethereum Name Service Domains (ENS)</h2>
+## <h2>Secured Lending by Pledging Ethereum Name Service Domains (ENS)</h2>
 
 <p>New name service created a gold rush. Ethereum Name Service Domains (ENS) are domains that are used in the Ethereum ecosystem. ENS domains provides a way to use a name for the long Ethereum address. For example if one would like to send ETH to Jim, the person would need to write long Ethereum address. By using ENS domain one could just sent the ETH to an ENS domain such as jim.eth (which is owned by Jim) and the ETH will be transferred to Jim’s Ethereum address.</p>
 
@@ -576,7 +576,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 <p>The rapid growth of ENS domains will lock down vast amount of ETH in to the ENS Smart Contracts. This means that at some point there shall be ETH locked that could be worth of billions of USD. Therefore, ENS domain pledge provides a convenient way to “unlock” these funds for use by obtaining funding and pledging the ENS domain. Eventually ENS domains could end up being even more suitable alternative for a collateral for a loan. ENS domains do not have the volatility that some of the ERC-20 tokens might have. Of course, the volatility with the tokens might disappear eventually and would follow such volatility that is seen on stock market or currency exchange. However, since tokens do differ this not the case for all tokens.</p>
 
-<h2>3.4.1	Unsecured Lending</h2>
+## <h2>Unsecured Lending</h2>
 
 <p>Unsecured loan brings wider use for borrowers. Secured loans which require a collateral such as ERC-20 tokens or ENS domains do raise the bar for access to finance. However, secured loans provides the starting point for decentralized lending. Without using collateral, it would be challenging for borrowers and lenders who do not know each other to trust. Therefore, secured loans are truly a trustless solution for decentralized lending. Although, eventually to achieve a burst in crypto-lending, unsecured lending should be adopted. However, current crypto-lending options do not live in the decentralized environment. Moreover, an option that would implement real-wold credit scores would not be in our mind a sufficient solution, merely an escape route back to the centralized environment.</p>
 
@@ -584,7 +584,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 <p>Next we will introduce couple of functions that could be added to ETHLend to cover unsecured lending. These solutions presented are not yet implemented to the decentralized application. On a general basis, we believe that unsecured lending shall be part of ETHLend accordingly with the development roadmap. However, the technical solution that we shall implement the functions is yet to be determined due to vast phase of evolvement of the Ethereum ecosystems. Following solutions would be added to ETHLend to provide unsecured loans.</p>
 
-<h3>3.4.1	Decentralized Credit Rating with Credit Token (CRE)</h3>
+## <h3>Decentralized Credit Rating with Credit Token (CRE)</h3>
 
 <p>Reputation is gained. Reputation system is a convenient way to establish trust between the borrowers and the lenders. Trust means that the lender is willing to provide a loan even if the loan is not secured. Unsecured decentralized lending is mostly based on previous repayments of secured loans. This means that the borrower needs to present previous behaviour of repayments. Due to the pseudo-anonymous nature of cryptocurrencies and Ethereum addresses, willingness of repayment is difficult to achieve without an indication of past compliance. By using reputation, we can lower the risk of default on unsecured loans. The outcome is that unsecured decentralized lending is more attractive when risk level is lower compared to lending for the first time borrower without any reputation.</p>
 
@@ -596,7 +596,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 <p>Even though, a reputation system is not a new invention, using an ERC-20 token for reputation management is a fascinating method to create the system in decentralized environment. Other means would be merely by broadcasting reputation value on the blockchain. However, digital tokens provide more transparency and trust, since the ERC-20 token is created with its own smart contract. Moreover, the data is easily removed from defaulted borrower since digital tokens can be burned on default.</p>
 
-<h3>3.4.2	Self-sovereignty</h3>
+## <h3>Self-sovereignty</h3>
 
 <p>Self-sovereignty as reputation. uPort provides a self-sovereign identity system. uPort identity system provides the possibility to create identity based lending. User could register credentials through uPort. This would mean that if the loan is not repaid, the address or the identity would be banned from ETHLend and the data would be transferred to uPort. The loan default would eventually mean that the sovereignty of the uPort user would be affected in other Ethereum-based applications as well. This would be a risk and loss for the user that has built his reputation on uPort.</p>
 
@@ -604,29 +604,29 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 <p>uPort would not eliminate the risk of default completely. It reduces the risk in similar manner as the ETHLend’s native Credit Token is reducing. The distinctive here is that uPort would provide reputation from outside ETHLend, from other applications. However, nothing stops using Credit Tokens on other Ethereum-based applications (at some future point). In fact, Credit Token represents the repayments of loan, therefore the most vital trust that is known in the financial economy.</p>
 
-<h2>3.5	User Experience on ETHLend</h2>
+## <h2>User Experience on ETHLend</h2>
 
-<h3>3.5.1	Accessibility</h3>
+## <h3>Accessibility</h3>
 
 <p>Providing wide usage. Currently ETHLend DAPP is accessed with Google Chrome or Mozilla Firefox browser together with MetaMask plugin. To provide full coverage, the ETHLend DAPP shall be developed further for implementing mobile usage, parity and MyEtherWallet. The ETHLend team considers that the DAPP should be easily available with less learning curve as possible.</p>
 
-<h3>3.5.2	User Interface</h3>
+## <h3>User Interface</h3>
 
 <p>Focus on user experience. ETHLend team considers that the user interface is the game breaker for adopting Ethereum-based applications for a wider audience. Eventually, our goal is to eliminate the learning curve as much as possible on blockchain applications. Moreover, we are bound to follow any innovations and improvements when it comes to user experience on decentralized applications. It is surely true that decentralization and blockchain-based Smart Contracts do create challenges for user experience and might require prior knowledge on blockchain and Ethereum basics. However, we believe that these challenges could be overcome merely by pushing hard development on the user experience.</p>
 
-<h3>3.5.3	Performance</h3>
+## <h3>Performance</h3>
 
 <p>Choices between on-chain and off-chain. Today ETHLend is a fully decentralized application running on Ethereum blockchain network. This means that all functionalities and data are on blockchain (on-chain). Once a wise man said that one should not force everything on the chain. This saying means now more than ever since the Ethereum blockchain network is growing on data to such the extend that it takes few days to load the full chain. Even though some functions could be left off-chain, we are trying to avoid these functions. ETHLend team’s aim is to create decentralized solutions by pushing innovation further instead of falling back to centralized solutions. However, we should not be always naive and we should not live in a vacuum, instead ETHLend should follow the directions that the mainstream blockchain development.</p>
 
 <p>In regards of performance of the DAPP, we are aiming to provide ways to get as much as possible unnecessary functions from Smart Contract to develop the best technical experience that can be achieved on Ethereum network.</p>
 
-<h3>3.5.4	Translations</h3>
+## <h3>Translations</h3>
 
 <p>Languages are part of access. Translations provides wider accessibility to use ETHLend. Moreover, since we have a lending market at hand, accessibility would mean here access to finance as well, the very core and fundamental principle of funding, that not everyone is granted in today’s world.</p>
 
 <p>Since the development of ETHLend, the team has recruited language skilled individuals who are part of the Ethereum community or starting with the community that were willing to assist the ETHLend project. We received lot of interest and eventually were able to receive translations of the ETHLend site and the DAPP, totalling into multiple languages. The languages that were included in the translations were Spanish, French, Chinese, Korean, Japanese, German, Russian, Portuguese, Dutch, Italian, Turkish, Norwegian, Danish, Finnish, Malay, Arabic, Filipino and Lithuanian. There translations are implemented during our upcoming user experience upgrade.</p>
 
-<h3>3.6	Technical Roadmap</h3>
+## <h3>Technical Roadmap</h3>
 
 <p>We consider ETHLend as a long term project. However, to make most of us, concrete deadlines are necessary. Therefore, we shall introduce the following roadmap for technical implementations:</p>
 
@@ -642,7 +642,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 10.	KYC on-board implementation on May 2018
 11.	Lending Other Altcoins on August 2018
 
-<h2>3.7	Map of ETHLend</h2>
+## <h2>Map of ETHLend</h2>
 
 <p>Below is provided the ecosphere of decentralized lending on ETHLend:<p>
 
@@ -650,13 +650,13 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 <p>Currencies: ETH + Upcoming Currencies: Bitcoin, Litecoin, Other Altcoins</p>
 
-<h1>4.	Legal Evaluation of the Loan agreement on ETHLend</h1>
+## <h1>Legal Evaluation of the Loan agreement on ETHLend</h1>
 
 <p>Crypto-lending without borders. Traditionally lending is provided locally due to the fact that lending involves due diligence on the borrower. This process requires the access to local credit score or rating system. Moreover, the legislation on lending depends by jurisdiction to jurisdiction and there are distinctions between the common law and civil law jurisprudence. Even though lending has been local, there has been always international finance that has not been restricted by jurisdictions. Mainly the question is about complying legislation to ensure the loans on ETHLend are binding.<p>
 
 <p>Crypto-currency is defined differently through jurisdiction to jurisdiction. Since crypto-currency is relatively new to governments, they have not been too keen on regulating or defining the legal status on crypto-currencies. Moreover, we must acknowledge that the definition given in other fields of law such as tax law does not finally settle or give analogy to use the definition in other fields of law. What we can certainly define is what crypto-currency is not. Crypto-currencies are not currencies in the form that governments’ of different jurisdictions define, since crypto-currencies are not issued by state authority. Therefore, in most sensible definition crypto-currencies are left out to contractual agreements (when not regulated).<p>
 
-<h2>4.1	Contractual Relationship</h2>
+## <h2>Contractual Relationship</h2>
 
 <p>Something for something. Where crypto-currencies are not regulated, they are contractual agreements between the parties. This would mean that the agreement between the borrower and the lender for borrowing ETH would be conducted on the basis on contract law. The next questions is which contract law would apply since there are distinctions between common law contract law and civil law contract law, not to mention the jurisdictional differences.<p>
 
@@ -666,7 +666,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 <p>Even thought, the loan is on Smart Contract and on a trustless environment, the users are living under governed jurisdictions. This means that the lending agreement should be valid, even though one might not have the ability to enforce it (if the counterparty is not known). To provide a sufficient loan agreement, ETHLend shall implement all legal functions of the loan to simple terms and conditions. These terms includes the loan period, premium, the collateral, the lender, the borrower, governing law and dispute resolution. Therefore, the parties do not have to deal with the juridical questions to participate in the lending market.<p>
 
-<h2>4.2	Collateral</h2>
+## <h2>Collateral</h2>
 
 <p>New form of collaterals. In most jurisdiction collaterals or known as pledge are governed to establish the legal standing of a pledge against third parties. This has been important through time since enforcing a collateral is seen as an exception on the right to ownership. Moreover, most of the rules on collateral from jurisdiction to jurisdiction apply on real property, thus pledging non real property such as a phone or jewellery has soften regulation, if any. There is not much jurisprudential literacy on pledging ERC-20 tokens and ENS domains. In fact, ETHLend is the first who uses ERC-20 tokens and ENS domains for securing loans.<p>
 
@@ -674,7 +674,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 <p>The property could be held by a third party as well. However, Smart Contracts are interesting since by using Smart Contract, ETHLend does not hold the collateral. Instead, the collateral is running on the blockchain which is controlled by the Smart Contract. The aim behind the possession is to inform third parties (extra partes) that the item is pledged. This aim is by design complied on Ethereum blockchain. All transactions can be inspected by the blockexplorer. Therefore, when ERC20 token or ENS domain is pledged on ETHLend, the collateral is moved to the Smart Contract and locked until the loan is repaid. This information is accessible to anyone, anywhere with an internet connection.<p>
 
-<h2>4.3	Know Your Customer (KYC)</h2>
+## <h2>Know Your Customer (KYC)</h2>
 
 <p>ETHLend does not lend or hold assets. ETHLend is a decentralized application running on Ethereum blockchain network. This means that ETHLend does not store any data on centralized servers. All data is running on Ethereum blockchain, peer-to-peer. ETHLend does not control any assets between the lenders and the borrowers. First, ERC-20 tokens and ENS domains are not defined as asset in the traditional meaning. ERC-20 tokens and ENS domains are representation of value. Secondly, all transactions are conducted on Smart Contracts. This means that when the borrower places a loan request, the borrower creates the Smart Contract.<p>
 
@@ -686,45 +686,69 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 <p>Currently, KYC can be solved through messaging and interaction between the lender and borrower. However, current solutions would be off-chain. The ETHLend team is working on to provide a KYC solution that would not spill over to off-chain. The easiest way to provide KYC without the need to spill the application to off-chain would require the borrower to insert a link to the material that would comply with KYC. This material would include identification, proof of address and origin of funds. Even decentralized storage could be used to achieve the storage of KYC data.<p>
 
-<h1>5.	ETHLend</h1>
+## <h1>ETHLend</h1>
 
 <p>Decentralized governance. Since lending on ETHLend is decentralized, it would be in line to add decentralization as much as possible to the governance of the DAPP and the project itself. When we created the ETHLend DAPP, we wanted to provide more democracy for lending market by decentralized lending. Democracy can be provided to the ETHLend development and governance as well to provide more value for the token holders and people who are willing to contribute on ETHLend development.<p>
 
-<h2>5.1	The Team</h2>
+## <h2>The Team</h2>
 
 <p>Introducing our team:</p>
 
 <p>Stani Kulechov, Founder of ETHLend & Development, stani@ETHLend.io</p>
 
+https://www.linkedin.com/in/stanislav-kulechov-361284132/
+
 <p>Jordan Lazaro Gustave, Head of Management, jordan@ETHLend.io</p>
+
+https://www.linkedin.com/in/jordan-lazaro-gustave-32018976/
 
 <p>Martin Wichmann, Head of Token Sale, martin@ETHLend.io</p>
 
+https://www.linkedin.com/in/martin-wichmann-89722561/
+
 <p>Adnan Javed, Legal Advisor, adnan@ETHLend.io</p>
+
+https://www.linkedin.com/in/adnan-javed/
 
 <p>Sergej Stein, Financial Advisor & Blog, sergej@ETHLend.io</p>
 
+https://www.linkedin.com/in/sergej-stein/
+
 <p>Scott Malsbury, Head of Communications, scott@ETHLend.io</p>
+
+https://www.linkedin.com/in/scott-malsbury-a6260b12/?ppe=1
 
 <p>Jin Park, Head of Marketing, jin@ETHLend.io</p>
 
+https://www.linkedin.com/in/jin-park-27989ab8/
+
 <p>Rowan vab Ginkel, Graphics & Visualization</p>
+
+https://www.linkedin.com/in/rowanvanginkel/
 
 <p>Edmund To, Lead Junior Developer<p>
 
+https://www.linkedin.com/in/edmundto/
+
 <p>Anastasija Plotnikova, Translations</p>
 
-<p>Andreas Haraldsvik, Slack Wizard</p>
+https://www.linkedin.com/in/anastasija-plotnikova-9b972735/?ppe=1
 
-<p>Nolvia Serrano, Vlog</p>
+<p>Nolvia Serrano, Media Correspondent</p>
+
+https://www.linkedin.com/in/nolvia-serrano-ba7362b2/
 
 <p>Kelly Pope, Social Media</p>
 
+https://www.linkedin.com/in/smospider/
+
 <p>Andreas Haraldsvik, Slack Wizard</p>
+
+https://www.linkedin.com/in/andreas-haraldsvik-21140768/
 
 <p>Stephen You, Korean Desk</p>
 
-<h2>5.2	Governance</h2>
+## <h2>Governance</h2>
 
 <p>ETHLend follows decentralized governance. ETHLend introduces 3-tier governance for decentralized lending application. The decentralized application (DAPP) shall be governed by decentralized governance model similar to DAO. Each token holder can propose changes in provided procedure for the DAPP. Each proposition is voted within the LEND token holders. Regular changes would require majority of voters present and core changes would require 2/3 of the voters present. The aim is to create a democratic system to control on what direction the DAPP development will take place.</p>
 
@@ -732,7 +756,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 <p>Roadmap to consensus. The 3-tier governance needs a roadmap for implementation. Theoretically, the 3-tier governance could be used from the beginning. However, since the DAPP needs much development that requires flexibility and agile performance, implementing decentralized democracy would stall the development on ETHLend in the most vital stage. Therefore, we are implementing the 3-tier democracy within 2 years from the token sale. By this time, we would have a DAPP that has been driven through the test period.</p>
 
-<h2>5.3	Roadmap</h2>
+## <h2>Roadmap</h2>
 
 <p>Road to decentralization. ETHLend introduces the following roadmap adopting changes, improvements and governance to ETHLend:</p>
 
@@ -749,13 +773,13 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 11.	Voting on Proposition Deployed on May 2019
 12.	Vesting for LEND Ends on September 2019
 
-<h1>6.	Introducing LEND Token and the Token Sale</h1>
+## <h1>Introducing LEND Token and the Token Sale</h1>
 
 <p>Raising funds for developing global peer-to-peer lending market. ETHLend issues ERC-20 compatible Ethereum-based LEND token for crowdsale. The aim for issuing the token sale is to finance the development and management of ETHLend. Currently, we are a team that is developing a global scale decentralized lending market. To provide a functional lending market to such extent, liquidity is required. Our aim is to attract early adopters and investors and reward the contribution with value such as the profit sharing and fee reductions.</p>
 
 <p>Principles of the tokens sale. ETHLend aims to provide a token sale that is democratic, decentralized, secure and fair. This also applies to the vesting model and to the future governance on ETHLend. To comply with democracy, anyone can buy LEND on Token Sale period. The Token Sale shall be provided in a decentralized manner by using an Ethereum-based Smart Contract, which would provide more security due to the decentralized nature. Moreover, all the token purchases will be verified manually before distribution to avoid any misuse.</p>
 
-<h2>6.1	Profit Sharing</h2>
+## <h2>Profit Sharing</h2>
 
 <p>Token holders are entitled to profit derived from loan Smart Contract that are deployed on ETHLend. The goal of the token sale is to raise funds. Token sale contributors are the early adopters and investors of ETLend decentralized lending. To compensate the contribution on most crucial stage of the development, ETHLend will share profit with the token holders. This means that part of the profit is paid to the token holders address once claimed, on a monthly or quarterly basis.</p>
 
@@ -772,15 +796,15 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 <p>Rewarding token sale contributors. The profit sharing model aim to compensate those token holders that participated in the token sale or are early token holders. Since decentralized lending is forming it shape and growing, up to 10% could be achieved for few years. After the market gets more stable, the profit share might balance itself to 5-6%. This gives an edge to the tokens holders that are participating early on. Secondary aim for LEND token is to provide a token that has concrete value to hold and cash-flow. This makes LEND sought after token.</p>
 
-<h2>6.2	Excemption on Borrower's Fees</h2>
+## <h2>Excemption on Borrower's Fees</h2>
 
 <p>Pledging LEND exempts from the borrower’s fees. LEND tokens is primarily targeted to our contributors. Since most contributors are or will at some point use ETHLend, there are also benefits from holding LEND tokens. When the borrower uses LEND as a collateral, the borrower is exempted from the loan request fee. Using a LEND as a collateral gives the LEND token holders an edge compared to other token holders, which should be soon as an value holding factor for the LEND token.</p>
 
-<h2>6.3	Token Distribution</h2>
+## <h2>Token Distribution</h2>
 
 <p>Total of 1 000 000 000 (one billion) LEND is released for sale. Additionally, 300 000 000 LEND is held for development fund to incentivise the development team and to recruit more talent for ETHLend. There will be no follow-up sale on LEND. The tokens are available for purchase for the period of 30 days from the token sale launch. The date for the token sale is to be announced.</p>
 
-<h2>6.4	Purchase Price</h2>
+## <h2>Purchase Price</h2>
 
 <p>Endorsing early purchase. The price on LEND is determined in different tiers based on timing and quantity of the purchase. We want to endorse token buyers that are amongst the first by reducing the token sale price for the first purchases.</p>
 
@@ -792,11 +816,11 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 4.	500 000 001 to 750 000 000 LEND priced at  4 000 LEND per 1 ETH
 5.	750 000 001 to 1 000 000 000 LEND priced at 3 000 LEND per 1 ETH
 
-<h2>6.5	Burning Tokens</h2>
+## <h2>Burning Tokens</h2>
 
 <p>All tokens that are not sold during the token sale are burned. This means that these tokens cannot be used and the total supply of the tokens is reduced and the value of sold tokens increases. The maximum amount of tokens for sale is one billion. This limit cannot be exceeded and there will be no minting or a follow up sale for LEND.</p>
 
-<h2>6.6	Vesting</h2>
+## <h2>Vesting</h2>
 
 <p>Ensuring commitment. All tokens distributed to the core team are subject to vesting. Vesting model ensures more value and security for the token contributors. Vesting provides more loyalty from the core team towards the project and ensures that LEND is not subject to market manipulation and provides stable market development for the LEND token. Eventually vesting is a way for the ETHLend team to show the commitment and loyalty for the ETHLend project.</p>
 
@@ -810,13 +834,13 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 <p>The vesting model is active for 24 months in total. All tokens that are distributed to new team members from the development fund after the LEND token sale follows the vesting model on a pro-rata basis (will join the vesting model from the next mark).</p>
 
-<h2>6.7	Security</h2>
+## <h2>Security</h2>
 
 <p>Security on focus. LEND token sale is performed on decentralized Ethereum Smart Contract. The token sale contract shall be tested on Kovan testnet and performed on Ethereum mainnet. There will be a manual due diligence of each token sale transaction that has taken place to make sure there is no misuse of the token sale.</p>
 
 <p>Storing the funds. All raised funds are stored in divided multi-signature Ethereum wallets. Therefore, the access to funds would require multiple people to sign. Diversification of wallets provides extra-safety in case private key would be compromised. A spending account with less than 5% of the funds can be held on a single-signature account.</p>
 
-<h2>6.7	Funds Allocation</h2>
+## <h2>Funds Allocation</h2>
 
 <p>Most of the funds are allocated to further development of the DAPP, either on core development or on user experience development. ETHLend provides the following funds allocation based on needs for application that ETHLend is developing:</p>
 
@@ -828,7 +852,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 <p>Funds allocation is subject to change for providing flexibility. ETHLend will use best practices on funds allocation and its own discretion.</p>
 
-<h1>7.	Further Updates</h1> </p>
+## <h1>Further Updates</h1> </p>
 
 <p>Further updates on LEND Token Sale and DAPP updates are published on http://about.ETHLend.io and in our mailing list. The Token Sale launch will be announced on our mailing list and published on http://about.ETHLend.io/blog </p>
 
@@ -839,5 +863,9 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 <p>Reddit:</p>
 
 <p>https://www.reddit.com/r/ETHLend/ </p>
+
+<p>Telegram:</p>
+
+<p>https://t.me/joinchat/FWu2CQ0ZRCeWfey4eP8VhQ </p>
 
 ![Image](http://about.ethlend.io/wp-content/uploads/2017/06/logo_300DPI-05-1.png)
