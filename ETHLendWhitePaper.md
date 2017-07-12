@@ -18,7 +18,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 	- [1.2	Lack of True Global Lending Market](#)
 	- [1.3	Peer to Peer Lending and Cryptocurrency](#)
 	- [1.4	Benefits of Decentralized Lending](#)
-		- [1.4.1	Trustless](### 141-trustless)
+		- [1.4.1	Trustless](#trustless)
 		- [1.4.2	Transparency](#)
 		- [1.4.3	Democracy and Access to Finance](#)
 		- [1.4.4	Tokenization of Things](#)
