@@ -18,7 +18,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 	- [1.2	Lack of True Global Lending Market](#)
 	- [1.3	Peer to Peer Lending and Cryptocurrency](#)
 	- [1.4	Benefits of Decentralized Lending](#)
-		- [1.4.1	Trustless](#trustless)
+		- [1.4.1	Trustless](#1.4.1-trustless)
 		- [1.4.2	Transparency](#)
 		- [1.4.3	Democracy and Access to Finance](#)
 		- [1.4.4	Tokenization of Things](#)
@@ -121,7 +121,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 <p>Decentralization changes dramatically the architecture of lending. By decentralizing lending, we do not require banks or any other intermediaries for conducting a loan transaction. Decentralization means also that borrowers and lenders do not need to trust even ETHLend once the Smart Contract is deployed to the Ethereum network. These Smart Contracts provide a trustless and transparent lending environment, which is not available on todays FIAT lending market. Trustless means that no one can interfiere, stop or manipulate the loan once deployed. Transparent means that anyone can see the deployed transaction on blockchain ledger by using a blockexplorer. There is no equivalent power on found on centralized environment.</p>
 
-<h3># 1.4.1 Trustless</h3>
+## <h3>1.4.1 Trustless</h3>
 
 <p>There is no need to trust the counterparty. When the borrower places the loan request on ETHLend, the counterparty, ETHLend or any other party cannot manipulate, stop and prevent the loan request once the loan is depoyed. Instead of the need to trust the counterparty, decentralization removes the necessity to trust your provider and your counterparty.</p>
 
