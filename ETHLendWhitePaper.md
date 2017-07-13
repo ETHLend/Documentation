@@ -57,8 +57,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 	- [Governance](#governance)
 	- [Roadmap](#roadmap)
 - [Introducing LEND Token and the Token Sale](#introducing-lend-token-and-the-token-sale)
-	- [Profit Sharing](#profit-sharing)
-	- [Excemption on Borrower's Fees](#excemption-on-borrowers-fees)
+	- [Increasing Value of LEND with Buybacks and Burn](#increasing-value-of-lend-with-buybacks-and-burn)
 	- [Token Distribution](#token-distribution)
 	- [Purchase Price](#purchase-price)
 	- [Burning Tokens](#burning-tokens)
@@ -762,43 +761,48 @@ https://www.linkedin.com/in/andreas-haraldsvik-21140768/
 
 1.	ETHLend DAPP v. 1.0 on May 2017
 2.	White Paper on ETHLend on June 2017
-3.	Token Sale Smart Contract Testing on July 2017
+3.	Token Sale Smart Contract Testing on August 2017
 4.	Token Sale on September 2017
 5.	Swiss Foundation or Swiss LLC on October 2017
 6.	LEND Trading on Exchanges on November 2017
-7.	Excemption for borrower's fees (LEND) starts from January 2018
-8.	Profit Sharing for LEND tokens holders starts from January 2018
-9.	Opening Proposition Forum for Token Holders on May 2018
-10.	Creating and Testing Democracy DAO on November 2018
-11.	Voting on Proposition Deployed on May 2019
-12.	Vesting for LEND Ends on September 2019
+7.	Buybacks and Burn for LEND starts from January 2018
+8.	Opening Proposition Forum for Token Holders on May 2018
+9.	Creating and Testing Democracy DAO on November 2018
+10.	Voting on Proposition Deployed on May 2019
+11.	Vesting for LEND Ends on September 2019
 
 ## <h1>Introducing LEND Token and the Token Sale</h1>
 
-<p>Raising funds for developing global peer-to-peer lending market. ETHLend issues ERC-20 compatible Ethereum-based LEND token for crowdsale. The aim for issuing the token sale is to finance the development and management of ETHLend. Currently, we are a team that is developing a global scale decentralized lending market. To provide a functional lending market to such extent, liquidity is required. Our aim is to attract early adopters and investors and reward the contribution with value such as the profit sharing and fee reductions.</p>
+<p>Participating in the development of global peer-to-peer lending market. ETHLend sells ERC-20 compatible Ethereum-based LEND token for crowdsale. The aim for the token sale is to develop further the ETHLend decentralized lending application (DAPP). Currently, we are a team that is developing a global scaled decentralized lending market. To provide a functional lending market to such extent, contributors are required. Our aim is to attract early adopters and participants and reward the contribution with value increase of the LEND token by buying systematically certain amount of tokens from the exchange and burning these tokens (decreasing the supply permanently).</p>
 
 <p>Principles of the tokens sale. ETHLend aims to provide a token sale that is democratic, decentralized, secure and fair. This also applies to the vesting model and to the future governance on ETHLend. To comply with democracy, anyone can buy LEND on Token Sale period. The Token Sale shall be provided in a decentralized manner by using an Ethereum-based Smart Contract, which would provide more security due to the decentralized nature. Moreover, all the token purchases will be verified manually before distribution to avoid any misuse.</p>
 
-## <h2>Profit Sharing</h2>
+## <h2>Increasing Value of LEND with Buybacks and Burn</h2>
 
-<p>Token holders are entitled to profit derived from loan Smart Contract that are deployed on ETHLend. The goal of the token sale is to raise funds. Token sale contributors are the early adopters and investors of ETLend decentralized lending. To compensate the contribution on most crucial stage of the development, ETHLend will share profit with the token holders. This means that part of the profit is paid to the token holders address once claimed, on a monthly or quarterly basis.</p>
+<p>Using buybacks to increase the value of LEND. Buybacks is a strategy used for many reasons. In our case, buyback are used to increase value of the token by limiting the total supply of the token and by increasing the percentage of the ownership of token holder’s LEND. Buybacks mean that ETHLend will use profit to buy LEND from exchanges and burn these tokens (erasing the tokens forever).</p>
 
-<p>Profit from deploying Smart Contract. ETHLend derives cash-flow when loan requests are deployed or funded. These fees are in place to fund the development of decentralized lending. However, since token holders are contributing by token sale, ETHLend is able to share the revenue with the token holders and keep the fees low.</p>
+<p>Buybacks are seen as a reward system that is adopted for rewarding token holders by increasing the value of the token. Burning tokens will decrease the total supply of LEND. This would have an increasing effect on the token value. More importantly, burning LEND would increase percentage of token holders ownership since there are less LEND on the market permanently. The token holder may use this additional percentage and liquidate it to gain profit.</p>
 
-<p>Value increasing profit share. Currently, the fees for deploying a loan request is set to 0.01 ETH, which the borrower pays (unless LEND token is used for collateral). Similarly, the lender pays 0.01 ETH for funding the loan. ETHLend will distribute flat 5% of these fees to the token holders. Moreover, additional 1 to 5% is distributed on top of the flat 5% fee depending on the volume growth in ETLend (compared to previous year’s volume). Therefore, ETHLend can distribute as much as 10% as profit share. The profit sharing scheme starts on January 2018. Here is a demonstration of the profit share:</p>
+<p>Buybacks and burning (or “burnbacks”) solve many issues on decentralized environment. First of all, rewarding token holders directly with ETH would create difficulties with are not solved in the current ecosystem. When token holder wishes to trade LEND, tokens are sent to the exchange and the ownership of the LEND is changed to the exchange’s custodian address. This means that the exchange receives the profit. Since there is no profit sharing structure currently adopted by the exchanges, this would create a risk. Buybacks and burning ensures that the ‘real owners’ of the token is the will benefit from the reward.</p>
+
+<p>Transaction costs are avoided. When profit share would be distributed in dividend-like manner, there would be thousands of transactions monthly or quarterly. Each transaction would exhaust a small amount of gas. With buyback there are only few transactions, which means that the saved gas will be utilized to buy and burn more LEND.</p>
+
+<p>Regulatory uncertainty. If assets are associated with dividend-like profit sharing, LEND could be seen as a security by regulators. Buybacks ensures that more jurisdictions will allow usage of LEND resulting in larger demand and use for LEND.</p>
+
+<p>Profit sent to LEND addresses that are dead. There are situations where Ethereum addresses are lost. In these circumstances tokens might be lost as well. This would mean that profit would be distributed to addresses that are dead. Sending ETH to addresses that nobody uses does not provide any value to anyone. On the other hand, if this value is used to reduce the supply of LEND, the value is distributed amongst all token holders.</p>
+
+<p>Uncertainty on taxation. Dividend-like profit share might be seen in the near future as taxable income for token holders since the profit accumulates for holding an asset. On the other hand, buyback increases the value of LEND but might not trigger taxes on income. Of course, this does not avoid the fact that any value increase is taxed once sold, just as any other cryptocurrency. Buyback solves all these issues and supports the aim to deliver strong token on the market.</p>
+
+<p>Part of the fees are used for buybacks. ETHLend derives cash-flow when loan requests are deployed or funded. These fees are in place to fund the development of decentralized lending on ETHLend. Currently, the fees for deploying a loan request is set to 0.01 ETH, which the borrower pays. Similarly, the lender pays 0.01 ETH for funding the loan. ETHLend will use flat 5% of these fees to buy LEND from the exchange to burn the LEND. Moreover, additional 1 to 5% is used on top of the flat 5% fee depending on the fee volume growth in ETHLend (compared to previous year’s volume). Therefore, ETHLend can use as much as 10% of the fees for buybacks to increase the value of LEND and the percentage of the ownerships of token holders by decreasing the total supply of LEND permanently. The buybacks start on January 2018. Here is a demonstration of the fees used for buyback:</p>
 
 1.	First year (during 2018) = 5%
-2.	5% + additional 1% when fee revenue is 20% higher than in previous year
-3.	5% + additional 2% when fee revenue is 40% higher than in previous year
-4.	5% + additional 3% when fee revenue is 60% higher than in previous year
-5.	5% + additional 4% when fee revenue is 80% higher than in previous year
-6.	5% + additional 5% when fee revenue is 100% higher than in previous year
+2.	5% + additional 1% if fee revenue is 20% higher than in previous year
+3.	5% + additional 2% if fee revenue is 40% higher than in previous year
+4.	5% + additional 3% if fee revenue is 60% higher than in previous year
+5.	5% + additional 4% if fee revenue is 80% higher than in previous year
+6.	5% + additional 5% if fee revenue is 100% higher than in previous year
 
-<p>Rewarding token sale contributors. The profit sharing model aim to compensate those token holders that participated in the token sale or are early token holders. Since decentralized lending is forming it shape and growing, up to 10% could be achieved for few years. After the market gets more stable, the profit share might balance itself to 5-6%. This gives an edge to the tokens holders that are participating early on. Secondary aim for LEND token is to provide a token that has concrete value to hold and cash-flow. This makes LEND sought after token.</p>
-
-## <h2>Excemption on Borrower's Fees</h2>
-
-<p>Pledging LEND exempts from the borrower’s fees. LEND tokens is primarily targeted to our contributors. Since most contributors are or will at some point use ETHLend, there are also benefits from holding LEND tokens. When the borrower uses LEND as a collateral, the borrower is exempted from the loan request fee. Using a LEND as a collateral gives the LEND token holders an edge compared to other token holders, which should be soon as an value holding factor for the LEND token.</p>
+<p>Creating value to hold. The buyback model aims to provide value to hold for holding LEND. When the total supply is systematically decreased, the token holder owns greater percentage of total supply of LEND on each burn. Therefore, buybacks motivates to hold the token due to the increasing value effect. Secondarily and indirectly, LEND provides token holders cash-flow. When the percentage of the token holders ownership is increasing, the token holder can sell the increased portion on every burn to realize profit. This makes LEND sought after token.</p>
 
 ## <h2>Token Distribution</h2>
 
