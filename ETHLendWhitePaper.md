@@ -110,6 +110,8 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 <p>Represented value as a collateral for borrowing. Contrary to what might occur, Ethereum-based ERC-20 tokens are perfect to use as a collateral. First, all popular Ethereum-based ERC-20 tokens are traded on exchange. Therefore, we do not have to roll the dices to form a price on most common ERC-20 tokens. Secondly, since we have a price, we usually have the price history as well. This means that we can calculate the volatility of the ERC-20 token and take the volatility into account when we are pledging the tokens to attract lenders.</p>
 
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/ETHLend_WP_Page-4.png)
+
 <p>Moreover, Ethereum-based ERC-20 tokens are easily transferrable between Ethereum Wallets and Smart Contracts. Smart Contracts iself can represent legally binding agreement (an offer and acceptance of offer), and the contractual statute can be agreed upon on the terms and conditions. Lastly, digital tokens are flexible. You can tokenize anything that has value. Due to this flexibility, assets such as real property, company shares and commodities can be placed on a token and pledged for a loan. The aforementioned function could revolutionize lending and trading on all assets. Even assets or value that was previously hard to value and trade, would be now be available for liquidity.</p>
 
 <p>Example, we want to launch a rocket into the moon and we need to finance this venture. We could tokenize the rocket, all parts, rocket launcher, the company behind the venture to be represented as ERC-20 token called ROCK. Next, to finance the project we can pledge the tokens on decentralized lending platform such as ETHLend. Now anyone can participate in the funding of the rocket venture. The same is applicable on existing infrastructure projects such as nuclear power plants, solar power plants or privately held factories.</p>
@@ -156,6 +158,8 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 <p>How do we know that the property is real? In case of DigixDAO for example, an audit takes place, which confirms that the gold reserve is true. Audit is just one example. There are other examples such as oracles or any sort of outsourced trust. In terms of adoption of tokenization, it does not require much that in near future all forms of assets could be represented as ERC-20 compatible tokens.</p>
 
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/ETHLend_WP_Page-8.png)
+
 <p>Tokenization provides more opportunities on lending. When property is tokenized, the tokens could be traded or pledged against a loan. This means that there would be tokens at the loan market that have less volatility and are more suitable as a collateral.  In near future, we do not see any obstacles on having Apple or Facebook shares tokenized and pledged against a loan on ETHLend. Even further, one could tokenize his house that is under construction and pledge it to receive a loan from lenders all parts of the world. The global competition on lending market would provide the most competitive interest rate for the borrower.</p>
 
 ## <h3>Current and Future Use-Cases for Decentralized Lending</h3>
@@ -179,6 +183,8 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 ## <h2>Smart Contracts</h2>
 
 <p>Lending requires more than sending Ether. Decentralized lending requires a blockchain ledger that is able to run more complex transactions than the fundamental sending and receiving value. The core power of Ethereum is the adoption of Smart Contracts. This function provides the ability to use blockchain ledger extensively. Smart Contracts in general definition provides a solution to deploy commands on the blockchain network, which affect the way on how data is stored, represented or handled in the Ethereum blockchain network. This means that we can deploy code that executes but cannot be modified once deployed.</p>
+
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/ETHLend_WP_Page-10.png)
 
 <p>Loan agreement as a Smart Contract. The basic function of a loan agreement is the storage of data. This data includes the information on the loan capital, premium (interest charged), days to loan and the parties of the loan agreement. By using the aforementioned information, we can perform a loan transaction between trusted persons. However, when we want to enable workable solution for lending between borrowers and lenders that do not know each other, we need more than the data above.</p>
 
@@ -346,6 +352,8 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 <p>Above was excerpts of the solidity-based Smart Contract on secured lending. The above demonstrates how a simple loan transaction where the collateral is stored on the contract and all transactions are handled within the Smart Contract that the borrower creates.</p>
 
 <p>Smart Contracts provide the solution for the borrower and the lender to perform a secured loan without relying on third parties. Since Smart Contracts can store ERC-20 compatible tokens and ENS domains, the collateral is easily moved to in any direction. This might not be the case in real life. Moreover, since ERC-20 tokens can represent any value from centralized world, Smart Contracts would provide the possibility to control this value on blockchain. Theoretically, anything can be used as a collateral once tokenized, even a dog.</p>
+
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/ETHLend_WP_Page-14.png)
 
 ## <h2>Secured Lending by Pledging Ethereum-Based Digital Tokens</h2>
 
@@ -545,6 +553,8 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 <p>Liquidity provided by the lender. Alternative for the borrower’s loan request, ETHLend shall adopt a Smart Contract where the lender may place the loan offer for the borrowers. The lender creates a Loan Smart Contract. The lender inserts data on how much liquidity the lender in total is willing to lend, on what premium, and which tokens the lender is willing to accept for collateral. After the lenders Loan Smart Contract is deployed, anyone may lend from lender simply by sending ERC-20 tokens to the Smart Contract.</p>
 
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/ETHLend_WP-05.png)
+
 <p>On-demand lending. The lender provides as above state liquidity for any borrower with the pre-set conditions. This means that instead of participating in multiple loan requests, the lender can handle all loans form one Smart Contract. When a borrower returns the loan the, the token is released and sent back to the borrower and the lender Loan Smart Contract has more liquidity for lending. Factually, we have here an on-going lending institution that the lender has created. The lender may at any point close his loan offer. This would mean that no new loans are granted and the borrowed capital will close on due.</p>
 
 <p>Flexibility and shorter learning curve for the borrower. On-demand lending provides flexibility for the lender. The lender does not need to fund single small loans, instead the lender can place the terms for the loan capital and anyone can borrow merely by sending the accepted ERC-20 token to the loan agreement. For the borrower, on-demand lending means less necessary knowledge on lending. The learning curve is transferred from borrower to the lender, which means that the borrower does not have to evaluate the value of the collateral or evaluate the attractiveness of the premium. Of course, if the borrower is not satisfied of the price of the liquidity that the lenders are providing, the borrower may always place a loan request with its own terms.</p>
@@ -572,6 +582,8 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 <p>ENS domain collateral Smart Contract. The ENS domain by design is transferrable. Transferability provides that the ENS domains are capable for collateral.  When a borrower on ETHLend pledges an ENS domain for a loan, the borrower needs to send the ENS domain to the Smart Contract. The Smart Contract will hold the ENS domain in case the borrower does not repay the loan back. In case of default, the lender is able to claim and transfer the ENS domain to his address for further realization.</p>
 
 <p>Consequently, the ENS domain pledge follows the same roadmap as the tokens pledge. The main distinction is that on token pledge token smart contract address is used for interaction and data. On the other hand, in ENS domain pledge we are using the hash key provided by the ENS registry for transferring the ENS domain to the Smart Contract. The use of Smart Contract additionally guarantees that the address where the received funds are allocated does not change during the pledge, providing security and transparency for the borrower.</p>
+
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/ETHLend_WP_Artboard-8.png)
 
 <p>The rapid growth of ENS domains will lock down vast amount of ETH in to the ENS Smart Contracts. This means that at some point there shall be ETH locked that could be worth of billions of USD. Therefore, ENS domain pledge provides a convenient way to “unlock” these funds for use by obtaining funding and pledging the ENS domain. Eventually ENS domains could end up being even more suitable alternative for a collateral for a loan. ENS domains do not have the volatility that some of the ERC-20 tokens might have. Of course, the volatility with the tokens might disappear eventually and would follow such volatility that is seen on stock market or currency exchange. However, since tokens do differ this not the case for all tokens.</p>
 
@@ -644,6 +656,8 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 ## <h2>Map of ETHLend</h2>
 
 <p>Below is provided the ecosphere of decentralized lending on ETHLend:<p>
+
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/ETHLend_WP-08.png)
 
 <p>Secured lending: ERC-20 Tokens, ENS domains + Unsecured Lending: CRE, uPort (to be implemented)</p>
 
@@ -775,6 +789,8 @@ https://www.linkedin.com/in/andreas-haraldsvik-21140768/
 
 <p>Participating in the development of global peer-to-peer lending market. ETHLend sells ERC-20 compatible Ethereum-based LEND token for crowdsale. The aim for the token sale is to develop further the ETHLend decentralized lending application (DAPP). Currently, we are a team that is developing a global scaled decentralized lending market. To provide a functional lending market to such extent, contributors are required. Our aim is to attract early adopters and participants and reward the contribution with value increase of the LEND token by buying systematically certain amount of tokens from the exchange and burning these tokens (decreasing the supply permanently).</p>
 
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/logo_300DPI-02.png)
+
 <p>Principles of the tokens sale. ETHLend aims to provide a token sale that is democratic, decentralized, secure and fair. This also applies to the vesting model and to the future governance on ETHLend. To comply with democracy, anyone can buy LEND on Token Sale period. The Token Sale shall be provided in a decentralized manner by using an Ethereum-based Smart Contract, which would provide more security due to the decentralized nature. Moreover, all the token purchases will be verified manually before distribution to avoid any misuse.</p>
 
 ## <h2>Increasing Value of LEND with Buybacks and Burn</h2>
@@ -830,6 +846,8 @@ https://www.linkedin.com/in/andreas-haraldsvik-21140768/
 
 <p>ETHLend introduces the following Vesting model for the core team:</p>
 
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/ETHLend_WP-10.png)
+
 1.	80% of LEND is locked once Token Sale distribution has ended
 2.	60% of LEND is locked after 6 months from Token Sale distribution
 3.	40% of LEND is locked after 12 months from Token Sale distribution
@@ -847,6 +865,8 @@ https://www.linkedin.com/in/andreas-haraldsvik-21140768/
 ## <h2>Funds Allocation</h2>
 
 <p>Most of the funds are allocated to further development of the DAPP, either on core development or on user experience development. ETHLend provides the following funds allocation based on needs for application that ETHLend is developing:</p>
+
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/ETHLend_WP-11.png)
 
 *	35% on core development
 *	20% on user experience development
