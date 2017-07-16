@@ -353,7 +353,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 <p>Smart Contracts provide the solution for the borrower and the lender to perform a secured loan without relying on third parties. Since Smart Contracts can store ERC-20 compatible tokens and ENS domains, the collateral is easily moved to in any direction. This might not be the case in real life. Moreover, since ERC-20 tokens can represent any value from centralized world, Smart Contracts would provide the possibility to control this value on blockchain. Theoretically, anything can be used as a collateral once tokenized, even a dog.</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/ETHLend_WP_Page-14.png)
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/ETHLend_WP_Page-14-2.png)
 
 ## <h2>Secured Lending by Pledging Ethereum-Based Digital Tokens</h2>
 
