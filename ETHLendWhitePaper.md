@@ -735,7 +735,7 @@ https://www.linkedin.com/in/scott-malsbury-a6260b12/?ppe=1
 
 https://www.linkedin.com/in/jin-park-27989ab8/
 
-<p>Rowan vab Ginkel, Graphics & Visualization</p>
+<p>Rowan Van Ginkel, Graphics & Visualization</p>
 
 https://www.linkedin.com/in/rowanvanginkel/
 
@@ -743,7 +743,7 @@ https://www.linkedin.com/in/rowanvanginkel/
 
 https://www.linkedin.com/in/edmundto/
 
-<p>Anastasija Plotnikova, Translations</p>
+<p>Anastasija Plotnikova, Advisor & Translations</p>
 
 https://www.linkedin.com/in/anastasija-plotnikova-9b972735/?ppe=1
 
