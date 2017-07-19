@@ -657,7 +657,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 <p>Below is provided the ecosphere of decentralized lending on ETHLend:<p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/ETHLend_WP-08.png)
+![Image](http://about.ethlend.io/wp-content/uploads/2017/06/ETHLend_WP-08-1.png)
 
 <p>Secured lending: ERC-20 Tokens, ENS domains + Unsecured Lending: CRE, uPort (to be implemented)</p>
 
