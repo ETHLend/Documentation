@@ -759,7 +759,7 @@ https://www.linkedin.com/in/smospider/
 
 https://www.linkedin.com/in/andreas-haraldsvik-21140768/
 
-<p>Stephen You, Korean Desk</p>
+<p>Stephen You, Head of Korean Desk</p>
 
 ## <h2>Governance</h2>
 
