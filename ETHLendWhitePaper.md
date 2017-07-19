@@ -353,7 +353,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 <p>Smart Contracts provide the solution for the borrower and the lender to perform a secured loan without relying on third parties. Since Smart Contracts can store ERC-20 compatible tokens and ENS domains, the collateral is easily moved to in any direction. This might not be the case in real life. Moreover, since ERC-20 tokens can represent any value from centralized world, Smart Contracts would provide the possibility to control this value on blockchain. Theoretically, anything can be used as a collateral once tokenized, even a dog.</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/ETHLend_WP_Page-14-2.png)
+![Image](http://about.ethlend.io/wp-content/uploads/2017/07/ETHLend_WP_Page-14.png)
 
 ## <h2>Secured Lending by Pledging Ethereum-Based Digital Tokens</h2>
 
@@ -846,7 +846,7 @@ https://www.linkedin.com/in/andreas-haraldsvik-21140768/
 
 <p>ETHLend introduces the following Vesting model for the core team:</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/ETHLend_WP-10.png)
+![Image](http://about.ethlend.io/wp-content/uploads/2017/07/ETHLend_WP-10.png)
 
 1.	80% of LEND is locked once Token Sale distribution has ended
 2.	60% of LEND is locked after 6 months from Token Sale distribution
