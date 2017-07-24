@@ -834,11 +834,11 @@ https://www.linkedin.com/in/opinderpreet/
 
 <p>The purchase price for LEND is:</p>
 
-1 ETH = 5 000 LEND
+1 ETH = 5 000 LEND.
 
 Bonus:
 
-10% bonus tokens for the first 2 million LEND sold
+10% bonus tokens for the first 2 million LEND sold.
 
 5% bonus for the next 1 million LEND sold.
 
