@@ -759,6 +759,10 @@ https://www.linkedin.com/in/smospider/
 
 https://www.linkedin.com/in/andreas-haraldsvik-21140768/
 
+<p>Opinder Preet Singh, Local Advisor on Indian Subcontinent</p>
+
+https://www.linkedin.com/in/opinderpreet/
+
 <p>Stephen You, Head of Korean Desk</p>
 
 ## <h2>Governance</h2>
@@ -826,15 +830,17 @@ https://www.linkedin.com/in/andreas-haraldsvik-21140768/
 
 ## <h2>Purchase Price</h2>
 
-<p>Endorsing early purchase. The price on LEND is determined in different tiers based on timing and quantity of the purchase. We want to endorse token buyers that are amongst the first by reducing the token sale price for the first purchases.</p>
+<p>Endorsing early purchase. We want to endorse token buyers that are amongst the first by rewarding with bonus tokens for the first purchases.</p>
 
-<p>Multitier token sale. The purchase price for LEND is subject to time and quantity. ETHLend proposes the following tiers for the token sale:</p>
+<p>The purchase price for LEND is:</p>
 
-1.	First 1 000 000 priced at 7 000 LEND per 1 ETH
-2.	1 000 001 to 10 000 000 LEND priced at 6 000 LEND per 1 ETH
-3.	10 000 001 to 500 000 000 LEND priced at 5 000 LEND per 1 ETH
-4.	500 000 001 to 750 000 000 LEND priced at  4 000 LEND per 1 ETH
-5.	750 000 001 to 1 000 000 000 LEND priced at 3 000 LEND per 1 ETH
+1 ETH = 5 000 LEND
+
+Bonus:
+
+10% bonus tokens for the first 2 million LEND sold
+
+5% bonus for the next 1 million LEND sold.
 
 ## <h2>Burning Tokens</h2>
 
