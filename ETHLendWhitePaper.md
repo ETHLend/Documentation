@@ -58,9 +58,9 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 	- [Roadmap](#roadmap)
 - [Introducing LEND Token and the Token Sale](#introducing-lend-token-and-the-token-sale)
 	- [Increasing Value of LEND with Buybacks and Burn](#increasing-value-of-lend-with-buybacks-and-burn)
-	- [Token Distribution](#token-distribution)
+	- [Token Sale](#token-sale)
 	- [Purchase Price](#purchase-price)
-	- [Burning Tokens](#burning-tokens)
+	- [Token Distribution](#token-distribution)
 	- [Vesting](#vesting)
 	- [Security](#security)
 	- [Funds Allocation](#funds-allocation)
@@ -641,17 +641,24 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 <p>We consider ETHLend as a long term project. However, to make most of us, concrete deadlines are necessary. Therefore, we shall introduce the following roadmap for technical implementations:</p>
 
-1.	Implementing ENS Domain Collateral on June 2017
-2.	Implementing CRE for Repayments on June 2017
-3.	LEND Token Crowdsale on September 2017
-4.	User Experience Upgrade during October 2017
-5.	Unsecured Lending with CRE on October 2017
-6.	uPort Integration on November 2017
-7.	On-Demand Lending on January 2018
-8.	Second User Experience Upgrade on February 2018
-9.	Lending Bitcoin and Litecoin on April 2018
-10.	KYC on-board implementation on May 2018
-11.	Lending Other Altcoins on August 2018
+1.	ETHLend Alpha on Ethereum main-net on May 2017 (Milestone achieved)
+2.	ENS Domains as collateral on June 2017 (Milestone achieved)
+3.	Reputation-based Lending with CRE on July 2017 (Milestone achieved)
+4.	Token Sale Smart Contract on August 2017
+5.	Security Audit for the Token Sale Smart Contract on September 2017
+6.	On-Demand and Crowd Lending (Loan Offers from Lenders) on February 2018
+7.	User Experience Upgrade on March 2018
+8.	Decentralized Credit Rating (DCR) on March 2018
+9.	Lending Bitcoin on April 2018
+10.	Gateway for Decentralized Providers (uPort, Civic) to DCR on May 2018
+11.	Oracles: Centralized feeds to DCR on May 2018
+12.	Lending Bitcoin and Litecoin on July 2018
+13.	Second User Experience Upgrade on July 2018
+14.	Protocol to enable AI and Big Data to assess Credit Risk on August 2018
+15.	Revenue scheme for AI Credit Risk bot creators on September 2018
+16.	Prediction Market to Assess Credit Risk on October 2018
+17.	Lending Other Altcoins on November 2018
+18. Protocol to Enable Insurance Policies (with AI bots) on March 2019
 
 ## <h2>Map of ETHLend</h2>
 
@@ -777,17 +784,17 @@ https://www.linkedin.com/in/opinderpreet/
 
 <p>Road to decentralization. ETHLend introduces the following roadmap adopting changes, improvements and governance to ETHLend:</p>
 
-1.	ETHLend DAPP v. 1.0 on May 2017
-2.	White Paper on ETHLend on June 2017
-3.	Token Sale Smart Contract Testing on August 2017
-4.	Token Sale on September 2017
-5.	Swiss Foundation or Swiss LLC on October 2017
-6.	LEND Trading on Exchanges on November 2017
-7.	Buybacks and Burn for LEND starts from January 2018
-8.	Opening Proposition Forum for Token Holders on May 2018
+1.	White Paper on Decentralized Lending on June 2017 (Milestone achieved)
+2.	Creating Special Purpose Vehicle for Token Sale on October 2017
+3.	LEND Token Pre-Sale on September 2017
+4.	LEND Token Sale on November 2017
+5.	Relocating to Zug and Swiss Foundation or Swiss LLC on December 2017
+6.	LEND Trading on Exchanges on January 2018
+7.	Buybacks and Burning for LEND starts on January 2018
+8.	Opening Suggestions Venue for Public on October 2018
 9.	Creating and Testing Democracy DAO on November 2018
-10.	Voting on Proposition Deployed on May 2019
-11.	Vesting for LEND Ends on September 2019
+10.	Voting on Suggestions Deployed on January 2019
+11.	Vesting for LEND Ends on December 2019
 
 ## <h1>Introducing LEND Token and the Token Sale</h1>
 
@@ -824,27 +831,47 @@ https://www.linkedin.com/in/opinderpreet/
 
 <p>Creating value to hold. The buyback model aims to provide value to hold for holding LEND. When the total supply is systematically decreased, the token holder owns greater percentage of total supply of LEND on each burn. Therefore, buybacks motivates to hold the token due to the increasing value effect. Secondarily and indirectly, LEND provides token holders cash-flow. When the percentage of the token holders ownership is increasing, the token holder can sell the increased portion on every burn to realize profit. This makes LEND sought after token.</p>
 
-## <h2>Token Distribution</h2>
+## <h2>Token Sale</h2>
 
-<p>Total of 1 000 000 000 (one billion) LEND is released for sale. Additionally, 300 000 000 LEND is held for development fund to incentivise the development team and to recruit more talent for ETHLend. There will be no follow-up sale on LEND. The tokens are available for purchase for the period of 30 days from the token sale launch. The date for the token sale is to be announced.</p>
+<p>Total of 1 000 000 000 (one billion) LEND is released for sale. Additionally, 300 000 000 LEND is held for development fund to incentivise the development team and to recruit more talent for ETHLend. There will be no follow-up sale on LEND.</p>
+
+<p>62 500 000 LEND tokens from the total amount is pre-sold for early participants</p>
+
+<p>The funding goal for pre-sale is 2 500 ETH (approximately 500 000 in USD).</p>
+
+<p>The funding goal for token sale is 37 500 ETH (approximately 8 000 000 in USD).</p>
+
+<p>Pre-sale starts on 25 September 2017 at 12 GMT.</p>
+
+<p>Pre-sale ends on ends on 25 October 2017 at 23.59 GMT.</p>
+
+<p>Token sale starts on 25 November 2017 at 12 GTM.</p>
+
+<p>Token sale ends on 9 December 2017 at 23.59 GTM.</p>
 
 ## <h2>Purchase Price</h2>
 
 <p>Endorsing early purchase. We want to endorse token buyers that are amongst the first by rewarding with bonus tokens for the first purchases.</p>
 
-<p>The purchase price for LEND is:</p>
+<p>Pre-sale:</p>
 
-1 ETH = 5 000 LEND.
+<p>Token sale price: 1 ETH = 25 000 LEND.</p>
 
-Bonus:
+<p>Bonus tokens: 20% (For all tokens purchased on pre-sale).</p>
 
-10% bonus tokens for the first 2 million LEND sold.
+<p>Token Sale:</p>
 
-5% bonus for the next 1 million LEND sold.
+<p>Token sale price: 1 ETH = 25 000 LEND.</p>
 
-## <h2>Burning Tokens</h2>
+<p>Bonus tokens on token sale:</p>
 
-<p>All tokens that are not sold during the token sale are burned. This means that these tokens cannot be used and the total supply of the tokens is reduced and the value of sold tokens increases. The maximum amount of tokens for sale is one billion. This limit cannot be exceeded and there will be no minting or a follow up sale for LEND.</p>
+<p>10% bonus tokens for the first 200 000 000 LEND.</p>
+
+<p>5% bonus tokens for the next 100 000 000 LEND.</p>
+
+## <h2>Token Distribution</h2>
+
+<p>LEND is distributed immediately once ETH is send to the crowdsale smart contract. This solution provides more security since the crowdsale smart contract mints LEND when ETH is received. Therefore, participants can send smaller amounts to verify whether they have received LEND. Instant distribution is fair since the participants do not need to wait for weeks to access the tokens. Instead once ETH is received, LEND is minted and sent to the participants address.</p>
 
 ## <h2>Vesting</h2>
 
@@ -864,7 +891,11 @@ Bonus:
 
 ## <h2>Security</h2>
 
-<p>Security on focus. LEND token sale is performed on decentralized Ethereum Smart Contract. The token sale contract shall be tested on Kovan testnet and performed on Ethereum mainnet. There will be a manual due diligence of each token sale transaction that has taken place to make sure there is no misuse of the token sale.</p>
+<p>The token sale is performed with the use of Ethereum smart contract. Since all transactions are confirmed on the blockchain, the smart contract is resistant for security threats. The crowdsale smart contract code shall be available on GitHub and the code will be reviewed and audited by third party security auditing service.</p>
+
+<p>The smart contract in itself is simple to avoid complex transactions. The smart contract will have extra security since the tokens are minted only when ETH is send to the address. This means that only way to receive LEND is by sending ETH, making it more resistant to misuse and fraud. Moreover, this gives the participant the opportunity to send a smaller amount of ETH to test whether LEND is received. Therefore, if the token address display is compromised, the loss is limited.</p>
+
+<p>The token sale page shall be held on a DDOS protected environment, on a separate server with writing locks on the token sale page files from the server side. The token sale page will be simple and as static as possible to avoid any complexity. Besides the above, additional security measures are adopted.</p>
 
 <p>Storing the funds. All raised funds are stored in divided multi-signature Ethereum wallets. Therefore, the access to funds would require multiple people to sign. Diversification of wallets provides extra-safety in case private key would be compromised. A spending account with less than 5% of the funds can be held on a single-signature account.</p>
 
