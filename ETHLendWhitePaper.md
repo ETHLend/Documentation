@@ -835,7 +835,7 @@ https://www.linkedin.com/in/opinderpreet/
 
 <p>Total of 1 000 000 000 (one billion) LEND is released for sale. Additionally, 300 000 000 LEND is held for development fund to incentivise the development team and to recruit more talent for ETHLend. There will be no follow-up sale on LEND.</p>
 
-<p>62 500 000 LEND tokens from the total amount is pre-sold for early participants</p>
+<p>62 500 000 LEND (6.25%) tokens from the total amount is pre-sold for early participants</p>
 
 <p>The funding goal for pre-sale is 2 500 ETH (approximately 500 000 in USD).</p>
 
