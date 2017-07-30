@@ -235,6 +235,13 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 <p>Smart Contracts for decentralized lending. Smart Contract are suitable for lending that does not happen on local or centralized services. In decentralized environment, there is need to secure or provide reputation based trust between the borrower and lender since we must trust that the loan is repaid back. Smart Contracts can handle complex transactions such as future payments, sending tokens, sending ENS domains and conducting all sorts of calculations. Moreover, Smart Contracts are capable to store and group data on blockchain which is important for the loan agreements since we need to store information on-chain regarding to the loan amount, premium, days to loan, collateral, the parties of the loan agreement.</p>
 
+## <h2>Technology Architechture</h2>
+
+*	Meteor
+*	NodeJS
+*	Solidity
+*	Web3.js
+
 ## <h2>Secured Lending by Pledging Ethereum-Based Digital Tokens</h2>
 
 <p>Smart contracts are perfect for secured lending. In secured lending, we use a collateral such as an Ethereum-based ERC20 Token or ENS domain. Basic secured lending Smart Contract works in the following way:</p>
