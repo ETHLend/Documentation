@@ -878,7 +878,7 @@ https://www.linkedin.com/in/opinderpreet/
 
 ## <h2>LEND token as a discount ticket on fees on ETHLend</h2>
 
-<p>LEND token is used to pay deployment and funding fees on ETHLend. Even though that the fees can be paid with ETH, would give access to early contributors lower fees on ETHLend. Practically LEND can be seen as a discount ticket for the early contributors to pay less fees on ETHLend.</p>
+<p>LEND token is used to pay deployment and funding fees on ETHLend. Even though that the fees can be paid with ETH, LEND would provide access to early contributors for lower fees on ETHLend. Practically LEND can be seen as a discount ticket for the early contributors to pay less fees on ETHLend.</p>
 
 <p>The amount of fees shall be determined by the market price of LEND and the value difference compared to LEND. The aim is to provide 25% discount for the fees for early contributors when using LEND to pay fees on ETHLend instead of ETH.</p>
 
