@@ -30,6 +30,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 	- [Paradox of Value: Smart Contract Deployment](#paradox-of-value-smart-contract-deployment)
 - [The Decentralized Application (DAPP)](#the-decentralized-application-dapp)
 	- [Secured Lending by Pledging Ethereum-Based Digital Tokens](#secured-lending-by-pledging-ethereum-based-digital-tokens)
+	- [Demonstration of the DAPP](#demonstration-of-the-dapp)
 		- [New Loan Request](#new-loan-request)
 		- [The Loan Contract](#the-loan-contract)
 		- [Sending Digital Tokens to the Smart Contract](#sending-digital-tokens-to-the-smart-contract)
@@ -365,7 +366,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 ![Image](http://about.ethlend.io/wp-content/uploads/2017/07/ETHLend_WP_Page-14.png)
 
-## <h2>Secured Lending by Pledging Ethereum-Based Digital Tokens</h2>
+## <h2>Demonstration of the DAPP</h2>
 
 <p>In this section, we will demonstrate how ETHLend DAPP works from the user experience perspective. We will go step-by-step walk-through on how to request a loan and to fund a loan. You will need to have Google Chrome and the MetaMask plugin installed. MetaMask is Google Chrome plugin to allow decentralized application, such as, ETHLend, to be run in the browser without downloading the full Ethereum node.</p>
 
