@@ -64,7 +64,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 	- [Governance](#governance)
 	- [Roadmap](#roadmap)
 - [Introducing LEND Token and the Token Sale](#introducing-lend-token-and-the-token-sale)
-	- [LEND token as a discount ticket on fees on ETHLend] (#lend-token-as-a-discount-ticket-on-fees-on-ethlend)
+	- [LEND token as a discount ticket on fees on ETHLend](#lend-token-as-a-discount-ticket-on-fees-on-ethlend)
 	- [Buying Unused LEND back from the market and burning](#buying-unused-lend-back-from-the-market-and-burning)
 	- [Token Sale](#token-sale)
 	- [Purchase Price](#purchase-price)
