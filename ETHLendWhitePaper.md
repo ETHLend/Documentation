@@ -28,7 +28,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 	- [Ether](#ether)
 	- [Tokenization](#tokenization)
 	- [Paradox of Value: Smart Contract Deployment](#paradox-of-value-smart-contract-deployment)
-- [Fully Decentralized On-Chain Solution for Lending Market](#fully-decentralized-on-chain-solution-for-lending-market)
+- [The Decentralized Application (DAPP)](#the-decentralized-application-dapp)
 	- [Secured Lending by Pledging Ethereum-Based Digital Tokens](#secured-lending-by-pledging-ethereum-based-digital-tokens)
 		- [New Loan Request](#new-loan-request)
 		- [The Loan Contract](#the-loan-contract)
@@ -54,7 +54,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 		- [Performance](#performance)
 		- [Translations](#translations)
 		- [Technical Roadmap](#technical-roadmap)
-	- [Map of ETHLend](#map-of-ethlend)
+	- [Map of ETHLend DAPP](#map-of-ethlend-dapp)
 - [Legal Evaluation of the Loan agreement on ETHLend](#legal-evaluation-of-the-loan-agreement-on-ethlend)
 	- [Contractual Relationship](#contractual-relationship)
 	- [Collateral](#collateral)
@@ -226,13 +226,15 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 <p>On the other hand, this is not a problem if the borrower lives in the crypto-currency economy. This might be the case for many within the next five years. It would mean that the user would get his income in ETH (or any other crypto-currency). In this case, the borrower do not need to bear the cost of rising ETH price. However, if there would be high amount of users from the FIAT economy, this would eventually mean that it would make more sense to borrow bigger amounts that resorting to microlending. This could raise the bar for access to finance, which worries us the most.</p>
 
-## <h1>Fully Decentralized On-Chain Solution for Lending Market</h1>
+## <h1>The Decentralized Application (DAPP)</h1>
 
 <p>Decentralized lending. Ethereum provides the ecosystem for lending that is conducted on-chain. By decentralized lending we refer that all transactions are made on blockchain and all data that is associated with the loans are stored and running on the blockchain network. The solution provides safety, trust and transparency between the borrowers and the lenders.</p>
 
 <p>Smart Contracts. Ethereum-based Smart Contracts provide the ecosystem for creating trustless functions between parties. By trustless we refer that we can eliminate the need to rely on third party services. All transactions are performed with the use of Smart Contracts. This means that when deployed, the loan agreement (the code) cannot be manipulated or compromised, even by ETHLend since the code is running on the blockchain, copying itself from hard-drive to hard-drive.</p>
 
 <p>Smart Contracts for decentralized lending. Smart Contract are suitable for lending that does not happen on local or centralized services. In decentralized environment, there is need to secure or provide reputation based trust between the borrower and lender since we must trust that the loan is repaid back. Smart Contracts can handle complex transactions such as future payments, sending tokens, sending ENS domains and conducting all sorts of calculations. Moreover, Smart Contracts are capable to store and group data on blockchain which is important for the loan agreements since we need to store information on-chain regarding to the loan amount, premium, days to loan, collateral, the parties of the loan agreement.</p>
+
+## <h2>Secured Lending by Pledging Ethereum-Based Digital Tokens</h2>
 
 <p>Smart contracts are perfect for secured lending. In secured lending, we use a collateral such as an Ethereum-based ERC20 Token or ENS domain. Basic secured lending Smart Contract works in the following way:</p>
 
@@ -732,7 +734,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 17.	Lending Other Altcoins on November 2018
 18. Protocol to Enable Insurance Policies (with AI bots) on March 2019
 
-## <h2>Map of ETHLend</h2>
+## <h2>Map of ETHLend DAPP</h2>
 
 <p>Below is provided the ecosphere of decentralized lending on ETHLend:<p>
 
