@@ -734,13 +734,12 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 9.	Lending Bitcoin on April 2018
 10.	Gateway for Decentralized Providers (uPort, Civic) to DCR on May 2018
 11.	Oracles: Centralized feeds to DCR on May 2018
-12.	Lending Bitcoin and Litecoin on July 2018
-13.	Second User Experience Upgrade on July 2018
-14.	Protocol to enable AI and Big Data to assess Credit Risk on August 2018
-15.	Revenue scheme for AI Credit Risk bot creators on September 2018
-16.	Prediction Market to Assess Credit Risk on October 2018
-17.	Lending Other Altcoins on November 2018
-18. Protocol to Enable Insurance Policies (with AI bots) on March 2019
+12.	Second User Experience Upgrade on July 2018
+13.	Protocol to enable AI and Big Data to assess Credit Risk on August 2018
+14.	Revenue scheme for AI Credit Risk bot creators on September 2018
+15.	Prediction Market to Assess Credit Risk on October 2018
+16.	Lending Other Altcoins on November 2018
+17. Protocol to Enable Insurance Policies (with AI bots) on March 2019
 
 ## <h2>Map of ETHLend DAPP</h2>
 
