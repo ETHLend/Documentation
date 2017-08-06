@@ -745,7 +745,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 20. Protocol to Enable Insurance Policies (with AI bots) on March 2019
 21. Sophisticated collateral control (Calling & Liquidating the collateral) on May 2019
 
-<p>* These milestones are developed if the token sale cap (1 000 000 000 LEND is reached) due to the vast amount of resources these particular milestones require.
+<p>* These milestones are developed if the token sale cap (1 000 000 000 LEND is reached) due to the vast amount of resources these particular milestones require.</p>
 
 ## <h2>Map of ETHLend DAPP</h2>
 
