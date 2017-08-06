@@ -728,18 +728,19 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 3.	Reputation-based Lending with CRE on July 2017 (Milestone achieved)
 4.	Token Sale Smart Contract on August 2017
 5.	Security Audit for the Token Sale Smart Contract on September 2017
-6.	On-Demand and Crowd Lending (Loan Offers from Lenders) on February 2018
-7.	User Experience Upgrade on March 2018
-8.	Decentralized Credit Rating (DCR) on March 2018
-9.	Lending Bitcoin on April 2018
-10.	Gateway for Decentralized Providers (uPort, Civic) to DCR on May 2018
-11.	Oracles: Centralized feeds to DCR on May 2018
-12.	Second User Experience Upgrade on July 2018
-13.	Protocol to enable AI and Big Data to assess Credit Risk on August 2018
-14.	Revenue scheme for AI Credit Risk bot creators on September 2018
-15.	Prediction Market to Assess Credit Risk on October 2018
-16.	Lending Other Altcoins on November 2018
-17. Protocol to Enable Insurance Policies (with AI bots) on March 2019
+6.	USD Based Loans and Installments December 2017
+7.	On-Demand and Crowd Lending (Loan Offers from Lenders) on February 2018
+8.	User Experience Upgrade on March 2018
+9.	Decentralized Credit Rating (DCR) on March 2018
+10.	Lending Bitcoin on April 2018
+11.	Gateway for Decentralized Providers (uPort, Civic) to DCR on May 2018
+12.	Oracles: Centralized feeds to DCR on May 2018
+13.	Second User Experience Upgrade on July 2018
+14.	Protocol to enable AI and Big Data to assess Credit Risk on August 2018
+15.	Revenue scheme for AI Credit Risk bot creators on September 2018
+16.	Prediction Market to Assess Credit Risk on October 2018
+17.	Lending Other Altcoins on November 2018
+18. Protocol to Enable Insurance Policies (with AI bots) on March 2019
 
 ## <h2>Map of ETHLend DAPP</h2>
 
