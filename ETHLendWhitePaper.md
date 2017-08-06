@@ -732,15 +732,18 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 7.	On-Demand and Crowd Lending (Loan Offers from Lenders) on February 2018
 8.	User Experience Upgrade on March 2018
 9.	Decentralized Credit Rating (DCR) on March 2018
-10.	Lending Bitcoin on April 2018
-11.	Gateway for Decentralized Providers (uPort, Civic) to DCR on May 2018
-12.	Oracles: Centralized feeds to DCR on May 2018
-13.	Second User Experience Upgrade on July 2018
-14.	Protocol to enable AI and Big Data to assess Credit Risk on August 2018
-15.	Revenue scheme for AI Credit Risk bot creators on September 2018
-16.	Prediction Market to Assess Credit Risk on October 2018
-17.	Lending Other Altcoins on November 2018
-18. Protocol to Enable Insurance Policies (with AI bots) on March 2019
+10. Penalties for Late Payment on April 2018
+11.	Lending Bitcoin on April 2018
+12. LEND accepted as payment with 25% discount on May 2018
+13.	Gateway for Decentralized Providers (uPort, Civic) to DCR on May 2018
+14.	Oracles: Centralized feeds to DCR on May 2018
+15.	Second User Experience Upgrade on July 2018
+16.	Protocol to enable AI and Big Data to assess Credit Risk on August 2018
+17.	Revenue scheme for AI Credit Risk bot creators on September 2018
+18.	Prediction Market to Assess Credit Risk on October 2018
+19.	Lending Other Altcoins on November 2018
+20. Protocol to Enable Insurance Policies (with AI bots) on March 2019
+21. Sophisticated collateral control (Calling & Realizing collateral) on May 2019
 
 ## <h2>Map of ETHLend DAPP</h2>
 
