@@ -1027,9 +1027,9 @@ https://www.linkedin.com/in/opinderpreet/
 
 <p>Further updates on LEND Token Sale and DAPP updates are published on http://about.ETHLend.io and in our mailing list. The Token Sale launch will be announced on our mailing list and published on http://about.ETHLend.io/blog </p>
 
-<p>For questions, join our slack:</p>
+<p>For questions, join our Discord:</p>
 
-<p>https://join.slack.com/ETHLend/shared_invite/MjAzMTM0MzEyNzA3LTE0OTg0MDk0NDItOGY0MTlkMTlmZA </p>
+<p>https://discord.gg/nKjsStv </p>
 
 <p>Reddit:</p>
 
