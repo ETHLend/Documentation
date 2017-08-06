@@ -743,7 +743,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 18.	Prediction Market to Assess Credit Risk on October 2018
 19.	Lending Other Altcoins on November 2018
 20. Protocol to Enable Insurance Policies (with AI bots) on March 2019
-21. Sophisticated collateral control (Calling & Realizing collateral) on May 2019
+21. Sophisticated collateral control (Calling & Liquidating the collateral) on May 2019
 
 ## <h2>Map of ETHLend DAPP</h2>
 
