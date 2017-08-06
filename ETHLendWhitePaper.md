@@ -40,7 +40,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 	- [On-Demand Lending](#on-demand-lending)
 	- [Secured Lending by Pledging Ethereum Name Service Domains (ENS)](#secured-lending-by-pledging-ethereum-name-service-domains-ens)
 	- [Lending Based on Reputation and Credit Token (CRE)](#lending-based-on-reputation-and-credit-token-cre)
-	- [Risk Assessment](#risk-assessment)
+	- [Credit Risk Assessment](#credit-risk-assessment)
 		- [Decentralized Credit Rating (DCR)](#decentralized-credit-rating-dcr)
 		- [Prediction Market to Predict Credit Risk](#prediction-market-to-predict-credit-risk)
 		- [Artificial Intelligence and Ledger Big Data to Predict Credit Risk](#artificial-intelligence-and-ledger-big-data-to-predict-credit-risk)
@@ -49,6 +49,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 	- [Risk Sharing](#risk-sharing)
 		- [Sharing the Risk with Other Lenders (Crowdlending)](#sharing-the-risk-with-other-lenders-crowdlending)
 		- [Decentralized Insurance Policy](#decentralized-insurance-policy)
+	- [Currency Exchange Risk Management](#currency-exchange-risk-management)
 	- [User Experience on ETHLend](#user-experience-on-ethlend)
 		- [Accessibility](#accessibility)
 		- [User Interface](#user-interface)
@@ -621,7 +622,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 <p>Even though, a reputation system is not a new invention, using an ERC-20 token for reputation management is a fascinating method to create the system in the decentralized environment. Other means would be merely by broadcasting centralized reputation value on the blockchain. However, digital tokens provide more transparency and trust, since the ERC-20 token is created with its own smart contract. Moreover, the data is easily removed from defaulted borrower since digital tokens can be burned on default.</p>
 
-## <h2>Risk Assesment</h2>
+## <h2>Credit Risk Assesment</h2>
 
 <p>Credit risk is the Achilles heel in decentralized lending. Much of the criticism on decentralized lending is focused on the risk. Indeed, the risk assessment criticism can be toned down with the use of sufficient collateral. However, collateralized lending itself would not be decentralized lending in its fullest potential. Therefore, solutions should be found that concentrate on how uncollateralized lending would be efficient in pseudo-anonymous environment.</p>
 
@@ -696,6 +697,16 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 <p>Providing insurance for credit risk. ETHLend wants to provide a market for decentralized credit policies. The aim is to provide a way that insurers can assess the data required to calculate an insurance policy risk and cost and provide such offer to the lender. This would create additional market for the insurers and would also provide relief for the lenders on the credit risk. Factually such insurance policy would be more of a guarantee since a smart contract must be used to store the funds in case the insurance policy is realized. Moreover, smart contract is ideal since there is no need for claim processing since the data on default can be read from the loan smart contract. The aforementioned should lower the insurance costs since the insurer has less manual procedures.</p>
 
 <p>Using AI and Big data for insuring credit risk. ETHLend will also provide a protocol for AI developers to use ledger and loan transaction data and provide an insurance policy calculated and computed with the use of AI. The aim is to create a revenue stream for AI developers and to incentivise creating bots that would calculate more efficiently. The competition on efficiency should lower the insurance policy costs. Moreover, these bots could be the same that assess the credit risk and additionally these bots could work autonomously and accept investments. For example if AI bot is willing to provide insurance based on the assessment, the bot would need to guarantee the same amount of liquidity by placing the liquidity to a smart contract in case of default. Third parties could fund these AI bots against profit share.</p>
+
+## <h2>Currency Exchange Risk Management</h2>
+
+<p>Decentralized lending is ideal when the borrower spends the borrowed ETH for purchasing in products or services in ETH and repaying the loan with ETH earned income. Most of the funding goals are in the FIAT world and most income is earned in the FIAT world as well. Therefore, there should be an option that lending ETH and spending it in FIAT would not result to currency exchange volatility risks. A volatility risk might be in hand when a borrower borrows 1 ETH once the ETH price is at USD 200. On repayment the ETH price might be USD 250. If the borrower is repaying the loan with FIAT earned income this would mean that the borrower has to pay USD 50 more for the loan.</p>
+
+<p>FIAT currency pegged loans. Such issue is solved by providing FIAT based loans where the loan amount is represented in FIAT currency, even though the transaction is conducted in ETH. Therefore, the borrower can borrow USD 200 worth of ETH and repay USD 200 worth of ETH. Hence, no volatility risk for the borrower when spending and repayment of the loan is measured by FIAT currency. For the lender, price increase from USD 200 to USD 250 would not amount loss since ETH is worth more even though the amount that the lender receives is less in ETH. For the lender such a position would mean merely opportunity loss, since the lender made profit in USD.</p>
+
+<p>Such loans are attractive for lenders that are exchanging from FIAT to ETH and want to access the global lending market. Moreover, such a loan is attractive to the lenders as per se, since there is no guarantee that the price of ETH will increase and the lender does not need to lend all of the available capital for such loan. Thus, a price speculator could still participate in the FIAT peg lending market. The FIAT currency peg means that other currencies can be used as well for the base currency of a decentralized loan transaction. Oracles would be used for the price feed which would give the average price on ETH against major currencies.</p>
+
+<p>Financing the globe. FIAT pegged loans are a good alternative during the period when crypto economy is still in development. The main aim of the FIAT peg is to provide more access to finance for the unbanked or to provide finance to markets where lending is ineffective due to lack of credit rating facilities or illiquidity. For example at some future point a person in India could be verified as creditworthy by a local shop owner (Oracle). Such person could receive by Oracle verification 0.1 Credit Token for lending. This person can now place a loan request that is based on Indian Rupee and pay the same amount in the same currency with ETH. Now, anyone from any part of the world may fund this loan request.</p>
 
 ## <h2>User Experience on ETHLend</h2>
 
@@ -876,7 +887,7 @@ https://www.linkedin.com/in/opinderpreet/
 <p>Road to decentralization. ETHLend introduces the following roadmap adopting changes, improvements and governance to ETHLend:</p>
 
 1.	White Paper on Decentralized Lending on June 2017 (Milestone achieved)
-2.	Creating Special Purpose Vehicle for Token Sale on October 2017
+2.	Creating Special Purpose Vehicle for Token Sale on August 2017
 3.	LEND Token Pre-Sale on September 2017
 4.	LEND Token Sale on November 2017
 5.	Relocating to Zug and Swiss Foundation or Swiss LLC on December 2017
