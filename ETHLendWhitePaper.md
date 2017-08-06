@@ -821,6 +821,10 @@ https://www.linkedin.com/in/adnan-javed/
 
 https://www.linkedin.com/in/sergej-stein/
 
+<p>Kersten Schütze, Head of Corporate Strategy, kersten@ETHLend.io</p>
+
+https://www.linkedin.com/in/kersten-sch%C3%BCtze-5ab3a2100/
+
 <p>Scott Malsbury, Head of Communications, scott@ETHLend.io</p>
 
 https://www.linkedin.com/in/scott-malsbury-a6260b12/?ppe=1
