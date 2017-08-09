@@ -969,20 +969,20 @@ https://www.linkedin.com/in/opinderpreet/
 
 <p>(price includes 20% bonus tokens for all pre-sale participants).</p>
 
-<p>Minimum amount to participate: 1 ETH</p>
+<p>Minimum amount to participate: 1 ETH.</p>
 
 <p>Token Sale:</p>
 
-<p>First 200 000 000 LEND: 27 500 LEND = 1 ETH</p>
+<p>First 200 000 000 LEND: 27 500 LEND = 1 ETH.</p>
 
 <p>(price includes 10% bonus tokens)</p>
 
-<p>Next 100 000 000 LEND: 26 250 LEND = 1 ETH</p>
+<p>Next 100 000 000 LEND: 26 250 LEND = 1 ETH.</p>
 <p>(price includes 5% bonus tokens)</p>
 
-<p>Remaining LEND: 25 000 LEND = 1 ETH</p>
+<p>Remaining LEND: 25 000 LEND = 1 ETH.</p>
 
-<p>Minimum amount to participate: 	0.01 ETH<p>
+<p>Minimum amount to participate: 0.01 ETH.<p>
 
 ## <h2>Token Distribution</h2>
 
