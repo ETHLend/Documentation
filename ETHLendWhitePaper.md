@@ -945,11 +945,11 @@ https://www.linkedin.com/in/opinderpreet/
 
 <p>Total of 1 000 000 000 (one billion) LEND is released for sale. Additionally, 300 000 000 LEND is held for development fund to incentivise the development team and to recruit more talent for ETHLend. There will be no follow-up sale on LEND.</p>
 
-<p>62 500 000 LEND (6.25%) tokens from the total amount is pre-sold for early participants</p>
+<p>60 000 000 LEND (6%) tokens from the total amount is pre-sold for early participants</p>
 
-<p>The funding goal for pre-sale is 2 500 ETH (approximately 500 000 in USD).</p>
+<p>The funding goal for pre-sale is 2 000 ETH.</p>
 
-<p>The funding goal for token sale is 37 500 ETH (approximately 8 000 000 in USD).</p>
+<p>The funding goal for token sale is 37 600 ETH.</p>
 
 <p>Pre-sale starts on 25 September 2017 at 12 GMT.</p>
 
@@ -965,19 +965,24 @@ https://www.linkedin.com/in/opinderpreet/
 
 <p>Pre-sale:</p>
 
-<p>Token sale price: 1 ETH = 25 000 LEND.</p>
+<p>Token sale price: 1 ETH = 30 000 LEND.</p>
 
-<p>Bonus tokens: 20% (For all tokens purchased on pre-sale).</p>
+<p>(price includes 20% bonus tokens for all pre-sale participants).</p>
+
+<p>Minimum amount to participate: 1 ETH</p>
 
 <p>Token Sale:</p>
 
-<p>Token sale price: 1 ETH = 25 000 LEND.</p>
+<p>First 200 000 000 LEND: 27 500 LEND = 1 ETH</p>
 
-<p>Bonus tokens on token sale:</p>
+<p>(price includes 10% bonus tokens)</p>
 
-<p>10% bonus tokens for the first 200 000 000 LEND.</p>
+<p>Next 100 000 000 LEND: 26 250 LEND = 1 ETH</p>
+<p>(price includes 5% bonus tokens)</p>
 
-<p>5% bonus tokens for the next 100 000 000 LEND.</p>
+<p>Remaining LEND: 25 000 LEND = 1 ETH</p>
+
+<p>Minimum amount to participate: 	0.01 ETH<p>
 
 ## <h2>Token Distribution</h2>
 
