@@ -74,6 +74,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 	- [Vesting](#vesting)
 	- [Security](#security)
 	- [Funds Allocation](#funds-allocation)
+	- [Token Sale Entity](#token-sale-entity)
 - [Further Updates](#further-updates)
  
 ## <h1>Background</h1>
@@ -1027,6 +1028,14 @@ https://www.linkedin.com/in/opinderpreet/
 *	10% on unexpected costs
 
 <p>Funds allocation is subject to change for providing flexibility. ETHLend will use best practices on funds allocation and its own discretion.</p>
+
+## <h1>Token Sale Entity</h1> </p>
+
+<p>Entity behing the token sale:</p>
+
+<p>Block Research Limited - Reg: 2564331 -  14/F Manning House 38-48 Queens Road Central, Central, Hong Kong</p>
+
+<p>Complaints: hi [-at-] ethlend [dot] io</p>
 
 ## <h1>Further Updates</h1> </p>
 
