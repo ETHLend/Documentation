@@ -73,8 +73,8 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 	- [Token Distribution](#token-distribution)
 	- [Vesting](#vesting)
 	- [Security](#security)
-	- [Funds Allocation](#funds-allocation)
 	- [Token Sale Entity](#token-sale-entity)
+	- [Funds Allocation](#funds-allocation)
 - [Further Updates](#further-updates)
  
 ## <h1>Background</h1>
@@ -100,8 +100,6 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 <p>Blockchain provides global access to transactions. Blockchain makes it possible to send transactions uninterrupted and uncompromised globally. By using the Ethereum blockchain technology, anyone can send to anywhere a transaction of value, Ether (ETH). ETH is the native token of Ethereum, which is used as compensation for sending transaction on the Ethereum network. Thanks to Ethereum Smart Contracts complexe and sophisticated transaction can take place in a secure way</p>
 
 <p>Fixing the lending market. Today the inflation-adjusted interest rate in different countries varies based on the available liquidity. In high liquidity market, Europe, interest rates are between 0.5-5 percent, in Russia 12-15 percent, in India 12 percent and in Brazil 32 percent. This shows a clear inequality in the way acces to the lending market is distributed. We believe that this inequality between the borrowers should be flattened.</p>
-
-<p>Before (left side) After (right side). Pictures with world map. On left world map different sizes of interest rate on diagram followed by percent (%) sign. On the right side these different sizes of diagrams are all in the same level (flattened) to indicate global competition on interest rates (should be lower than average on left side).</p>
 
 <p>Inequality has many reasons. Indeed higher interest rates on some countries are a product of high risk on default. However, we believe that if there would be more liquidity on these high interest rate markets, there would be more pressure on the interest rates. Moreover, using collaterals such as we are presenting on this white paper would provide the ratio to lend to these markets.</p>
 
