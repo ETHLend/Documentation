@@ -67,7 +67,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 	- [Roadmap](#roadmap)
 - [Introducing LEND Token and the Token Sale](#introducing-lend-token-and-the-token-sale)
 	- [LEND token as a discount ticket on fees on ETHLend](#lend-token-as-a-discount-ticket-on-fees-on-ethlend)
-	- [Buying Unused LEND back from the market and burning](#buying-unused-lend-back-from-the-market-and-burning)
+	- [Rewarding active lenders and borrowers with airdrops](#rewarding-active-lenders-and-borrowers-with-airdrops)
 	- [Token Sale](#token-sale)
 	- [Purchase Price](#purchase-price)
 	- [Token Distribution](#token-distribution)
@@ -907,11 +907,19 @@ https://www.linkedin.com/in/opinderpreet/
 
 ## <h2>LEND token as a discount ticket on fees on ETHLend</h2>
 
-<p>LEND token is used to pay deployment and funding fees on ETHLend. Even though that the fees can be paid with ETH, LEND would provide access to early contributors for lower fees on ETHLend. Practically LEND can be seen as a discount ticket for the early contributors to pay less fees on ETHLend.</p>
+<p>Increasing user adoption with LEND airdrops. ETHLend increases the usability of the product by introducing new mechanisms for user adoption. ETHLend aims to reward early adopters with the use of LEND tokens. The previously introduced LEND buybacks and burning is from now on deprecated. Instead, ETHLend will focus on creating value for the users and more value for the product, thus indirectly creating value for the token holders as well. ETHLend will use LEND token airdrops to increase the user adoption and add more volume to the loan book. An airdrop means that a certain amount of tokens is distributed to the users of the decentralized application.</p>
 
-<p>The amount of fees shall be determined by the market price of LEND and the value difference compared to LEND. The aim is to provide 25% discount for the fees for early contributors when using LEND to pay fees on ETHLend instead of ETH.</p>
+<p>Buybacks and burning were previously introduced by ETHLend for creating more value for the token holders. However, these models have two drawbacks. First, buying LEND back from the market and permanently removing it from the circulation might decrease the total supply of LEND. This assumption implies that the token would increase in value due to the scarcity. Burning the LEND would not guarantee that the token increases in value. Secondly, pursuing the increase of the token value distracts ETHLend from the real opportunity - the users of the decentralized application.</p>
 
-## <h2>Buying unused LEND back from the market and burning</h2>
+<p>Creating rewarding mechanisms that aggregate more volume for the decentralized application creates more value for the product and eventually more value for the token holders as well. When the product and the venture is successful, the token holder’s LEND, which is used on the platform, has more value. Based on the above, instead of burning the tokens, ETHLend will airdrop the tokens to lenders and borrowers who actively use the decentralized application. The reward sets the motivation to borrowers and lenders to use the return and to use the application more frequently.</p>
+
+<p>The utility function of the airdropped LEND. ETHLend will use 20% of the decentralized application fees (loan request fee and funding fee) to purchase LEND from the market and airdrop the LEND for all the lenders and borrowers on ETHLend, based on the previous period’s volume. These airdrops are done either quarterly or monthly based on the complexity of the process in practice. The airdropped LEND can only be used as a collateral on ETHLend and cannot be transferred to another address. The aim is to provide additional collateral value for the borrower, which reduces the amount the borrower needs to provide as collateral. The lenders can use the airdropped LEND for different functions on ETHLend, such as paying featured listing fees or paying prediction market or credit risk assessment bots.</p>
+
+<p>Certain limitations apply to LEND due to security reasons and efficiency. First, we acknowledge that a free market does not always equal a fair market. Large volumes might be achieved with big loans. ETHLend will apply limitation on how much LEND is airdropped to an address. Secondly, the airdropped LEND must be used within 24 months. Therefore, once the airdrop is made, the borrower or lender must engage in lending within 24 months. Otherwise the LEND will go for redistribution to the next airdrop.</p>
+
+<p>When LEND is used as stated above, LEND creates more volume on the applications since the participants are getting more value by using LEND as a collateral or paying functions on ETHLend. Eventually, the LEND replaces the amount of the collateral that the borrower requires, and could eventually lower the collateral based lending interest rates and even create more trust within the reputation based lending. These changes should switch the focus on the user adoption and to provide more value for the product.</p>
+
+## <h2>Rewarding active lenders and borrowers with airdrops</h2>
 
 <p>ETHLend will buy lend that is not used to pay the fees on ETHLend. The operation will remove LEND that is used inefficiently and corrects the market price of LEND, since the market price of LEND should be based on the popularity of ETHLend.</p>
 
@@ -1039,16 +1047,36 @@ https://www.linkedin.com/in/opinderpreet/
 
 <p>Further updates on LEND Token Sale and DAPP updates are published on http://about.ETHLend.io and in our mailing list. The Token Sale launch will be announced on our mailing list and published on http://about.ETHLend.io/blog </p>
 
-<p>For questions, join our Discord:</p>
+Telegram: https://t.me/ETHLend
 
-<p>https://discord.gg/nKjsStv </p>
+Slack: https://join.slack.com/t/ethlend/shared_invite/MjM3NzI4NTAzMjAzLTE1MDQ4MDk3ODMtNTNkMTcxNTM3Mg
 
-<p>Reddit:</p>
+Discord (Latest news and voice chats): https://discord.gg/nKjsStv
 
-<p>https://www.reddit.com/r/ETHLend/ </p>
+Website: https://about.ethlend.io/token-sale/
 
-<p>Telegram:</p>
+White Paper: https://github.com/ETHLend/Documentation/blob/master/ETHLendWhitePaper.md
 
-<p>https://t.me/ETHLend </p>
+DAPP Thread on BitcoinTalk: https://bitcointalk.org/index.php?topic=2013399
+
+ICO Thread on BitcoinTalk: https://bitcointalk.org/index.php?topic=2089908.0
+
+Bounty Thread on BitcoinTalk: https://bitcointalk.org/index.php?topic=2078686
+
+Reddit: https://www.reddit.com/r/ETHLend/ 
+
+Facebook: https://www.facebook.com/ETHLend/
+
+YouTube: https://www.youtube.com/watch?v=IGaoqUoL1F4&t=2s
+
+Twitter: https://twitter.com/ethlend1
+
+Steemit: https://steemit.com/@ethlend
+
+WeChat (Chinese): @ETHLend
+
+KakaoTalk (Korean): https://open.kakao.com/o/gBzFr5y
+
+Vkontakte (Russian): https://vk.com/ethlend
 
 ![Image](http://about.ethlend.io/wp-content/uploads/2017/06/logo_300DPI-05-1.png)
