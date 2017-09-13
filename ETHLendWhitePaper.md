@@ -907,6 +907,12 @@ https://www.linkedin.com/in/opinderpreet/
 
 ## <h2>LEND token as a discount ticket on fees on ETHLend</h2>
 
+<p>LEND token is used to pay deployment and funding fees on ETHLend. Even though that the fees can be paid with ETH, LEND would provide access to early contributors for lower fees on ETHLend. Practically LEND can be seen as a discount ticket for the early contributors to pay less fees on ETHLend.</p>
+
+<p>The amount of fees shall be determined by the market price of LEND and the value difference compared to LEND. The aim is to provide 25% discount for the fees for early contributors when using LEND to pay fees on ETHLend instead of ETH.</p>
+
+## <h2>Rewarding active lenders and borrowers with airdrops</h2>
+
 <p>Increasing user adoption with LEND airdrops. ETHLend increases the usability of the product by introducing new mechanisms for user adoption. ETHLend aims to reward early adopters with the use of LEND tokens. The previously introduced LEND buybacks and burning is from now on deprecated. Instead, ETHLend will focus on creating value for the users and more value for the product, thus indirectly creating value for the token holders as well. ETHLend will use LEND token airdrops to increase the user adoption and add more volume to the loan book. An airdrop means that a certain amount of tokens is distributed to the users of the decentralized application.</p>
 
 <p>Buybacks and burning were previously introduced by ETHLend for creating more value for the token holders. However, these models have two drawbacks. First, buying LEND back from the market and permanently removing it from the circulation might decrease the total supply of LEND. This assumption implies that the token would increase in value due to the scarcity. Burning the LEND would not guarantee that the token increases in value. Secondly, pursuing the increase of the token value distracts ETHLend from the real opportunity - the users of the decentralized application.</p>
@@ -918,35 +924,6 @@ https://www.linkedin.com/in/opinderpreet/
 <p>Certain limitations apply to LEND due to security reasons and efficiency. First, we acknowledge that a free market does not always equal a fair market. Large volumes might be achieved with big loans. ETHLend will apply limitation on how much LEND is airdropped to an address. Secondly, the airdropped LEND must be used within 24 months. Therefore, once the airdrop is made, the borrower or lender must engage in lending within 24 months. Otherwise the LEND will go for redistribution to the next airdrop.</p>
 
 <p>When LEND is used as stated above, LEND creates more volume on the applications since the participants are getting more value by using LEND as a collateral or paying functions on ETHLend. Eventually, the LEND replaces the amount of the collateral that the borrower requires, and could eventually lower the collateral based lending interest rates and even create more trust within the reputation based lending. These changes should switch the focus on the user adoption and to provide more value for the product.</p>
-
-## <h2>Rewarding active lenders and borrowers with airdrops</h2>
-
-<p>ETHLend will buy lend that is not used to pay the fees on ETHLend. The operation will remove LEND that is used inefficiently and corrects the market price of LEND, since the market price of LEND should be based on the popularity of ETHLend.</p>
-
-<p>Moreover, using buybacks increases the value of LEND as a by-product. Buybacks is a strategy used for many reasons. In our case, buyback are used to increase value of the token by limiting the total supply of the token and by increasing the percentage of the ownership of token holder’s LEND. Buybacks mean that ETHLend will use profit to buy LEND from exchanges and burn these tokens (erasing the tokens forever).</p>
-
-<p>Buybacks are seen as a reward system that is adopted for rewarding token holders by increasing the value of the token. Burning tokens will decrease the total supply of LEND. This would have an increasing effect on the token value. More importantly, burning LEND would increase percentage of token holders ownership since there are less LEND on the market permanently. The token holder may use this additional percentage and liquidate it to gain profit.</p>
-
-<p>Buybacks and burning (or “burnbacks”) solve many issues on decentralized environment. First of all, rewarding token holders directly with ETH would create difficulties with are not solved in the current ecosystem. When token holder wishes to trade LEND, tokens are sent to the exchange and the ownership of the LEND is changed to the exchange’s custodian address. This means that the exchange receives the profit. Since there is no profit sharing structure currently adopted by the exchanges, this would create a risk. Buybacks and burning ensures that the ‘real owners’ of the token is the will benefit from the reward.</p>
-
-<p>Transaction costs are avoided. When profit share would be distributed in dividend-like manner, there would be thousands of transactions monthly or quarterly. Each transaction would exhaust a small amount of gas. With buyback there are only few transactions, which means that the saved gas will be utilized to buy and burn more LEND.</p>
-
-<p>Regulatory uncertainty. If assets are associated with dividend-like profit sharing, LEND could be seen as a security by regulators. Buybacks ensures that more jurisdictions will allow usage of LEND resulting in larger demand and use for LEND.</p>
-
-<p>Profit sent to LEND addresses that are dead. There are situations where Ethereum addresses are lost. In these circumstances tokens might be lost as well. This would mean that profit would be distributed to addresses that are dead. Sending ETH to addresses that nobody uses does not provide any value to anyone. On the other hand, if this value is used to reduce the supply of LEND, the value is distributed amongst all token holders.</p>
-
-<p>Uncertainty on taxation. Dividend-like profit share might be seen in the near future as taxable income for token holders since the profit accumulates for holding an asset. On the other hand, buyback increases the value of LEND but might not trigger taxes on income. Of course, this does not avoid the fact that any value increase is taxed once sold, just as any other cryptocurrency. Buyback solves all these issues and supports the aim to deliver strong token on the market.</p>
-
-<p>Part of the fees are used for buybacks. ETHLend derives cash-flow when loan requests are deployed or funded. These fees are in place to fund the development of decentralized lending on ETHLend. Currently, the fees for deploying a loan request is set to 0.01 ETH, which the borrower pays. Similarly, the lender pays 0.01 ETH for funding the loan. ETHLend will use flat 5% of these fees to buy LEND from the exchange to burn the LEND. Moreover, additional 1 to 5% is used on top of the flat 5% fee depending on the fee volume growth in ETHLend (compared to previous year’s volume). Therefore, ETHLend can use as much as 10% of the fees for buybacks to increase the value of LEND and the percentage of the ownerships of token holders by decreasing the total supply of LEND permanently. The buybacks start on January 2018. Here is a demonstration of the fees used for buyback:</p>
-
-1.	First year (during 2018) = 5%
-2.	5% + additional 1% if fee revenue is 20% higher than in previous year
-3.	5% + additional 2% if fee revenue is 40% higher than in previous year
-4.	5% + additional 3% if fee revenue is 60% higher than in previous year
-5.	5% + additional 4% if fee revenue is 80% higher than in previous year
-6.	5% + additional 5% if fee revenue is 100% higher than in previous year
-
-<p>Creating value to hold. The buyback model aims to provide value to hold for holding LEND. When the total supply is systematically decreased, the token holder owns greater percentage of total supply of LEND on each burn. Therefore, buybacks motivates to hold the token due to the increasing value effect. Secondarily and indirectly, LEND provides token holders cash-flow. When the percentage of the token holders ownership is increasing, the token holder can sell the increased portion on every burn to realize profit. This makes LEND sought after token.</p>
 
 ## <h2>Token Sale</h2>
 
