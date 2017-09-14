@@ -1016,7 +1016,7 @@ https://www.linkedin.com/in/opinderpreet/
 
 <p>Entity behing the token sale:</p>
 
-<p>Block Research Limited - Reg: 14331108 -  Tartu mnt 80, Kesklinna linnaosa, Tallinn, Harju maakond, 10112</p>
+<p>Block Research OÜ - Reg: 14331108 -  Tartu mnt 80, Kesklinna linnaosa, Tallinn, Harju maakond, 10112</p>
 
 <p>Complaints: hi [-at-] ethlend [dot] io</p>
 
