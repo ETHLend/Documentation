@@ -891,7 +891,7 @@ https://www.linkedin.com/in/opinderpreet/
 4.	LEND Token Sale on November 2017
 5.	Relocating to Zug and Swiss Foundation or Swiss LLC on December 2017
 6.	LEND Trading on Exchanges on January 2018
-7.	Buybacks and Burning for LEND starts on January 2018
+7.	Airdrops for LEND starts on January 2018
 8.	Opening Suggestions Venue for Public on October 2018
 9.	Creating and Testing Democracy DAO on November 2018
 10.	Voting on Suggestions Deployed on January 2019
@@ -924,7 +924,7 @@ https://www.linkedin.com/in/opinderpreet/
 <p>Certain limitations apply to LEND due to security reasons and efficiency. First, we acknowledge that a free market does not always equal a fair market. Large volumes might be achieved with big loans. ETHLend will apply limitation on how much LEND is airdropped to an address. Secondly, the airdropped LEND must be used within 24 months. Therefore, once the airdrop is made, the borrower or lender must engage in lending within 24 months. Otherwise the LEND will go for redistribution to the next airdrop.</p>
 
 <p>When LEND is used as stated above, LEND creates more volume on the applications since the participants are getting more value by using LEND as a collateral or paying functions on ETHLend. Eventually, the LEND replaces the amount of the collateral that the borrower requires, and could eventually lower the collateral based lending interest rates and even create more trust within the reputation based lending. These changes should switch the focus on the user adoption and to provide more value for the product.</p>
-
+	
 ## <h2>Token Sale</h2>
 
 <p>Total of 1 000 000 000 (one billion) LEND is released for sale. Additionally, 300 000 000 LEND is held for development fund to incentivise the development team and to recruit more talent for ETHLend. There will be no follow-up sale on LEND.</p>
@@ -1016,7 +1016,7 @@ https://www.linkedin.com/in/opinderpreet/
 
 <p>Entity behing the token sale:</p>
 
-<p>Block Research Limited - Reg: 2564331 -  14/F Manning House 38-48 Queens Road Central, Central, Hong Kong</p>
+<p>Block Research Limited - Reg: 14331108 -  Tartu mnt 80, Kesklinna linnaosa, Tallinn, Harju maakond, 10112</p>
 
 <p>Complaints: hi [-at-] ethlend [dot] io</p>
 
