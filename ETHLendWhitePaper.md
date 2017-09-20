@@ -1014,7 +1014,7 @@ https://www.linkedin.com/in/opinderpreet/
 
 ## <h1>Token Sale Entity</h1> </p>
 
-<p>Entity behing the token sale:</p>
+<p>Entity behind the token sale:</p>
 
 <p>Block Research OÜ - Reg: 14331108 -  Tartu mnt 80, Kesklinna linnaosa, Tallinn, Harju maakond, 10112</p>
 
