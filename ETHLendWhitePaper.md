@@ -823,6 +823,10 @@ https://www.linkedin.com/in/jordan-lazaro-gustave-32018976/
 
 https://www.linkedin.com/in/martin-wichmann-89722561/
 
+<p>Jitendra Chittoda, Technical Advisor</p>
+
+https://www.linkedin.com/in/jchittoda/
+
 <p>Adnan Javed, Legal Advisor, adnan@ETHLend.io</p>
 
 https://www.linkedin.com/in/adnan-javed/
