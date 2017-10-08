@@ -71,9 +71,9 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 	- [Roadmap](#roadmap)
 - [Introducing LEND Token and the Token Sale](#introducing-lend-token-and-the-token-sale)
 	- [Utility function 1: LEND token as a discount ticket on fees on ETHLend](#utility-function-1-lend-token-as-a-discount-ticket-on-fees-on-ethlend)
-	- [Utility function 2: Rewarding active lenders and borrowers with airdrops](#utility-function-2-rewarding-active-lenders-and-borrowers-with-airdrops)
+	- [Utility function 2: Rewarding active lenders and borrowers with airdrops of LEND](#utility-function-2-rewarding-active-lenders-and-borrowers-with-airdrops-of-lend)
 	- [Utility function 3: Featured functions that are accessible only with LEND tokens](#utility-function-3-featured-functions-that-are-accessible-only-with-lend-tokens)
-	- [Utility function 4: Rewarding Introducers with LEND] (#utility-function-4-rewarding-introducers-with-lend)
+	- [Utility function 4: Rewarding Introducers with LEND](#utility-function-4-rewarding-introducers-with-lend)
 	- [Token Sale](#token-sale)
 	- [Purchase Price](#purchase-price)
 	- [Token Distribution](#token-distribution)
@@ -85,7 +85,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
  
 ## <h1>Summary on What We Are Developing</h1>
 
-Use-Cases for Decentralized Lending
+**Use-Cases for Decentralized Lending**
 
 In crypto-economy: Borrowing Ether to participate in different ICOs and purchasing tokens from the exchange for investment strategies without the need to sell tokens. Lending altcoins and tokens for short selling or hedging. Financing mining expansions, liquidity for trading, finance for blockchain startups for ICO marketing by pledging ICO tokens. Unleashing the Ether locked in ENS domains for any finance goal.
 
@@ -93,93 +93,93 @@ In FIAT-economy: By using FIAT-pegging (using USD instead of Ether as a calculat
 
 Future use-cases: Tokenization of Things. Pledging real property, shares, intellectual property and physical objects (such as cars, boats, power plants, solar energy plants and art).
 
-Secured Lending with Digital Assets and ENS domains
+**Secured Lending with Digital Assets and ENS domains**
 
 ETHLend provides secured lending with the use of ERC-20 compatible tokens as a collateral. For example, users with a token portfolio are not required to sell the tokens to receive liquidity. Instead, the user can pledge the tokens to receive more liquidity. Alternatively, Ethereum Name Service (ENS) domains can be used to secure loans since these domain locks Ether when the domain is paid.
 
-Reputation Based Lending
+**Reputation Based Lending**
 
 ETHLend will create reputation based lending with the help of decentralized credit rating, which consists of data from decentralized credit tokens (CRE), decentralized identities such as uPort, and data feeds from centralized service providers such as credit institutions and social media. Moreover, services such as Bloom would be used to broadcast defaults on to the centralized credit scores.
 
-Decentralized Credit Rating (DCR)
+**Decentralized Credit Rating (DCR)**
 
 Unleashing decentralized credit rating. Credit history is borne once there is data available on paid loans, the interest rates, possible collateral, and details of the lenders (and their transactional data) and the transactional data of the address. From this data, a credit profile can be built by assessing the data. Moreover, such data can be exported to other applications and chains.
 
-Gateway for Decentralized Identities to DCR
+**Gateway for Decentralized Identities to DCR**
 
 ETHLend will add a gateway for self-sovereign identity providers such as uPort and credit rating providers such as Bloom. These functions assists borrowers to create more complete credit profile on the Decentralized Credit Rating.
 
-Oracles: Feeds from Centralized Providers to DCR
+**Oracles: Feeds from Centralized Providers to DCR**
 
 Feeds from centralized credit institutions. ETHLend provides a gateway for credit institutions and centralized data to be broadcasted on the user’s Decentralized Credit Rating profile. Additionally, oracles can also be used to provide feeds from social media for creating a more complete credit profile.
 
-Mobile Interface with Status.im
+**Mobile Interface with Status.im**
 
 ETHLend will develop an interface so that the decentralized application can be used from the mobile with the use of Status.im mobile browser.
 
-Expanding Decentralized Lending and Decentralized Credit Rating beyond Ethereum network
+**Expanding Decentralized Lending and Decentralized Credit Rating beyond Ethereum network**
 
 ETHLend will expand the decentralized lending application and the decentralized credit rating beyond Ethereum network to other distributed ledger networks.
 
-ETHLend will introduce lender side offers (on-demand lending)
+**ETHLend will introduce lender side offers (on-demand lending)**
 
 We will develop loan offers that lenders can place on the decentralized application. Loan offers are placed by stating how much liquidity and on what price the lender is willing to provide the liquidity. The lender also indicates which tokens the lender accepts as a collateral or which credit rating must be met.
 
-Sharing the Risk with Other Lenders (Crowd lending)
+**Sharing the Risk with Other Lenders (Crowd lending)**
 
 ETHLend will introduce the option for crowd lending where the risk is shared amongst multiple lenders.
 
-Prediction Market to Predict Credit Risk
+**Prediction Market to Predict Credit Risk**
 
 ETHLend shall introduce prediction market on loans that are reaching certain threshold. Prediction market for assessing credit risk is a practical tool on large loan transactions. We shall either use Gnosis, Augur or create our own prediction market protocol.
 
-Artificial Intelligence and Ledger Big Data to Predict Credit Risk
+**Artificial Intelligence and Ledger Big Data to Predict Credit Risk**
 
 ETHLend shall provide amongst the first a protocol for artificial intelligence (AI) bot creators for assessing the Ethereum distributed ledger data to predict credit risk. Such AI bots shall harvest and asses the data on Ethereum addresses to assess the quality of the transactions and aid lenders on credit decisions.
 
-Simplified User Experience
+**Simplified User Experience**
 
 ETHLend is developing a more user friendly interface for the decentralized application to access mainstream. The lending process is simplified from 5 step to 2 step process. Additionally, instead of requiring the borrower to send the tokens or lender to send Ether to finance the loans, ETHLend shall use the “Approve”-function to collect these assets from the users wallet eliminating unnecessary steps.
 
-Competitive Bidding on Interest Rate Between Lenders
+**Competitive Bidding on Interest Rate Between Lenders**
 
 ETHLend will develop auction-like bidding functionality for the decentralized application to provide the best market rate on interest rates for the borrowers. The interest rate bidding auction is a reverse auction where the lenders places bidding offers for a loan interest rate.
 
-Decentralized Insurance Policy
+**Decentralized Insurance Policy**
 
 Providing insurance for credit risk. ETHLend wants to provide a market for decentralized credit policies. The aim is to provide a way that insurers can assess the data required to calculate an insurance policy risk and cost and provide such offer to the lender.
 
-Currency Exchange Risk Management (FIAT pegging)
+**Currency Exchange Risk Management (FIAT pegging)**
 
 A volatility risk might be in hand when a borrower borrows 1 ETH once the ETH price is at USD 200. Such issue is solved by providing FIAT based loans where the loan amount is represented in FIAT currency, even though the transaction is conducted in ETH. FIAT pegging also creates wider opportunities for lending ETH for investment purposes (investing in ICOs or tokens from exchange).
 
-Sophisticated Collateral Management (Volatility risk mitigation)
+**Sophisticated Collateral Management (Volatility risk mitigation)**
 
 ETHLend will use price feeds for the most popular tokens to adopt sophisticated collateral management where in case the collateral value (value of the tokens) drop below a certain threshold, the borrower must fulfil the collateral or the lender can call the collateral and sell it on the market. Alternatively, collateral swapping will be introduced where the lender can swap the collateral for a fee, to a less volatile tokens, instead of selling. Additionally price feeds shall calculate the overheads back to the borrower.
 
-APIs for Creating Lending Bots
+**APIs for Creating Lending Bots**
 
 ETHLend will provide APIs for bot creators to automate lending and borrowing bots.
 
-Lending Bitcoin, Altcoins and Tokens
+**Lending Bitcoin, Altcoins and Tokens**
 
 We will introduce lending Bitcoin (altcoins) for wider adoption of the decentralized application. Moreover, lending ERC-20 compatible tokens are introduced to cover additional lending strategies such as short selling and hedging.
 
-LEND token
+**LEND token**
 
-Utility function 1: LEND token as a discount ticket on fees on ETHLend
+**Utility function 1: LEND token as a discount ticket on fees on ETHLend**
 
 Receive 25% price reduction on platform fees (Loan request fee and Loan funding fee) compared to paying with ETH.
 
-Utility function 2: Rewarding active lenders and borrowers with airdrops
+**Utility function 2: Rewarding active lenders and borrowers with airdrops**
 
 ETHLend will use 20% of the decentralized application fees (loan request fee and funding fee) to purchase LEND from the market and airdrop the LEND for all the lenders and borrowers on ETHLend, based on the previous period’s volume.
 
-Utility function 3: Featured functions that are accessible only with LEND tokens
+**Utility function 3: Featured functions that are accessible only with LEND tokens**
 
 ETHLend will provide functions that are only accessible with the use of LEND (can be only paid with LEND). These featured functions will include featured loan listings and email marketing campaign for new loan requests.
 
-Utility function 4: Rewarding Introducers with LEND
+**Utility function 4: Rewarding Introducers with LEND**
 
 ETHLend will purchase additional amount of LEND (which will be decided during Q1 2018) to reward lenders and borrowers or third parties who introduce new participants on to the decentralized lending platform.
 
