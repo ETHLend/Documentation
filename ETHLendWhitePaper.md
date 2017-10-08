@@ -1,6 +1,6 @@
 # ETHLend.io White Paper - Democratizing Lending
 
-26 June 2017
+8 October 2017
 
 <p>Abstract: ETHLend.io introduces decentralized lending on Ethereum network by using ERC-20 compatible tokens or Ethereum Name Service (ENS) domains as a collateral. ETHLend solves the problem on reducing the loss of loan capital on default. On healthy loan relationships the loan is paid back. However, the pseudo-anonymous nature of Ethereum blockchain network opens the possibility to avoid repayment of the loan since the lender might not have all the necessary details of the borrower to enforce the debt in the borrower's jurisdiction. Moreover, enforcement in a decentralized environment, where the parties can be from any part of the world, might not be efficient. ETHLend provides decentralized solutions to avoid loss of capital and to make one true global lending market available.</p>
 
@@ -13,6 +13,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 **Table of Contents**
 
 - [ETHLend.io White Paper - Democratizing Lending](#)
+- [Brief - Summary on What We Are Developing](#brief-summary-on-what-we-are-developing)
 - [Background](#background)
 	- [About the White Paper](#about-the-white-paper)
 	- [Lack of True Global Lending Market](#lack-of-true-global-lending-market)
@@ -28,6 +29,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 	- [Ether](#ether)
 	- [Tokenization](#tokenization)
 	- [Paradox of Value: Smart Contract Deployment](#paradox-of-value-smart-contract-deployment)
+- [Expanding Decentralized Lending and Decentralized Credit Rating beyond Ethereum network](#expanding-decentralized-lending-and-decentralized-credit-rating-beyond-ethereum-network)
 - [The Decentralized Application (DAPP)](#the-decentralized-application-dapp)
 	- [Secured Lending by Pledging Ethereum-Based Digital Tokens](#secured-lending-by-pledging-ethereum-based-digital-tokens)
 	- [Demonstration of the DAPP](#demonstration-of-the-dapp)
@@ -50,6 +52,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 		- [Sharing the Risk with Other Lenders (Crowdlending)](#sharing-the-risk-with-other-lenders-crowdlending)
 		- [Decentralized Insurance Policy](#decentralized-insurance-policy)
 	- [Currency Exchange Risk Management](#currency-exchange-risk-management)
+	- [Competitive bidding on interest rate between lenders] (#competetive-bidding-on-interest-rate-between-lenders)
 	- [User Experience on ETHLend](#user-experience-on-ethlend)
 		- [Accessibility](#accessibility)
 		- [User Interface](#user-interface)
@@ -63,11 +66,14 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 	- [Know Your Customer (KYC)](#know-your-customer-kyc)
 - [ETHLend](#ethlend)
 	- [The Team](#the-team)
+	- [The Advisory Board](#the-advisory-board)
 	- [Governance](#governance)
 	- [Roadmap](#roadmap)
 - [Introducing LEND Token and the Token Sale](#introducing-lend-token-and-the-token-sale)
-	- [LEND token as a discount ticket on fees on ETHLend](#lend-token-as-a-discount-ticket-on-fees-on-ethlend)
-	- [Rewarding active lenders and borrowers with airdrops](#rewarding-active-lenders-and-borrowers-with-airdrops)
+	- [Utility function 1: LEND token as a discount ticket on fees on ETHLend](#utility-function-1-lend-token-as-a-discount-ticket-on-fees-on-ethlend)
+	- [Utility function 2: Rewarding active lenders and borrowers with airdrops](#utility-function-2-rewarding-active-lenders-and-borrowers-with-airdrops)
+	- [Utility function 3: Featured functions that are accessible only with LEND tokens](#utility-function-3-featured-functions-that-are-accessible-only-with-lend-tokens)
+	- [Utility function 4: Rewarding Introducers with LEND] (#utility-function-4-rewarding-introducers-with-lend)
 	- [Token Sale](#token-sale)
 	- [Purchase Price](#purchase-price)
 	- [Token Distribution](#token-distribution)
@@ -77,6 +83,106 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 	- [Funds Allocation](#funds-allocation)
 - [Further Updates](#further-updates)
  
+## <h1>Brief - Summary on What We Are Developing</h1>
+
+Use-Cases for Decentralized Lending
+
+In crypto-economy: Borrowing Ether to participate in different ICOs and purchasing tokens from the exchange for investment strategies without the need to sell tokens. Lending altcoins and tokens for short selling or hedging. Financing mining expansions, liquidity for trading, finance for blockchain startups for ICO marketing by pledging ICO tokens. Unleashing the Ether locked in ENS domains for any finance goal.
+
+In FIAT-economy: By using FIAT-pegging (using USD instead of Ether as a calculation), any finance goal of real world can be met without bearing the volatility.
+
+Future use-cases: Tokenization of Things. Pledging real property, shares, intellectual property and physical objects (such as cars, boats, power plants, solar energy plants and art).
+
+Secured Lending with Digital Assets and ENS domains
+
+ETHLend provides secured lending with the use of ERC-20 compatible tokens as a collateral. For example, users with a token portfolio are not required to sell the tokens to receive liquidity. Instead, the user can pledge the tokens to receive more liquidity. Alternatively, Ethereum Name Service (ENS) domains can be used to secure loans since these domain locks Ether when the domain is paid.
+
+Reputation Based Lending
+
+ETHLend will create reputation based lending with the help of decentralized credit rating, which consists of data from decentralized credit tokens (CRE), decentralized identities such as uPort, and data feeds from centralized service providers such as credit institutions and social media. Moreover, services such as Bloom would be used to broadcast defaults on to the centralized credit scores.
+
+Decentralized Credit Rating (DCR)
+
+Unleashing decentralized credit rating. Credit history is borne once there is data available on paid loans, the interest rates, possible collateral, and details of the lenders (and their transactional data) and the transactional data of the address. From this data, a credit profile can be built by assessing the data. Moreover, such data can be exported to other applications and chains.
+
+Gateway for Decentralized Identities to DCR
+
+ETHLend will add a gateway for self-sovereign identity providers such as uPort and credit rating providers such as Bloom. These functions assists borrowers to create more complete credit profile on the Decentralized Credit Rating.
+
+Oracles: Feeds from Centralized Providers to DCR
+
+Feeds from centralized credit institutions. ETHLend provides a gateway for credit institutions and centralized data to be broadcasted on the user’s Decentralized Credit Rating profile. Additionally, oracles can also be used to provide feeds from social media for creating a more complete credit profile.
+
+Mobile Interface with Status.im
+
+ETHLend will develop an interface so that the decentralized application can be used from the mobile with the use of Status.im mobile browser.
+
+Expanding Decentralized Lending and Decentralized Credit Rating beyond Ethereum network
+
+ETHLend will expand the decentralized lending application and the decentralized credit rating beyond Ethereum network to other distributed ledger networks.
+
+ETHLend will introduce lender side offers (on-demand lending)
+
+We will develop loan offers that lenders can place on the decentralized application. Loan offers are placed by stating how much liquidity and on what price the lender is willing to provide the liquidity. The lender also indicates which tokens the lender accepts as a collateral or which credit rating must be met.
+
+Sharing the Risk with Other Lenders (Crowd lending)
+
+ETHLend will introduce the option for crowd lending where the risk is shared amongst multiple lenders.
+
+Prediction Market to Predict Credit Risk
+
+ETHLend shall introduce prediction market on loans that are reaching certain threshold. Prediction market for assessing credit risk is a practical tool on large loan transactions. We shall either use Gnosis, Augur or create our own prediction market protocol.
+
+Artificial Intelligence and Ledger Big Data to Predict Credit Risk
+
+ETHLend shall provide amongst the first a protocol for artificial intelligence (AI) bot creators for assessing the Ethereum distributed ledger data to predict credit risk. Such AI bots shall harvest and asses the data on Ethereum addresses to assess the quality of the transactions and aid lenders on credit decisions.
+
+Simplified User Experience
+
+ETHLend is developing a more user friendly interface for the decentralized application to access mainstream. The lending process is simplified from 5 step to 2 step process. Additionally, instead of requiring the borrower to send the tokens or lender to send Ether to finance the loans, ETHLend shall use the “Approve”-function to collect these assets from the users wallet eliminating unnecessary steps.
+
+Competitive Bidding on Interest Rate Between Lenders
+
+ETHLend will develop auction-like bidding functionality for the decentralized application to provide the best market rate on interest rates for the borrowers. The interest rate bidding auction is a reverse auction where the lenders places bidding offers for a loan interest rate.
+
+Decentralized Insurance Policy
+
+Providing insurance for credit risk. ETHLend wants to provide a market for decentralized credit policies. The aim is to provide a way that insurers can assess the data required to calculate an insurance policy risk and cost and provide such offer to the lender.
+
+Currency Exchange Risk Management (FIAT pegging)
+
+A volatility risk might be in hand when a borrower borrows 1 ETH once the ETH price is at USD 200. Such issue is solved by providing FIAT based loans where the loan amount is represented in FIAT currency, even though the transaction is conducted in ETH. FIAT pegging also creates wider opportunities for lending ETH for investment purposes (investing in ICOs or tokens from exchange).
+
+Sophisticated Collateral Management (Volatility risk mitigation)
+
+ETHLend will use price feeds for the most popular tokens to adopt sophisticated collateral management where in case the collateral value (value of the tokens) drop below a certain threshold, the borrower must fulfil the collateral or the lender can call the collateral and sell it on the market. Alternatively, collateral swapping will be introduced where the lender can swap the collateral for a fee, to a less volatile tokens, instead of selling. Additionally price feeds shall calculate the overheads back to the borrower.
+
+APIs for Creating Lending Bots
+
+ETHLend will provide APIs for bot creators to automate lending and borrowing bots.
+
+Lending Bitcoin, Altcoins and Tokens
+
+We will introduce lending Bitcoin (altcoins) for wider adoption of the decentralized application. Moreover, lending ERC-20 compatible tokens are introduced to cover additional lending strategies such as short selling and hedging.
+
+LEND token
+
+Utility function 1: LEND token as a discount ticket on fees on ETHLend
+
+Receive 25% price reduction on platform fees (Loan request fee and Loan funding fee) compared to paying with ETH.
+
+Utility function 2: Rewarding active lenders and borrowers with airdrops
+
+ETHLend will use 20% of the decentralized application fees (loan request fee and funding fee) to purchase LEND from the market and airdrop the LEND for all the lenders and borrowers on ETHLend, based on the previous period’s volume.
+
+Utility function 3: Featured functions that are accessible only with LEND tokens
+
+ETHLend will provide functions that are only accessible with the use of LEND (can be only paid with LEND). These featured functions will include featured loan listings and email marketing campaign for new loan requests.
+
+Utility function 4: Rewarding Introducers with LEND
+
+ETHLend will purchase additional amount of LEND (which will be decided during Q1 2018) to reward lenders and borrowers or third parties who introduce new participants on to the decentralized lending platform.
+
 ## <h1>Background</h1>
 
 <p>Pioneers in the fintech industry. We want to develop something important and to break the process-heavy and unfair lending market we all know. We want to make lending available on global scale. Instead of relying on local banks and lenders, we believe that borrower should have the possibility to obtain a loan from anywhere in the world. We believe that Canadian borrower could obtain a loan from Sweden, China, Brazil, Japan or Germany and vice versa.</p>
@@ -226,6 +332,14 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 <p>Ethereum is not seamless. Ethereum has all the ingredients for developing decentralized Smart Contracts on-chain. However, deploying Smart Contract on Ethereum blockchain does not come without costs. Each time the borrower creates a loan agreement there will be exhaustion of small amount of gas. Besides the gas consumption, the deployment of the loan agreement would costs some small amount of ETH. Even though the consumed amount of ETH is currently small, the situation might change. When ETH price continues to surge, it will be more expensive to deploy the contract if the borrower is using funds that were shortly before the deployment converted from FIAT into ETH.</p>
 
 <p>On the other hand, this is not a problem if the borrower lives in the crypto-currency economy. This might be the case for many within the next five years. It would mean that the user would get his income in ETH (or any other crypto-currency). In this case, the borrower do not need to bear the cost of rising ETH price. However, if there would be high amount of users from the FIAT economy, this would eventually mean that it would make more sense to borrow bigger amounts that resorting to microlending. This could raise the bar for access to finance, which worries us the most.</p>
+
+## <h1>Expanding Decentralized Lending and Decentralized Credit Rating beyond Ethereum network</h1>
+
+<p>Extensive project is nothing without an extensive plan. ETHLend will plan to expand the decentralized lending application to other blockchain networks. We have noticed that different blockchain networks have their own edges and the users are dividing between these blockchain networks. ETHLend wants to be accessible beyond Ethereum by providing similar lending functions on other blockchain networks as well.</p>
+
+<p>Additionally, we are going to create a function to broadcast the data from our decentralized credit rating to other blockchain. By providing such data, the borrower can use his well earned credit score on other applications in other blockchains.</p>
+
+<p>The function is so extensive that it is developed upon if we raise the whole token sale cap. Expanding to other blockchain networks is developed as the last milestone on our roadmap since ETHLend first needs a fully functional application on Ethereum network itself and we need to wait for other blockchain networks to ripe and the decentralized lending market to grow before we can expand our development to these new networks.</p>
 
 ## <h1>The Decentralized Application (DAPP)</h1>
 
@@ -665,7 +779,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 <p>Self-sovereignty as reputation. uPort provides a self-sovereign identity system. uPort identity system provides the possibility to claim a decentralized identity. User could register credentials through uPort. Self-sovereign identity could be as an additive to the decentralized credit rating. Such identity could establish that an address belongs to someone, or that the person who is controlling the address has history. Such information could be used as an additive to the decentralized credit rating system. Moreover, if such self-sovereign identity systems would be in popular use, such systems could be used to access reputation-based lending if there is gained reputation in other decentralized service providers than ETHLend.</p>
 
-<p>Self-sovereignty as reputation. Such self-sovereignty would be efficient if the data is proven and the defaults and other malicious behaviour could be attached to the identity. The loan default would eventually mean that the sovereignty of the uPort user would be affected in other Ethereum-based applications as well. This would be a risk and loss for the user that has built his reputation on uPort.</p>
+<p>Such self-sovereignty would be efficient if the data is proven and the defaults and other malicious behaviour could be attached to the identity. The loan default would eventually mean that the sovereignty of the uPort user would be affected in other Ethereum-based applications as well. This would be a risk and loss for the user that has built his reputation on uPort.</p>
 
 <p>Gateway for first time borrowers. uPort could be a solution for borrowers that do not own ERC-20 tokens or ENS domains to use as a collateral for the loan or do not have reputation to access reputation based lending. Since the borrower needs to repay secured loans to receive Credit Tokens to access unsecured lending, uPort would be a solution to access unsecured lending without the need to participate to secured loans in the first place.</p>
 
@@ -707,11 +821,15 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 <p>Financing the globe. FIAT pegged loans are a good alternative during the period when crypto economy is still in development. The main aim of the FIAT peg is to provide more access to finance for the unbanked or to provide finance to markets where lending is ineffective due to lack of credit rating facilities or illiquidity. For example at some future point a person in India could be verified as creditworthy by a local shop owner (Oracle). Such person could receive by Oracle verification 0.1 Credit Token for lending. This person can now place a loan request that is based on Indian Rupee and pay the same amount in the same currency with ETH. Now, anyone from any part of the world may fund this loan request.</p>
 
+## <h2>Competitive bidding on interest rate between lenders</h2>
+
+<p>ETHLend will develop auction-like bidding functionality for the decentralized application to provide the best market rate on interest rates for the borrowers. The interest rate bidding auction is a reverse auction where the lenders places bidding offers for a loan interest rate. The lowest bid on interest rate will win the auction and the smart contract will accept that particular lender as the funder of that loan smart contract. Such bidding would provide the most competitive interest rate for the borrowers since anyone from any part of the world can participate and bid on the loans.</p>
+
 ## <h2>User Experience on ETHLend</h2>
 
 ## <h3>Accessibility</h3>
 
-<p>Providing wide usage. Currently ETHLend DAPP is accessed with Google Chrome or Mozilla Firefox browser together with MetaMask plugin. To provide full coverage, the ETHLend DAPP shall be developed further for implementing mobile usage, parity and MyEtherWallet. The ETHLend team considers that the DAPP should be easily available with less learning curve as possible.</p>
+<p>Providing wide usage. Currently ETHLend DAPP is accessed with Google Chrome or Mozilla Firefox browser together with MetaMask plugin. To provide full coverage, the ETHLend DAPP shall be developed further for implementing mobile usage with Status.im. The ETHLend team considers that the DAPP should be easily available with less learning curve as possible in desktop, web-interface and mobile.</p>
 
 ## <h3>User Interface</h3>
 
@@ -733,27 +851,29 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 <p>We consider ETHLend as a long term project. However, to make most of us, concrete deadlines are necessary. Therefore, we shall introduce the following roadmap for technical implementations:</p>
 
-1.	ETHLend Alpha on Ethereum main-net on May 2017 (Milestone achieved)
-2.	ENS Domains as collateral on June 2017 (Milestone achieved)
-3.	Reputation-based Lending with CRE on July 2017 (Milestone achieved)
-4.	Token Sale Smart Contract on August 2017
-5.	Security Audit for the Token Sale Smart Contract on September 2017
-6.	USD Based Loans and Installments December 2017
-7.	On-Demand and Crowd Lending (Loan Offers from Lenders) on February 2018
-8.	User Experience Upgrade on March 2018
-9.	Decentralized Credit Rating (DCR) on March 2018
-10. Penalties for Late Payment on April 2018
-11.	Lending Bitcoin on April 2018
-12. LEND accepted as payment with 25% discount on May 2018
-13.	Gateway for Decentralized Providers (uPort, Civic) to DCR on May 2018*
-14.	Oracles: Centralized feeds to DCR on May 2018*
-15.	Second User Experience Upgrade on July 2018
-16.	Protocol to enable AI and Big Data to assess Credit Risk on August 2018*
-17.	Revenue scheme for AI Credit Risk bot creators on September 2018*
-18.	Prediction Market to Assess Credit Risk on October 2018*
-19.	Lending Other Altcoins on November 2018*
-20. Protocol to Enable Insurance Policies (with AI bots) on March 2019
-21. Sophisticated collateral control (Calling & Liquidating the collateral) on May 2019
+1.	ETHLend Alpha on Ethereum main-net on Q2 2017 (Milestone achieved)
+2.	ENS Domains as collateral on Q2 2017 (Milestone achieved)
+3.	Reputation-based Lending with CRE on Q3 2017 (Milestone achieved)
+4.	Token Sale Smart Contract on Q3 2017 (Milestone achieved)
+5.	Security Audit for the Token Sale Smart Contract on Q3 2017 (Milestone achieved)
+6.	USD Based Loans and Installments Q4 2017
+7.	On-Demand and Crowd Lending (Loan Offers from Lenders) on Q1 2018
+8.	User Experience Upgrade on Q1 2018
+9.	Decentralized Credit Rating (DCR) on Q1 2018
+10. Penalties for Late Payment on Q2 2018
+11.	Lending Bitcoin on Q2 2018
+12. LEND accepted as payment with 25% discount on Q2 2018
+13.	Gateway for Decentralized Providers (uPort, Civic) to DCR on Q2 2018*
+14.	Oracles: Centralized feeds to DCR on Q2 2018*
+15.	Second User Experience Upgrade on Q3 2018
+16.	Protocol to enable AI and Big Data to assess Credit Risk on Q3 2018*
+17.	Revenue scheme for AI Credit Risk bot creators on Q3 2018*
+18.	Prediction Market to Assess Credit Risk on Q4 2018*
+19.	Lending Other Altcoins and tokens on Q4 2018*
+20. Protocol to Enable Insurance Policies (with AI bots) on Q1 2019
+21. Sophisticated collateral control (Calling & Liquidating the collateral) on Q2 2019
+22. Competetive bidding on interest rate between lenders on Q3 2019
+23. Expanding Decentralized Lending and Decentralized Credit Rating beyond Ethereum network Q4 2019*
 
 <p>* These milestones are developed if the token sale cap (1 000 000 000 LEND is reached) due to the vast amount of resources these particular milestones require.</p>
 
@@ -877,6 +997,28 @@ https://www.linkedin.com/in/opinderpreet/
 
 <p>Stephen You, Head of Korean Desk</p>
 
+## <h2>The Advisory Board</h2>
+
+<p>Introducing our advisory board:</p>
+
+<p>Jon Matonis, Bitcoin Foundation</p>
+
+https://www.linkedin.com/in/jonmatonis/
+
+<p>Professor Wulf Kaal, Law & Finance</p>
+
+https://www.linkedin.com/in/wulf-kaal-6904a65b/
+
+<p>Ada Jonuse, Blockchain Activist</p>
+
+https://www.linkedin.com/in/ada-jonuse-9766364b/
+
+<p>Amin Rafiee, Cryptocurrency Investor</p>
+
+<p>Robert Viglione, Co-Founder of ZenCash</p>
+
+https://www.linkedin.com/in/robert-viglione-2780634/
+
 ## <h2>Governance</h2>
 
 <p>ETHLend follows decentralized governance. ETHLend introduces 3-tier governance for decentralized lending application. The decentralized application (DAPP) shall be governed by decentralized governance model similar to DAO. Anyone can propose changes in provided procedure for the DAPP. Each proposition is voted within the participants. Regular changes would require majority of voters present and core changes would require 2/3 of the voters present. The aim is to create a democratic system to control on what direction the DAPP development will take place. Moreover, it is crucial that anyone can participate to suggest and vote.</p>
@@ -889,46 +1031,53 @@ https://www.linkedin.com/in/opinderpreet/
 
 <p>Road to decentralization. ETHLend introduces the following roadmap adopting changes, improvements and governance to ETHLend:</p>
 
-1.	White Paper on Decentralized Lending on June 2017 (Milestone achieved)
-2.	Creating Special Purpose Vehicle for Token Sale on August 2017
-3.	LEND Token Pre-Sale on September 2017
-4.	LEND Token Sale on November 2017
-5.	Relocating to Zug and Swiss Foundation or Swiss LLC on December 2017
-6.	LEND Trading on Exchanges on January 2018
-7.	Airdrops for LEND starts on January 2018
-8.	Opening Suggestions Venue for Public on October 2018
-9.	Creating and Testing Democracy DAO on November 2018
-10.	Voting on Suggestions Deployed on January 2019
-11.	Vesting for LEND Ends on December 2019
+1.	White Paper on Decentralized Lending on Q2 2017 (milestone achieved)
+2.	Creating an entity for Token Sale on Q3 2017 (milestone achieved)
+3.	LEND Token Pre-Sale on Q3 2017 (milestone achieved)
+4.	LEND Token Sale on Q4 2017
+5.	Relocating to Zug, Switzerland on Q1 2018
+6.	Promoting to get LEND on Exchanges from Q1 2018
+7.	Airdrops for LEND starts on Q1 2018
+8.	Opening Suggestions Venue for Public on Q4 2018
+9.	Creating and Testing Democracy DAO on Q4 2018
+10.	Voting on Suggestions Deployed on Q1 2019
+11.	Vesting for LEND Ends on Q4 2019
 
 ## <h1>Introducing LEND Token and the Token Sale</h1>
 
-<p>Participating in the development of global peer-to-peer lending market. ETHLend sells ERC-20 compatible Ethereum-based LEND token for crowdsale. The aim for the token sale is to develop further the ETHLend decentralized lending application (DAPP). Currently, we are a team that is developing a global scaled decentralized lending market. To provide a functional lending market to such extent, contributors are required. Our aim is to attract early adopters and participants and reward the contribution with value increase of the LEND token by buying systematically certain amount of tokens from the exchange and burning these tokens (decreasing the supply permanently).</p>
-
+<p>Participating in the global peer-to-peer lending market and the development. ETHLend sells ERC-20 compatible Ethereum-based LEND token for crowdsale. The aim of the token sale is to provide a discounted participation for the early adopters of the global peer-to-peer lending market and further develop the global scale decentralized lending market. To provide a functional lending market to such extent, early adopters are required. By purchasing LEND, the early adopters receives a discounted price for using the decentralized lending platform. Moreover, the second utility use of LEND token is to accelerate user adoption and lending volumes on the platform by purchasing LEND back from the market and rewarding the active lenders and borrowers with LEND by airdrops. The airdrops will create an incentive for the participants to use the platform and increase the volumes. Such product targeted value creating is unique in the token use since instead of creating value for the LEND token holders, the value is created on the decentralized lending platform.</p>
 ![Image](http://about.ethlend.io/wp-content/uploads/2017/06/logo_300DPI-02.png)
 
 <p>Principles of the tokens sale. ETHLend aims to provide a token sale that is democratic, decentralized, secure and fair. This also applies to the vesting model and to the future governance on ETHLend. To comply with democracy, anyone can buy LEND on Token Sale period. The Token Sale shall be provided in a decentralized manner by using an Ethereum-based Smart Contract, which would provide more security due to the decentralized nature. Moreover, all the token purchases will be verified manually before distribution to avoid any misuse.</p>
 
-## <h2>LEND token as a discount ticket on fees on ETHLend</h2>
+## <h2>Utility function 1: LEND token as a discount ticket on fees on ETHLend</h2>
 
 <p>LEND token is used to pay deployment and funding fees on ETHLend. Even though that the fees can be paid with ETH, LEND would provide access to early contributors for lower fees on ETHLend. Practically LEND can be seen as a discount ticket for the early contributors to pay less fees on ETHLend.</p>
 
 <p>The amount of fees shall be determined by the market price of LEND and the value difference compared to LEND. The aim is to provide 25% discount for the fees for early contributors when using LEND to pay fees on ETHLend instead of ETH.</p>
 
-## <h2>Rewarding active lenders and borrowers with airdrops</h2>
+## <h2>Utility function 2: Rewarding active lenders and borrowers with airdrops of LEND</h2>
 
 <p>Increasing user adoption with LEND airdrops. ETHLend increases the usability of the product by introducing new mechanisms for user adoption. ETHLend aims to reward early adopters with the use of LEND tokens. The previously introduced LEND buybacks and burning is from now on deprecated. Instead, ETHLend will focus on creating value for the users and more value for the product, thus indirectly creating value for the token holders as well. ETHLend will use LEND token airdrops to increase the user adoption and add more volume to the loan book. An airdrop means that a certain amount of tokens is distributed to the users of the decentralized application.</p>
 
 <p>Buybacks and burning were previously introduced by ETHLend for creating more value for the token holders. However, these models have two drawbacks. First, buying LEND back from the market and permanently removing it from the circulation might decrease the total supply of LEND. This assumption implies that the token would increase in value due to the scarcity. Burning the LEND would not guarantee that the token increases in value. Secondly, pursuing the increase of the token value distracts ETHLend from the real opportunity - the users of the decentralized application.</p>
 
-<p>Creating rewarding mechanisms that aggregate more volume for the decentralized application creates more value for the product and eventually more value for the token holders as well. When the product and the venture is successful, the token holder’s LEND, which is used on the platform, has more value. Based on the above, instead of burning the tokens, ETHLend will airdrop the tokens to lenders and borrowers who actively use the decentralized application. The reward sets the motivation to borrowers and lenders to use the return and to use the application more frequently.</p>
+<p>Creating rewarding mechanisms that aggregate more volume for the decentralized application creates more value for the product and eventually more value for the token holders as well. When the product and the venture is successful, the token holder’s LEND, which is used on the platform, has more value since the lender and borrowers seek LEND from the market to receive the 25% discount compared with paying the fees in ETH. Moreover, growing lending volumes would amount that ETHLend would need to buy more LEND from the market. These two factors drive the demand of LEND token upon user adoption. Based on the above, instead of burning the tokens, ETHLend will airdrop the tokens to lenders and borrowers who actively use the decentralized application. The reward sets the motivation to borrowers and lenders to use the return and to use the application more frequently.</p>
 
-<p>The utility function of the airdropped LEND. ETHLend will use 20% of the decentralized application fees (loan request fee and funding fee) to purchase LEND from the market and airdrop the LEND for all the lenders and borrowers on ETHLend, based on the previous period’s volume. These airdrops are done either quarterly or monthly based on the complexity of the process in practice. The airdropped LEND can only be used as a collateral on ETHLend and cannot be transferred to another address. The aim is to provide additional collateral value for the borrower, which reduces the amount the borrower needs to provide as collateral. The lenders can use the airdropped LEND for different functions on ETHLend, such as paying featured listing fees or paying prediction market or credit risk assessment bots.</p>
+<p>The utility function of the airdropped LEND. ETHLend will use 20% of the decentralized application fees (loan request fee and funding fee) to purchase LEND from the market and airdrop the LEND for all the lenders and borrowers on ETHLend, based on the previous period’s volume. These airdrops are done either quarterly or monthly based on the complexity of the process in practice. The airdropped LEND can be used as a collateral on ETHLend or used for paying fees on ETHLend. Lenders and borrowers can additionally sell the LEND tokens. The aim is to provide additional collateral value for the borrower, which reduces the amount the borrower needs to provide as collateral. The lenders can use the airdropped LEND for different functions on ETHLend, such as paying featured listing fees or paying prediction market or credit risk assessment bots.</p>
 
 <p>Certain limitations apply to LEND due to security reasons and efficiency. First, we acknowledge that a free market does not always equal a fair market. Large volumes might be achieved with big loans. ETHLend will apply limitation on how much LEND is airdropped to an address. Secondly, the airdropped LEND must be used within 24 months. Therefore, once the airdrop is made, the borrower or lender must engage in lending within 24 months. Otherwise the LEND will go for redistribution to the next airdrop.</p>
 
 <p>When LEND is used as stated above, LEND creates more volume on the applications since the participants are getting more value by using LEND as a collateral or paying functions on ETHLend. Eventually, the LEND replaces the amount of the collateral that the borrower requires, and could eventually lower the collateral based lending interest rates and even create more trust within the reputation based lending. These changes should switch the focus on the user adoption and to provide more value for the product.</p>
-	
+
+## <h2>Utility function 3: Featured functions that are accessible only with LEND tokens</h2>
+
+<p>ETHLend will provide functions that are only accessible with the use of LEND. These featured functions will include featured loan listings. Featured listings are listing where the loan request is placed in the top of the search results or listing to speed the lending process for borrowers or lenders who need faster lending experience on ETHLend. Email marketing campaign for new loan request. Such marketing campaign might be beneficial for large loans. ETHLend reserves the right to provide more additional featured functions for the LEND users.</p>
+
+## <h2>Utility function 4: Rewarding Introducers with LEND</h2>
+
+<p>ETHLend will purchase additional amount of LEND (which will be decided during Q1 2018) to reward lenders and borrowers or third parties who introduce new participants on to the decentralized lending platform. The aim of the introducers’ program is to introduce new users to the platform to gain more volumes for the application. The introducers will be rewarded with a stake of the purchased LEND that is dedicated for the introducers’ program. Full details of the introducers’ program shall be disclosed during the Q1 2018 once the marketing of ETHLend goals and objectives are set.</p>
+
 ## <h2>Token Sale</h2>
 
 <p>Total of 1 000 000 000 (one billion) LEND is released for sale. Additionally, 300 000 000 LEND is held for development fund to incentivise the development team and to recruit more talent for ETHLend. There will be no follow-up sale on LEND.</p>
@@ -939,13 +1088,13 @@ https://www.linkedin.com/in/opinderpreet/
 
 <p>The funding goal for token sale is 37 600 ETH.</p>
 
-<p>Pre-sale starts on 25 September 2017 at 12 GMT.</p>
+<p>Pre-sale starts on 25 September 2017 at 12 PM GMT.</p>
 
-<p>Pre-sale ends on ends on 25 October 2017 at 23.59 GMT.</p>
+<p>Pre-sale ends on ends on 25 October 2017 at 23.59 PM GMT.</p>
 
-<p>Token sale starts on 25 November 2017 at 12 GTM.</p>
+<p>Token sale starts on 25 November 2017 at 12 PM GTM.</p>
 
-<p>Token sale ends on 9 December 2017 at 23.59 GTM.</p>
+<p>Token sale ends on 27 December 2017 at 23.59 PM GTM.</p>
 
 ## <h2>Purchase Price</h2>
 
@@ -992,6 +1141,10 @@ https://www.linkedin.com/in/opinderpreet/
 
 <p>The vesting model is active for 24 months in total. All tokens that are distributed to new team members from the development fund after the LEND token sale follows the vesting model on a pro-rata basis (will join the vesting model from the next mark).</p>
 
+<p>The vesting model shall be activated with a smart contract once the token sale is complete.</p>
+
+<p>For all new team members who joins ETHLend after the token sale period and are subject to the vesting model, a 6-month cliff-period is added. This means that if the person leaves before 6 month from the starting point, the members is not entitled to the vested tokens.</p> 
+
 ## <h2>Security</h2>
 
 <p>The token sale is performed with the use of Ethereum smart contract. Since all transactions are confirmed on the blockchain, the smart contract is resistant for security threats. The crowdsale smart contract code shall be available on GitHub and the code will be reviewed and audited by third party security auditing service.</p>
@@ -1006,12 +1159,10 @@ https://www.linkedin.com/in/opinderpreet/
 
 <p>Most of the funds are allocated to further development of the DAPP, either on core development or on user experience development. ETHLend provides the following funds allocation based on needs for application that ETHLend is developing:</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/ETHLend_WP-11.png)
-
-*	35% on core development
+*	30% on core development
 *	20% on user experience development
-*	20% on management of ETHLend Foundation or LLC (including legal and management costs)
-*	15% on promotions
+*	20% on management & legal
+*	20% on promotions & marketing
 *	10% on unexpected costs
 
 <p>Funds allocation is subject to change for providing flexibility. ETHLend will use best practices on funds allocation and its own discretion.</p>
@@ -1020,9 +1171,9 @@ https://www.linkedin.com/in/opinderpreet/
 
 <p>Entity behind the token sale:</p>
 
-<p>Block Research OÜ - Reg: 14331108 -  Tartu mnt 80, Kesklinna linnaosa, Tallinn, Harju maakond, 10112</p>
+<p>Block Research OÜ - Reg: 14331108 -  Tartu mnt 80, Kesklinna linnaosa, Tallinn, Harju maakond, 10112, Estonia</p>
 
-<p>Complaints: hi [-at-] ethlend [dot] io</p>
+<p>Complaints & assistance: hi [-at-] ethlend [dot] io</p>
 
 ## <h1>Further Updates</h1> </p>
 
@@ -1030,11 +1181,7 @@ https://www.linkedin.com/in/opinderpreet/
 
 Telegram: https://t.me/ETHLend
 
-Slack: https://join.slack.com/t/ethlend/shared_invite/MjM3NzI4NTAzMjAzLTE1MDQ4MDk3ODMtNTNkMTcxNTM3Mg
-
-Discord (Latest news and voice chats): https://discord.gg/nKjsStv
-
-Website: https://about.ethlend.io/token-sale/
+Website: https://ethlend.io
 
 White Paper: https://github.com/ETHLend/Documentation/blob/master/ETHLendWhitePaper.md
 
@@ -1044,7 +1191,7 @@ ICO Thread on BitcoinTalk: https://bitcointalk.org/index.php?topic=2089908.0
 
 Bounty Thread on BitcoinTalk: https://bitcointalk.org/index.php?topic=2078686
 
-Reddit: https://www.reddit.com/r/ETHLend/ 
+Reddit: https://www.reddit.com/r/ETHLend/
 
 Facebook: https://www.facebook.com/ETHLend/
 
