@@ -13,7 +13,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 **Table of Contents**
 
 - [ETHLend.io White Paper - Democratizing Lending](#)
-- [Brief - Summary on What We Are Developing](#brief-summary-on-what-we-are-developing)
+- [Summary on What We Are Developing](#summary-on-what-we-are-developing)
 - [Background](#background)
 	- [About the White Paper](#about-the-white-paper)
 	- [Lack of True Global Lending Market](#lack-of-true-global-lending-market)
@@ -52,7 +52,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 		- [Sharing the Risk with Other Lenders (Crowdlending)](#sharing-the-risk-with-other-lenders-crowdlending)
 		- [Decentralized Insurance Policy](#decentralized-insurance-policy)
 	- [Currency Exchange Risk Management](#currency-exchange-risk-management)
-	- [Competitive bidding on interest rate between lenders] (#competetive-bidding-on-interest-rate-between-lenders)
+	- [Competitive bidding on interest rate between lenders] (#competitive-bidding-on-interest-rate-between-lenders)
 	- [User Experience on ETHLend](#user-experience-on-ethlend)
 		- [Accessibility](#accessibility)
 		- [User Interface](#user-interface)
@@ -83,7 +83,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 	- [Funds Allocation](#funds-allocation)
 - [Further Updates](#further-updates)
  
-## <h1>Brief - Summary on What We Are Developing</h1>
+## <h1>Summary on What We Are Developing</h1>
 
 Use-Cases for Decentralized Lending
 
