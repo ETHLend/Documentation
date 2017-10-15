@@ -987,9 +987,9 @@ https://www.linkedin.com/in/nolvia-serrano-ba7362b2/
 
 https://www.linkedin.com/in/smospider/
 
-<p>Andreas Haraldsvik, Slack Wizard</p>
+<p>Luca Cotta, Italian Advisor & Community Manager</p>
 
-https://www.linkedin.com/in/andreas-haraldsvik-21140768/
+https://www.linkedin.com/in/luca-c-0b6678145/
 
 <p>Opinder Preet Singh, Local Advisor on Indian Subcontinent</p>
 
