@@ -851,11 +851,11 @@ ETHLend will purchase additional amount of LEND (which will be decided during Q1
 
 <p>We consider ETHLend as a long term project. However, to make most of us, concrete deadlines are necessary. Therefore, we shall introduce the following roadmap for technical implementations:</p>
 
-1.	ETHLend Alpha on Ethereum main-net on Q2 2017 (Milestone achieved)
-2.	ENS Domains as collateral on Q2 2017 (Milestone achieved)
-3.	Reputation-based Lending with CRE on Q3 2017 (Milestone achieved)
-4.	Token Sale Smart Contract on Q3 2017 (Milestone achieved)
-5.	Security Audit for the Token Sale Smart Contract on Q3 2017 (Milestone achieved)
+1.	ETHLend Alpha on Ethereum main-net on Q2 2017
+2.	ENS Domains as collateral on Q2 2017
+3.	Reputation-based Lending with CRE on Q3 2017
+4.	Token Sale Smart Contract on Q3 2017
+5.	Security Audit for the Token Sale Smart Contract on Q3 2017
 6.	USD Based Loans and Installments Q4 2017
 7.	On-Demand and Crowd Lending (Loan Offers from Lenders) on Q1 2018
 8.	User Experience Upgrade on Q1 2018
@@ -943,9 +943,17 @@ https://www.linkedin.com/in/jordan-lazaro-gustave-32018976/
 
 https://www.linkedin.com/in/martin-wichmann-89722561/
 
-<p>Jitendra Chittoda, Technical Advisor</p>
+<p>Anthony Akentiev, Blockchain Developer</p>
+
+https://www.linkedin.com/in/anthonyakentiev/
+
+<p>Jitendra Chittoda, Technical Adviser</p>
 
 https://www.linkedin.com/in/jchittoda/
+
+<p>Amir Dib, Technical Adviser</p>
+
+https://www.linkedin.com/in/amir-dib-b0345175/
 
 <p>Adnan Javed, Legal Advisor, adnan@ETHLend.io</p>
 
@@ -959,6 +967,22 @@ https://www.linkedin.com/in/sergej-stein/
 
 https://www.linkedin.com/in/kersten-sch%C3%BCtze-5ab3a2100/
 
+<p>Luca Cotta, Italian Advisor & Community Manager</p>
+
+https://www.linkedin.com/in/luca-c-0b6678145/
+
+<p>Anastasija Plotnikova, Adviser & Translations</p>
+
+https://www.linkedin.com/in/anastasija-plotnikova-9b972735/?ppe=1
+
+<p>Nolvia Serrano, Latam Adviser & Media Correspondent</p>
+
+https://www.linkedin.com/in/nolvia-serrano-ba7362b2/
+
+<p>Philipp Vasilyev, Russian Markets Adviser</p>
+
+https://www.linkedin.com/in/smospider/
+
 <p>Scott Malsbury, Head of Communications, scott@ETHLend.io</p>
 
 https://www.linkedin.com/in/scott-malsbury-a6260b12/?ppe=1
@@ -967,35 +991,53 @@ https://www.linkedin.com/in/scott-malsbury-a6260b12/?ppe=1
 
 https://www.linkedin.com/in/jin-park-27989ab8/
 
+<p>Koen Sanders, Cyber Security Adviser</p>
+
+https://www.linkedin.com/in/koen-sanders-54aba7151/
+
 <p>Rowan Van Ginkel, Graphics & Visualization</p>
 
 https://www.linkedin.com/in/rowanvanginkel/
+
+<p>Paras Botadra, Sr. Backend Developer<p>
+
+https://www.linkedin.com/in/parasbotadra/
 
 <p>Edmund To, Lead Junior Developer<p>
 
 https://www.linkedin.com/in/edmundto/
 
-<p>Anastasija Plotnikova, Advisor & Translations</p>
+<p>Steve Mann, Jr. Blockchain Developer<p>
 
-https://www.linkedin.com/in/anastasija-plotnikova-9b972735/?ppe=1
+https://www.linkedin.com/in/stevemann2705
 
-<p>Nolvia Serrano, Media Correspondent</p>
+<p>Kanhaiya Sharma, Ux Ui Designer And Frontend Developer<p>
 
-https://www.linkedin.com/in/nolvia-serrano-ba7362b2/
+https://www.linkedin.com/in/kanhaiyasharma/
 
 <p>Kelly Pope, Social Media</p>
 
 https://www.linkedin.com/in/smospider/
 
-<p>Luca Cotta, Italian Advisor & Community Manager</p>
+<p>Sachin Rana, Head Of Digital Marketing</p>
 
-https://www.linkedin.com/in/luca-c-0b6678145/
+https://www.linkedin.com/in/sachin-rana-b7a1aa3b/
 
-<p>Opinder Preet Singh, Local Advisor on Indian Subcontinent</p>
+<p>Opinder Preet Singh, Local Adviser on Indian Subcontinent</p>
 
 https://www.linkedin.com/in/opinderpreet/
 
 <p>Stephen You, Head of Korean Desk</p>
+
+https://www.linkedin.com/in/stephen-you-59833a138/
+
+<p>Disa Braun, Copywriter And Brand Adviser</p>
+
+https://www.linkedin.com/in/disa-braun/
+
+<p>Pushkar Vohra, Growth Hacker</p>
+
+https://www.linkedin.com/in/pushkar-vohra-75451416/
 
 ## <h2>The Advisory Board</h2>
 
@@ -1019,6 +1061,10 @@ https://www.linkedin.com/in/ada-jonuse-9766364b/
 
 https://www.linkedin.com/in/robert-viglione-2780634/
 
+<p>Tomoaki Sato, Founder of Starbase.co and Blockchain Engineer</p>
+
+https://www.linkedin.com/in/tomoaki-sato-086a0555/
+
 ## <h2>Governance</h2>
 
 <p>ETHLend follows decentralized governance. ETHLend introduces 3-tier governance for decentralized lending application. The decentralized application (DAPP) shall be governed by decentralized governance model similar to DAO. Anyone can propose changes in provided procedure for the DAPP. Each proposition is voted within the participants. Regular changes would require majority of voters present and core changes would require 2/3 of the voters present. The aim is to create a democratic system to control on what direction the DAPP development will take place. Moreover, it is crucial that anyone can participate to suggest and vote.</p>
@@ -1031,9 +1077,9 @@ https://www.linkedin.com/in/robert-viglione-2780634/
 
 <p>Road to decentralization. ETHLend introduces the following roadmap adopting changes, improvements and governance to ETHLend:</p>
 
-1.	White Paper on Decentralized Lending on Q2 2017 (milestone achieved)
-2.	Creating an entity for Token Sale on Q3 2017 (milestone achieved)
-3.	LEND Token Pre-Sale on Q3 2017 (milestone achieved)
+1.	White Paper on Decentralized Lending on Q2 2017
+2.	Creating an entity for Token Sale on Q3 2017
+3.	LEND Token Pre-Sale on Q3 2017
 4.	LEND Token Sale on Q4 2017
 5.	Relocating to Zug, Switzerland on Q1 2018
 6.	Promoting to get LEND on Exchanges from Q1 2018
