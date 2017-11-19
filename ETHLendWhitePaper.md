@@ -225,7 +225,7 @@ ETHLend will purchase additional amount of LEND (which will be decided during Q1
 
 <p>Represented value as a collateral for borrowing. Contrary to what might occur, Ethereum-based ERC-20 tokens are perfect to use as a collateral. First, all popular Ethereum-based ERC-20 tokens are traded on exchange. Therefore, we do not have to roll the dices to form a price on most common ERC-20 tokens. Secondly, since we have a price, we usually have the price history as well. This means that we can calculate the volatility of the ERC-20 token and take the volatility into account when we are pledging the tokens to attract lenders.</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/ETHLend_WP_Page-4.png)
+![Image](images/ETHLend_WP_Page-4.png)
 
 <p>Moreover, Ethereum-based ERC-20 tokens are easily transferrable between Ethereum Wallets and Smart Contracts. Smart Contracts iself can represent legally binding agreement (an offer and acceptance of offer), and the contractual statute can be agreed upon on the terms and conditions. Lastly, digital tokens are flexible. You can tokenize anything that has value. Due to this flexibility, assets such as real property, company shares and commodities can be placed on a token and pledged for a loan. The aforementioned function could revolutionize lending and trading on all assets. Even assets or value that was previously hard to value and trade, would be now be available for liquidity.</p>
 
@@ -273,7 +273,7 @@ ETHLend will purchase additional amount of LEND (which will be decided during Q1
 
 <p>How do we know that the property is real? In case of DigixDAO for example, an audit takes place, which confirms that the gold reserve is true. Audit is just one example. There are other examples such as oracles or any sort of outsourced trust. In terms of adoption of tokenization, it does not require much that in near future all forms of assets could be represented as ERC-20 compatible tokens.</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/ETHLend_WP_Page-8.png)
+![Image](images/ETHLend_WP_Page-8.png)
 
 <p>Tokenization provides more opportunities on lending. When property is tokenized, the tokens could be traded or pledged against a loan. This means that there would be tokens at the loan market that have less volatility and are more suitable as a collateral.  In near future, we do not see any obstacles on having Apple or Facebook shares tokenized and pledged against a loan on ETHLend. Even further, one could tokenize his house that is under construction and pledge it to receive a loan from lenders all parts of the world. The global competition on lending market would provide the most competitive interest rate for the borrower.</p>
 
@@ -299,7 +299,7 @@ ETHLend will purchase additional amount of LEND (which will be decided during Q1
 
 <p>Lending requires more than sending Ether. Decentralized lending requires a blockchain ledger that is able to run more complex transactions than the fundamental sending and receiving value. The core power of Ethereum is the adoption of Smart Contracts. This function provides the ability to use blockchain ledger extensively. Smart Contracts in general definition provides a solution to deploy commands on the blockchain network, which affect the way on how data is stored, represented or handled in the Ethereum blockchain network. This means that we can deploy code that executes but cannot be modified once deployed.</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/ETHLend_WP_Page-10.png)
+![Image](images/ETHLend_WP_Page-10.png)
 
 <p>Loan agreement as a Smart Contract. The basic function of a loan agreement is the storage of data. This data includes the information on the loan capital, premium (interest charged), days to loan and the parties of the loan agreement. By using the aforementioned information, we can perform a loan transaction between trusted persons. However, when we want to enable workable solution for lending between borrowers and lenders that do not know each other, we need more than the data above.</p>
 
@@ -485,7 +485,7 @@ ETHLend will purchase additional amount of LEND (which will be decided during Q1
 
 <p>Smart Contracts provide the solution for the borrower and the lender to perform a secured loan without relying on third parties. Since Smart Contracts can store ERC-20 compatible tokens and ENS domains, the collateral is easily moved to in any direction. This might not be the case in real life. Moreover, since ERC-20 tokens can represent any value from centralized world, Smart Contracts would provide the possibility to control this value on blockchain. Theoretically, anything can be used as a collateral once tokenized, even a dog.</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/07/ETHLend_WP_Page-14.png)
+![Image](images/ETHLend_WP_Page-14.png)
 
 ## <h2>Demonstration of the DAPP</h2>
 
@@ -501,35 +501,35 @@ ETHLend will purchase additional amount of LEND (which will be decided during Q1
  
 <p>Click ‘GET CHROME PLUGIN’</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img1.jpg)
+![Image](images/img1.jpg)
  
 <p>Click Add to Chrome</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img2.jpg)
+![Image](images/img2.jpg)
  
 <p>Click Add extension</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img3.jpg)
+![Image](images/img3.jpg)
  
 <p>In the top right corner, you will see the icon of MetaMask</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img4.jpg)
+![Image](images/img4.jpg)
  
 <p>Click accept after reading and accepting the privacy policy</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img5.jpg)
+![Image](images/img5.jpg)
  
 <p>You will then create your MetaMask account here</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img6.jpg)
+![Image](images/img6.jpg)
  
 <p>After creating the account, you will be provided 12 words, which will be used to recover your account</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img7.jpg)
+![Image](images/img7.jpg)
  
 <p>You can see the details of your account and you can request a loan or fund a loan of ETH using ETHLend now</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img8.jpg)
+![Image](images/img8.jpg)
 
 ## <h3>New Loan Request</h3>
 
@@ -551,23 +551,23 @@ ETHLend will purchase additional amount of LEND (which will be decided during Q1
 
 <p>We will have three accounts - lender, borrower1 and borrower2.</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img9.jpg)
+![Image](images/img9.jpg)
  
 <p>We are going to use Basic Attention Token (BAT) as collateral. For more information about BAT, please visit https://basicattentiontoken.org/</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img10.jpg)
+![Image](images/img10.jpg)
  
 <p>To create a loan, first click New Loan Request</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img11.jpg)
+![Image](images/img11.jpg)
  
 <p>MetaMask should pop up, and after reviewing you would need to click accept to continue</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img12.jpg)
+![Image](images/img12.jpg)
  
 <p>The message ‘Done!’ will be displayed after the transaction goes through</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img13.jpg)
+![Image](images/img13.jpg)
  
 <p>If you go back to All Loan Requests and shuffle the loans, you will see that a new loan is created. The red dot indicates that it is your address.</p>
 
@@ -575,107 +575,107 @@ ETHLend will purchase additional amount of LEND (which will be decided during Q1
  
 <p>After that you clicked into the contract you just created, enter the details of the contract</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img14.jpg)
+![Image](images/img14.jpg)
  
 <p>Then click Set Data and MetaMask will pop up again for you to confirm</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img15.jpg)
+![Image](images/img15.jpg)
  
 <p>The message ‘Done!’ will be displayed when the transaction is completed.</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img16.jpg)
+![Image](images/img16.jpg)
 
 ## <h3>Sending Digital Tokens to the Smart Contract</h3>
  
 <p>We will see the status of the contract is changed to ‘waiting for tokens’</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img17.jpg)
+![Image](images/img17.jpg)
  
 <p>You will need to transfer the amount token set in the contract to the address given</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img18.jpg)
+![Image](images/img18.jpg)
  
 <p>You can visit Token Factory to transfer tokens to the address, first click ‘interact with token contract’ (Alternatively, you can go to your Ethereum wallet and sent the tokens to the loan Smart Contract).</p>
  
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img19.jpg)
+![Image](images/img19.jpg)
  
 <p>You will be asked for the token address</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img20.jpg)
+![Image](images/img20.jpg)
  
 <p>You can find out the contract address information on Etherscan</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img21.jpg)
+![Image](images/img21.jpg)
  
 <p>You can also check your balance here to ensure you have sufficient amount of tokens</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img22.jpg)
+![Image](images/img22.jpg)
  
 <p>You can transfer the token to the address given in ETHLend here</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img23.jpg)
+![Image](images/img23.jpg)
  
 <p>Once transfer is completed, you can go to ETHLend to check on the status and you will be asked to confirm on MetaMask</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img24.jpg)
+![Image](images/img24.jpg)
  
 <p>After that is competed, you will see the status of your loan has changed to waiting for lender</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img25.jpg)
+![Image](images/img25.jpg)
 
 ## <h3>Funding the Loan</h3>
  
 <p>This is an example we are going to switch to a lender account. In practice, the following steps will be conducted by a lender</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img26.jpg)
+![Image](images/img26.jpg)
  
 <p>After selecting the loan, lender can click fund this loan request</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img27.jpg)
+![Image](images/img27.jpg)
  
 <p>Confirm via MetaMask</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img28.jpg)
+![Image](images/img28.jpg)
  
 <p>Borrower has successfully received his loan</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img29.jpg)
+![Image](images/img29.jpg)
 
 ## <h3>Paying the Loan Back</h3>
  
 <p>As the borrower, you can choose the loan you would like to repay</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img30.jpg)
+![Image](images/img30.jpg)
  
 <p>Click return token and confirm via MetaMask</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img31.jpg)
+![Image](images/img31.jpg)
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img32.jpg)
+![Image](images/img32.jpg)
  
 <p>You can see in the balance borrower has returned to lender the loan amount plus interest</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img33.jpg)
+![Image](images/img33.jpg)
  
 <p>Borrower has received back his token pledged earlier for collateral</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img34.jpg)
+![Image](images/img34.jpg)
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img35.jpg)
+![Image](images/img35.jpg)
 
 ## <h3>Default Scenario</h3>
  
 <p>We are going to demonstrate a default scenario next</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img36.jpg)
+![Image](images/img36.jpg)
  
 <p>We follow identical steps except for the number of days we are putting 0 day to simulate the loan defaulting</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img37.jpg)
+![Image](images/img37.jpg)
  
 <p>After the loan is defaulted, lender can see the message has changed to get token</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/img38.jpg)
+![Image](images/img38.jpg)
  
 <p>Lender can claim the token and we can confirm on token factory</p>
 
@@ -685,7 +685,7 @@ ETHLend will purchase additional amount of LEND (which will be decided during Q1
 
 <p>Liquidity provided by the lender. Alternative for the borrower’s loan request, ETHLend shall adopt a Smart Contract where the lender may place the loan offer for the borrowers. The lender creates a Loan Smart Contract. The lender inserts data on how much liquidity the lender in total is willing to lend, on what premium, and which tokens the lender is willing to accept for collateral. After the lenders Loan Smart Contract is deployed, anyone may lend from lender simply by sending ERC-20 tokens to the Smart Contract.</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/ETHLend_WP-05.png)
+![Image](images/ETHLend_WP-05.png)
 
 <p>On-demand lending. The lender provides as above state liquidity for any borrower with the pre-set conditions. This means that instead of participating in multiple loan requests, the lender can handle all loans form one Smart Contract. When a borrower returns the loan the, the token is released and sent back to the borrower and the lender Loan Smart Contract has more liquidity for lending. Factually, we have here an on-going lending institution that the lender has created. The lender may at any point close his loan offer. This would mean that no new loans are granted and the borrowed capital will close on due.</p>
 
@@ -715,7 +715,7 @@ ETHLend will purchase additional amount of LEND (which will be decided during Q1
 
 <p>Consequently, the ENS domain pledge follows the same roadmap as the tokens pledge. The main distinction is that on token pledge token smart contract address is used for interaction and data. On the other hand, in ENS domain pledge we are using the hash key provided by the ENS registry for transferring the ENS domain to the Smart Contract. The use of Smart Contract additionally guarantees that the address where the received funds are allocated does not change during the pledge, providing security and transparency for the borrower.</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/ETHLend_WP_Artboard-8.png)
+![Image](images/ETHLend_WP_Artboard-8.png)
 
 <p>The rapid growth of ENS domains will lock down vast amount of ETH in to the ENS Smart Contracts. This means that at some point there shall be ETH locked that could be worth of billions of USD. Therefore, ENS domain pledge provides a convenient way to “unlock” these funds for use by obtaining funding and pledging the ENS domain. Eventually ENS domains could end up being even more suitable alternative for a collateral for a loan. ENS domains do not have the volatility that some of the ERC-20 tokens might have. Of course, the volatility with the tokens might disappear eventually and would follow such volatility that is seen on stock market or currency exchange. However, since tokens do differ this not the case for all tokens.</p>
 
@@ -881,7 +881,7 @@ ETHLend will purchase additional amount of LEND (which will be decided during Q1
 
 <p>Below is provided the ecosphere of decentralized lending on ETHLend:<p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/ETHLend_WP-08-1.png)
+![Image](images/ETHLend_WP-08-1.png)
 
 <p>Secured lending: ERC-20 Tokens, ENS domains + Unsecured Lending: CRE, uPort (to be implemented)</p>
 
@@ -1178,7 +1178,7 @@ https://www.linkedin.com/in/tomoaki-sato-086a0555/
 
 <p>ETHLend introduces the following Vesting model for the core team:</p>
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/07/ETHLend_WP-10.png)
+![Image](images/ETHLend_WP-10.png)
 
 1.	80% of LEND is locked once Token Sale distribution has ended
 2.	60% of LEND is locked after 6 months from Token Sale distribution
@@ -1254,4 +1254,4 @@ KakaoTalk (Korean): https://open.kakao.com/o/gBzFr5y
 
 Vkontakte (Russian): https://vk.com/ethlend
 
-![Image](http://about.ethlend.io/wp-content/uploads/2017/06/logo_300DPI-05-1.png)
+![Image](images/logo_300DPI-05-1.png)
