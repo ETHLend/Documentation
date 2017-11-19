@@ -505,31 +505,31 @@ ETHLend will purchase additional amount of LEND (which will be decided during Q1
  
 <p>Click Add to Chrome</p>
 
-![Image](images/img2.jpg)
+![Image](images/img2.jpeg)
  
 <p>Click Add extension</p>
 
-![Image](images/img3.jpg)
+![Image](images/img3.jpeg)
  
 <p>In the top right corner, you will see the icon of MetaMask</p>
 
-![Image](images/img4.jpg)
+![Image](images/img4.jpeg)
  
 <p>Click accept after reading and accepting the privacy policy</p>
 
-![Image](images/img5.jpg)
+![Image](images/img5.jpeg)
  
 <p>You will then create your MetaMask account here</p>
 
-![Image](images/img6.jpg)
+![Image](images/img6.jpeg)
  
 <p>After creating the account, you will be provided 12 words, which will be used to recover your account</p>
 
-![Image](images/img7.jpg)
+![Image](images/img7.jpeg)
  
 <p>You can see the details of your account and you can request a loan or fund a loan of ETH using ETHLend now</p>
 
-![Image](images/img8.jpg)
+![Image](images/img8.jpeg)
 
 ## <h3>New Loan Request</h3>
 
@@ -551,23 +551,23 @@ ETHLend will purchase additional amount of LEND (which will be decided during Q1
 
 <p>We will have three accounts - lender, borrower1 and borrower2.</p>
 
-![Image](images/img9.jpg)
+![Image](images/img9.jpeg)
  
 <p>We are going to use Basic Attention Token (BAT) as collateral. For more information about BAT, please visit https://basicattentiontoken.org/</p>
 
-![Image](images/img10.jpg)
+![Image](images/img10.jpeg)
  
 <p>To create a loan, first click New Loan Request</p>
 
-![Image](images/img11.jpg)
+![Image](images/img11.jpeg)
  
 <p>MetaMask should pop up, and after reviewing you would need to click accept to continue</p>
 
-![Image](images/img12.jpg)
+![Image](images/img12.jpeg)
  
 <p>The message ‘Done!’ will be displayed after the transaction goes through</p>
 
-![Image](images/img13.jpg)
+![Image](images/img13.jpeg)
  
 <p>If you go back to All Loan Requests and shuffle the loans, you will see that a new loan is created. The red dot indicates that it is your address.</p>
 
@@ -575,105 +575,105 @@ ETHLend will purchase additional amount of LEND (which will be decided during Q1
  
 <p>After that you clicked into the contract you just created, enter the details of the contract</p>
 
-![Image](images/img14.jpg)
+![Image](images/img14.jpeg)
  
 <p>Then click Set Data and MetaMask will pop up again for you to confirm</p>
 
-![Image](images/img15.jpg)
+![Image](images/img15.jpeg)
  
 <p>The message ‘Done!’ will be displayed when the transaction is completed.</p>
 
-![Image](images/img16.jpg)
+![Image](images/img16.jpeg)
 
 ## <h3>Sending Digital Tokens to the Smart Contract</h3>
  
 <p>We will see the status of the contract is changed to ‘waiting for tokens’</p>
 
-![Image](images/img17.jpg)
+![Image](images/img17.jpeg)
  
 <p>You will need to transfer the amount token set in the contract to the address given</p>
 
-![Image](images/img18.jpg)
+![Image](images/img18.jpeg)
  
 <p>You can visit Token Factory to transfer tokens to the address, first click ‘interact with token contract’ (Alternatively, you can go to your Ethereum wallet and sent the tokens to the loan Smart Contract).</p>
  
-![Image](images/img19.jpg)
+![Image](images/img19.jpeg)
  
 <p>You will be asked for the token address</p>
 
-![Image](images/img20.jpg)
+![Image](images/img20.jpeg)
  
 <p>You can find out the contract address information on Etherscan</p>
 
-![Image](images/img21.jpg)
+![Image](images/img21.jpeg)
  
 <p>You can also check your balance here to ensure you have sufficient amount of tokens</p>
 
-![Image](images/img22.jpg)
+![Image](images/img22.jpeg)
  
 <p>You can transfer the token to the address given in ETHLend here</p>
  
 <p>Once transfer is completed, you can go to ETHLend to check on the status and you will be asked to confirm on MetaMask</p>
 
-![Image](images/img23.jpg)
+![Image](images/img23.jpeg)
  
 <p>After that is competed, you will see the status of your loan has changed to waiting for lender</p>
 
-![Image](images/img24.jpg)
+![Image](images/img24.jpeg)
 
 ## <h3>Funding the Loan</h3>
  
 <p>This is an example we are going to switch to a lender account. In practice, the following steps will be conducted by a lender</p>
 
-![Image](images/img26.jpg)
+![Image](images/img26.jpeg)
  
 <p>After selecting the loan, lender can click fund this loan request</p>
 
-![Image](images/img27.jpg)
+![Image](images/img27.jpeg)
  
 <p>Confirm via MetaMask</p>
 
-![Image](images/img28.jpg)
+![Image](images/img28.jpeg)
  
 <p>Borrower has successfully received his loan</p>
 
-![Image](images/img29.jpg)
+![Image](images/img29.jpeg)
 
 ## <h3>Paying the Loan Back</h3>
  
 <p>As the borrower, you can choose the loan you would like to repay</p>
 
-![Image](images/img30.jpg)
+![Image](images/img30.jpeg)
  
 <p>Click return token and confirm via MetaMask</p>
 
-![Image](images/img31.jpg)
+![Image](images/img31.jpeg)
 
-![Image](images/img32.jpg)
+![Image](images/img32.jpeg)
  
 <p>You can see in the balance borrower has returned to lender the loan amount plus interest</p>
 
-![Image](images/img33.jpg)
+![Image](images/img33.jpeg)
  
 <p>Borrower has received back his token pledged earlier for collateral</p>
 
-![Image](images/img34.jpg)
+![Image](images/img34.jpeg)
 
-![Image](images/img35.jpg)
+![Image](images/img35.jpeg)
 
 ## <h3>Default Scenario</h3>
  
 <p>We are going to demonstrate a default scenario next</p>
 
-![Image](images/img36.jpg)
+![Image](images/img36.jpeg)
  
 <p>We follow identical steps except for the number of days we are putting 0 day to simulate the loan defaulting</p>
 
-![Image](images/img37.jpg)
+![Image](images/img37.jpeg)
  
 <p>After the loan is defaulted, lender can see the message has changed to get token</p>
 
-![Image](images/img38.jpg)
+![Image](images/img38.jpeg)
  
 <p>Lender can claim the token and we can confirm on token factory</p>
 
