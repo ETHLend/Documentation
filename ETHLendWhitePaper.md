@@ -879,7 +879,7 @@ ETHLend will purchase additional amount of LEND (which will be decided during Q1
 
 <p>Below is provided the ecosphere of decentralized lending on ETHLend:<p>
 
-![Image](images/ETHLend_WP-08-1.png)
+![Image](images/ETHLend_WP-08.png)
 
 <p>Secured lending: ERC-20 Tokens, ENS domains + Unsecured Lending: CRE, uPort (to be implemented)</p>
 
