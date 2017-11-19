@@ -612,16 +612,14 @@ ETHLend will purchase additional amount of LEND (which will be decided during Q1
 ![Image](images/img22.jpg)
  
 <p>You can transfer the token to the address given in ETHLend here</p>
-
-![Image](images/img23.jpg)
  
 <p>Once transfer is completed, you can go to ETHLend to check on the status and you will be asked to confirm on MetaMask</p>
 
-![Image](images/img24.jpg)
+![Image](images/img23.jpg)
  
 <p>After that is competed, you will see the status of your loan has changed to waiting for lender</p>
 
-![Image](images/img25.jpg)
+![Image](images/img24.jpg)
 
 ## <h3>Funding the Loan</h3>
  
