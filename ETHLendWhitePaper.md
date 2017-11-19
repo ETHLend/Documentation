@@ -929,15 +929,15 @@ ETHLend will purchase additional amount of LEND (which will be decided during Q1
 
 <p>Introducing our team:</p>
 
-<p>Stani Kulechov, Founder of ETHLend & Development, stani@ETHLend.io</p>
+<p>Stani Kulechov, Founder of ETHLend & Development</p>
 
 https://www.linkedin.com/in/stanislav-kulechov-361284132/
 
-<p>Jordan Lazaro Gustave, Head of Management, jordan@ETHLend.io</p>
+<p>Jordan Lazaro Gustave, Head of Management</p>
 
 https://www.linkedin.com/in/jordan-lazaro-gustave-32018976/
 
-<p>Martin Wichmann, Head of Token Sale, martin@ETHLend.io</p>
+<p>Martin Wichmann, Head of Token Sale</p>
 
 https://www.linkedin.com/in/martin-wichmann-89722561/
 
@@ -953,19 +953,19 @@ https://www.linkedin.com/in/jchittoda/
 
 https://www.linkedin.com/in/amir-dib-b0345175/
 
-<p>Adnan Javed, Legal Advisor, adnan@ETHLend.io</p>
+<p>Adnan Javed, Legal Advisor</p>
 
 https://www.linkedin.com/in/adnan-javed/
 
-<p>Sergej Stein, Financial Advisor & Blog, sergej@ETHLend.io</p>
+<p>Sergej Stein, Financial Advisor</p>
 
 https://www.linkedin.com/in/sergej-stein/
 
-<p>Kersten Schütze, Head of Corporate Strategy, kersten@ETHLend.io</p>
+<p>Kersten Schütze, Head of Corporate Strategy</p>
 
 https://www.linkedin.com/in/kersten-sch%C3%BCtze-5ab3a2100/
 
-<p>Luca Cotta, Italian Advisor & Community Manager</p>
+<p>Luca Cotta, Italian Adviser & Community Manager</p>
 
 https://www.linkedin.com/in/luca-c-0b6678145/
 
@@ -981,11 +981,11 @@ https://www.linkedin.com/in/nolvia-serrano-ba7362b2/
 
 https://www.linkedin.com/in/smospider/
 
-<p>Scott Malsbury, Head of Communications, scott@ETHLend.io</p>
+<p>Scott Malsbury, Head of Communications</p>
 
 https://www.linkedin.com/in/scott-malsbury-a6260b12/?ppe=1
 
-<p>Jin Park, Head of Marketing, jin@ETHLend.io</p>
+<p>Jin Park, Head of Marketing</p>
 
 https://www.linkedin.com/in/jin-park-27989ab8/
 
@@ -1252,4 +1252,4 @@ KakaoTalk (Korean): https://open.kakao.com/o/gBzFr5y
 
 Vkontakte (Russian): https://vk.com/ethlend
 
-![Image](images/logo_300DPI-05-1.png)
+![Image](images/logo_300DPI-05.png)
