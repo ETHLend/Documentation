@@ -501,11 +501,11 @@ ETHLend will purchase additional amount of LEND (which will be decided during Q1
  
 <p>Click ‘GET CHROME PLUGIN’</p>
 
-![Image](/images/img1.jpg)
+![Image](images/img1.jpg)
  
 <p>Click Add to Chrome</p>
 
-![Image](/images/img2.jpg)
+![Image](images/img2.jpg)
  
 <p>Click Add extension</p>
 
