@@ -239,7 +239,7 @@ ETHLend will purchase additional amount of LEND (which will be decided during Q1
 
 ## <h3>Trustless</h3>
 
-<p>There is no need to trust the counterparty. When the borrower places the loan request on ETHLend, the counterparty, ETHLend or any other party cannot manipulate, stop and prevent the loan request once the loan is depoyed. Instead of the need to trust the counterparty, decentralization removes the necessity to trust your provider and your counterparty.</p>
+<p>There is no need to trust the counterparty. When the borrower places the loan request on ETHLend, the counterparty, ETHLend or any other party cannot manipulate, stop and prevent the loan request once the loan is deployed. Instead of the need to trust the counterparty, decentralization removes the necessity to trust your provider and your counterparty.</p>
 
 <p>Removing the counterparty or third party risk is vital to avoid any unfair and unwanted behaviour. By using trustless environment, we are able to avoid risk that are associated with third parties. For example, we do not have to take into account if the peer to peer lending service provider is under cyberattack, incurs fraud or the service provider would end up into insolvency proceedings.</p>
 
