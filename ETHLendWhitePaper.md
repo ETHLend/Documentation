@@ -1216,7 +1216,7 @@ https://www.linkedin.com/in/tomoaki-sato-086a0555/
 
 <p>Entity behind the token sale:</p>
 
-<p>Block Research OÜ - Reg: 14331108 -  Tartu mnt 80, Kesklinna linnaosa, Tallinn, Harju maakond, 10112, Estonia</p>
+<p>ETHLend OÜ - Reg: 14398644 -  Tartu mnt 80, Kesklinna linnaosa, Tallinn, Harju maakond, 10112, Estonia</p>
 
 <p>Complaints & assistance: hi [-at-] ethlend [dot] io</p>
 
