@@ -2,6 +2,12 @@
 
 25 February 2018
 
+<p>What is ETHLend? - ETHLend is a fully decentralized financial marketplace built on top of the Ethereum Network allowing lenders and borrowers from all over the world to create peer to peer lending agreements in a secure and transparent way using Blockchain and Smart Contracts. </p>
+
+<p>Lending crypto-to-crypto removes the  need for banks to be the only available option for borrowing. By placing a loan request on ETHLend, lenders from all over the globe can fund loan requests by competing to provide the most competitive interest rate. ETHLend is trustless and transparent and can be used by individuals and institutions.</p>
+
+<p>A short intro video by our Media Correspondent is located at https://www.youtube.com/watch?v=IGaoqUoL1F4</p>
+
 <p>Abstract: ETHLend.io introduces decentralized lending on Ethereum network by using ERC-20 compatible tokens or Ethereum Name Service (ENS) domains as a collateral. ETHLend solves the problem on reducing the loss of loan capital on default. On healthy loan relationships the loan is paid back. However, the pseudo-anonymous nature of Ethereum blockchain network opens the possibility to avoid repayment of the loan since the lender might not have all the necessary details of the borrower to enforce the debt in the borrower's jurisdiction. Moreover, enforcement in a decentralized environment, where the parties can be from any part of the world, might not be efficient. ETHLend provides decentralized solutions to avoid loss of capital and to make one true global lending market available.</p>
 
 <p>Copyright 2018 ETHLend.io</p>
