@@ -1,10 +1,10 @@
 # ETHLend.io White Paper - Democratizing Lending
 
-19 November 2017
+14 February 2018
 
 <p>Abstract: ETHLend.io introduces decentralized lending on Ethereum network by using ERC-20 compatible tokens or Ethereum Name Service (ENS) domains as a collateral. ETHLend solves the problem on reducing the loss of loan capital on default. On healthy loan relationships the loan is paid back. However, the pseudo-anonymous nature of Ethereum blockchain network opens the possibility to avoid repayment of the loan since the lender might not have all the necessary details of the borrower to enforce the debt in the borrower's jurisdiction. Moreover, enforcement in a decentralized environment, where the parties can be from any part of the world, might not be efficient. ETHLend provides decentralized solutions to avoid loss of capital and to make one true global lending market available.</p>
 
-<p>Copyright 2017 ETHLend.io</p>
+<p>Copyright 2018 ETHLend.io</p>
 
 <p>Without explicit permission, anyone has the right to use, reproduce or distribute any material in this white paper for non-commercial purposes and educational use, provided that the original source and the applicable copyright notice are cited.</p>
 
@@ -87,7 +87,7 @@ DISCLAIMER: This White Paper is inteded for distribution solely on information p
 
 **Use-Cases for Decentralized Lending**
 
-In crypto-economy: Borrowing Ether to participate in different ICOs and purchasing tokens from the exchange for investment strategies without the need to sell tokens. Lending altcoins and tokens for short selling or hedging. Financing mining expansions, liquidity for trading, finance for blockchain startups for ICO marketing by pledging ICO tokens. Unleashing the Ether locked in ENS domains for any finance goal.
+In crypto-economy: Borrowing Ether to participate in different ICOs, buying dips (bear market movements) and purchasing tokens from the exchange for investment strategies without the need to sell tokens. Lending altcoins and tokens for short selling or hedging. Financing mining expansions, liquidity for trading, finance for blockchain startups for ICO marketing by pledging ICO tokens. Unleashing the Ether locked in ENS domains for any finance goal.
 
 In FIAT-economy: By using FIAT-pegging (using USD instead of Ether as a calculation), any finance goal of real world can be met without bearing the volatility.
 
@@ -97,29 +97,39 @@ Future use-cases: Tokenization of Things. Pledging real property, shares, intell
 
 ETHLend provides secured lending with the use of ERC-20 compatible tokens as a collateral. For example, users with a token portfolio are not required to sell the tokens to receive liquidity. Instead, the user can pledge the tokens to receive more liquidity. Alternatively, Ethereum Name Service (ENS) domains can be used to secure loans since these domain locks Ether when the domain is paid.
 
-**Reputation Based Lending**
+**Creating the lending currency with LEND token**
 
-ETHLend will create reputation based lending with the help of decentralized credit rating, which consists of data from decentralized credit tokens (CRE), decentralized identities such as uPort, and data feeds from centralized service providers such as credit institutions and social media. Moreover, services such as Bloom would be used to broadcast defaults on to the centralized credit scores.
+LEND token is used as the main medium of exchange (lending currency) on the ETHLend decentralized application. The main use of LEND is to be a lending currency, such demand is created by removing all smart contract fees on lending with LEND. Therefore, when users are using LEND token lending is zero-fee. LEND would be additionally the only currency to use Ethereum as a collateral. Becoming the medium of exchanges creates the main use-casr and demand for the LEND token. 
 
-**Decentralized Credit Rating (DCR)**
+**Gamified Credit Profile**
 
-Unleashing decentralized credit rating. Credit history is borne once there is data available on paid loans, the interest rates, possible collateral, and details of the lenders (and their transactional data) and the transactional data of the address. From this data, a credit profile can be built by assessing the data. Moreover, such data can be exported to other applications and chains.
+ETHLend introduced late 2017, decentralized credit rating (DCR) and reputation based lending. DCR means that any borrower could use decentralized credit tokens (CRE) as a yardstick to present creditworthiness and this creditworthiness could be exported to other decentralized application where a past compliance is valued.
 
-**Gateway for Decentralized Identities to DCR**
+Here is the excerpt description on what we presented:
 
-ETHLend will add a gateway for self-sovereign identity providers such as uPort and credit rating providers such as Bloom. These functions assists borrowers to create more complete credit profile on the Decentralized Credit Rating.
+Reputation based lending --> ETHLend will create reputation based lending with the help of decentralized and gamified credit rating, which consists of data from decentralized credit tokens (CRE), decentralized identities such as uPort, and data feeds from centralized service providers such as credit institutions and social media. Moreover, services such as Bloom would be used to broadcast defaults on to the centralized credit scores.
 
-**Oracles: Feeds from Centralized Providers to DCR**
+Decentralized Credit Rating (DCR) --> Unleashing decentralized credit rating. Credit history is borne once there is data available on paid loans, the interest rates, possible collateral, and details of the lenders (and their transactional data) and the transactional data of the address. From this data, a credit profile can be built by assessing the data. Moreover, such data can be exported to other applications and chains.
 
-Feeds from centralized credit institutions. ETHLend provides a gateway for credit institutions and centralized data to be broadcasted on the user’s Decentralized Credit Rating profile. Additionally, oracles can also be used to provide feeds from social media for creating a more complete credit profile.
+Gateway for Decentralized Identities to DCR --> ETHLend will add a gateway for self-sovereign identity providers such as uPort and credit rating providers such as Bloom. These functions assists borrowers to create more complete credit profile on the Decentralized Credit Rating.
 
-**Mobile Interface with Status.im**
+Oracles: Feeds from Centralized Providers to DCR --> Feeds from centralized credit institutions. ETHLend provides a gateway for credit institutions and centralized data to be broadcasted on the user’s Decentralized Credit Rating profile. Additionally, oracles can also be used to provide feeds from social media for creating a more complete credit profile.
 
-ETHLend will develop an interface so that the decentralized application can be used from the mobile with the use of Status.im mobile browser.
+ETHLend will combine the whole concept of decentralized credit rating (DCR) and expands the concept to gamified experience. Therefore, decentralized credit tokens (CRE) are turned into ERC-721 collectible credit badges based on the lending activity.
+
+Instead of using ERC-20 tokens to provide the user a number (score) on previous lending activity, gamified and ERC-721 based collectible badges present more of what kind of a borrower or lender the user is instead of providing a score. Such data is essentially rich not merely on ETHLend decentralized application, moreover in other applications and even in the real banking economy.
+
+Practically all the Gateways for example Bloom Score (part of the decentralized gateway to DCR) or Fico score (feeds from centralized providers) are presented as a various kinds of badgets.
+
+Gamified credit profile encourages to collect positive lending badges and to avoid negative ones. For example, borrower with reputable badge collection would not want to tarhish the badge collection since it would effect the borrower's creditworthiness from the lender's perspective. This would amount to true personalized and repuation based lending, and could affect on the amount of collateral the borrower would need to set.
+
+**Mobile access with mobile DAPP browsers**
+
+ETHLend will develop mobile web3 (Ethereum API library) ready mobile responsive interface so that the decentralized application can be used from the mobile with the user of mobile decentralized application browser (DAPP browsers).
 
 **Expanding Decentralized Lending and Decentralized Credit Rating beyond Ethereum network**
 
-ETHLend will expand the decentralized lending application and the decentralized credit rating beyond Ethereum network to other distributed ledger networks.
+ETHLend will expand the use of decentralized lending and the gamified credit profiles beyond Ethereum network to other distributed ledger networks.
 
 **ETHLend will introduce lender side offers (on-demand lending)**
 
@@ -165,23 +175,77 @@ ETHLend will provide APIs for bot creators to automate lending and borrowing bot
 
 We will introduce lending Bitcoin (altcoins) for wider adoption of the decentralized application. Moreover, lending ERC-20 compatible tokens are introduced to cover additional lending strategies such as short selling and hedging.
 
-**LEND token**
+**LEND token economy, usa-cases and utlities**
 
-**Utility function 1: LEND token as a discount ticket on fees on ETHLend**
+**Utility function 1: Zero-fee lending with LEND - Using LEND as the lending currency on the DAPP and the Ethereum network**
 
-Receive 25% price reduction on platform fees (Loan request fee and Loan funding fee) compared to paying with ETH.
+By using LEND as the medium of exchange, all loans on the ETHLend platform would be handled in LEND tokens instead of Ethereum. The result is that LEND will become ** the main utility ** that is used for lending and borrowing within the Ethereum network. This will allow all ETH and ERC20 token holders the ability to unlock billions of dollars’ worth of liquidity. ETHLend will do the same with Bitcoin in the near future. Ethereum as a medium of exchange is still an alternative option.
 
-**Utility function 2: Rewarding active lenders and borrowers with airdrops**
+Lending LEND will be zero-fee lending, which creates more demand and use for the LEND token as being the lending cryptocurrency.
 
-ETHLend will use 20% of the decentralized application fees (loan request fee and funding fee) to purchase LEND from the market and airdrop the LEND for all the lenders and borrowers on ETHLend, based on the previous period’s volume.
+**Utility function 2: 50% discount for fees when LEND is used as a collateral**
 
-**Utility function 3: Featured functions that are accessible only with LEND tokens**
+When LEND token is pledged as a collateral, the lender and the borrower are excepted from 50% of the application fees compared when other tokens are pledged.
 
-ETHLend will provide functions that are only accessible with the use of LEND (can be only paid with LEND). These featured functions will include featured loan listings and email marketing campaign for new loan requests.
+**Utility function 3: LTV (loan-to-value) Boost to 70% for LEND token**
 
-**Utility function 4: Rewarding Introducers with LEND**
+Borrower can borrow up to 65% of the collateral value. However, by pledging LEND, borrower can borrow up to 70% of the collateral value.
 
-ETHLend will purchase additional amount of LEND (which will be decided during Q1 2018) to reward lenders and borrowers or third parties who introduce new participants on to the decentralized lending platform.
+**Utility function 4: Collateral refilling with LEND token**
+
+LEND can be used to defends a collateral call by sending LEND to the loan smart contract.
+
+**Utility function 5: Preview Feature**
+
+New loan is completely public for funding after 60 minutes when tokens are sent and the state is set to waiting for lender.
+
+Lenders who purchase the preview feature will see the loans 60 minutes before the loan is broadcasted to the public.
+
+**Utility function 6: Featured loans**
+
+Loans will be featured on the front page, which can be only paid with LEND.
+
+**Utility function 7: Late penalty fee reduction**
+
+Generally, 5% of the installment amount is charged as a penalty fee on late penalties.
+
+2.5% of the late penalty fee will be sent to the lender and 2.5% will be sent to ETHLend.
+
+When LEND is used as a collateral, the penalty fee is reduced to 2.5%, which sent to the lender fully.
+
+**Utility function 8: Rewarding active borrowers and lenders**
+
+Allocation: 20% of the collected fees.
+
+Use: Rewarding active borrowers and lenders.
+
+Half (50%) is allocated to active borrowers based on volume.
+
+Half (50%) is allocated to active lenders based on volume.
+
+Rewards can be claimed 30 days after the Q ends.
+
+ETHLend reserves the right to make changes to the reward plan to ensure fair distribution of rewards to users.
+
+**Utility function 9: Rewarding introducers**
+
+Allocation: 5% of the collected fees.
+
+Use: Rewarding introducers to ETHLend DAPP.
+
+Details shall be defined when upon launching the program on Q2 2018.
+
+ETHLend reserves the right to change the allocation based on volume.
+
+**Utility function 10: Protocol Voting Portal**
+
+You will be part of the decision making on the protocol level.
+
+1 LEND token equals 1 vote.
+
+Protocol Voting Portal will be launched latest on Q1 2019.
+
+Example of voting is the possibility to vote for new potential additions to the collateral tokens list.
 
 ## <h1>Background</h1>
 
@@ -239,7 +303,7 @@ ETHLend will purchase additional amount of LEND (which will be decided during Q1
 
 ## <h3>Trustless</h3>
 
-<p>There is no need to trust the counterparty. When the borrower places the loan request on ETHLend, the counterparty, ETHLend or any other party cannot manipulate, stop and prevent the loan request once the loan is deployed. Instead of the need to trust the counterparty, decentralization removes the necessity to trust your provider and your counterparty.</p>
+<p>There is no need to trust the counterparty. When the borrower places the loan request on ETHLend, the counterparty, ETHLend or any other party cannot manipulate, stop and prevent the loan request once the loan is depoyed. Instead of the need to trust the counterparty, decentralization removes the necessity to trust your provider and your counterparty.</p>
 
 <p>Removing the counterparty or third party risk is vital to avoid any unfair and unwanted behaviour. By using trustless environment, we are able to avoid risk that are associated with third parties. For example, we do not have to take into account if the peer to peer lending service provider is under cyberattack, incurs fraud or the service provider would end up into insolvency proceedings.</p>
 
@@ -355,6 +419,10 @@ ETHLend will purchase additional amount of LEND (which will be decided during Q1
 *	NodeJS
 *	Solidity
 *	Web3.js
+*   React
+*   LiveScript
+*   JavaScript
+*   Java
 
 ## <h2>Secured Lending by Pledging Ethereum-Based Digital Tokens</h2>
 
@@ -849,18 +917,18 @@ ETHLend will purchase additional amount of LEND (which will be decided during Q1
 
 <p>We consider ETHLend as a long term project. However, to make most of us, concrete deadlines are necessary. Therefore, we shall introduce the following roadmap for technical implementations:</p>
 
-1.	ETHLend Alpha on Ethereum main-net on Q2 2017
-2.	ENS Domains as collateral on Q2 2017
-3.	Reputation-based Lending with CRE on Q3 2017
-4.	Token Sale Smart Contract on Q3 2017
-5.	Security Audit for the Token Sale Smart Contract on Q3 2017
-6.	USD Based Loans and Installments Q4 2017
-7.	On-Demand and Crowd Lending (Loan Offers from Lenders) on Q1 2018
-8.	User Experience Upgrade on Q1 2018
-9.	Decentralized Credit Rating (DCR) on Q1 2018
-10. Penalties for Late Payment on Q2 2018
-11.	Lending Bitcoin on Q2 2018
-12. LEND accepted as payment with 25% discount on Q2 2018
+1.	ETHLend Alpha on Ethereum main-net on Q2 2017 (Milestone reached)
+2.	ENS Domains as collateral on Q2 2017 (Milestone reached)
+3.	Reputation-based Lending with CRE on Q3 2017 (Milestone reached)
+4.	Token Sale Smart Contract on Q3 2017 (Milestone reached)
+5.	Security Audit for the Token Sale Smart Contract on Q3 2017 (Milestone reached)
+6.	USD Based Loans (pegging to USD) and Installments Q4 2017 (Milestone reached)
+7.	On-Demand and Crowd Lending (Loan Offers from Lenders) on Q1 2018 (Under development)
+8.	User Experience Upgrade on Q1 2018 (Under development)
+9.	Decentralized Credit Rating (DCR) on Q1 2018 (Under development)
+10. Penalties for Late Payment on Q2 2018 (Milestone reached)
+11.	Lending Bitcoin on Q2 2018 (Under development)
+12. LEND accepted as the medium of exchange and 50% discounts on LEND collateral on Q2 2018
 13.	Gateway for Decentralized Providers (uPort, Civic) to DCR on Q2 2018*
 14.	Oracles: Centralized feeds to DCR on Q2 2018*
 15.	Second User Experience Upgrade on Q3 2018
@@ -869,7 +937,7 @@ ETHLend will purchase additional amount of LEND (which will be decided during Q1
 18.	Prediction Market to Assess Credit Risk on Q4 2018*
 19.	Lending Other Altcoins and tokens on Q4 2018*
 20. Protocol to Enable Insurance Policies (with AI bots) on Q1 2019
-21. Sophisticated collateral control (Calling & Liquidating the collateral) on Q2 2019
+21. Sophisticated collateral control (Calling & Liquidating the collateral) on Q2 2019 (Collateral calling reached on Q1 2018)
 22. Competetive bidding on interest rate between lenders on Q3 2019
 23. Expanding Decentralized Lending and Decentralized Credit Rating beyond Ethereum network Q4 2019*
 
@@ -929,113 +997,82 @@ ETHLend will purchase additional amount of LEND (which will be decided during Q1
 
 <p>Introducing our team:</p>
 
-<p>Stani Kulechov, Founder of ETHLend & Development</p>
+<p>Stani Kulechov, Founder of ETHLend & CEO</p>
 
 https://www.linkedin.com/in/stanislav-kulechov-361284132/
 
-<p>Jordan Lazaro Gustave, Head of Management</p>
+<p>Jordan Lazaro Gustave, COO</p>
 
 https://www.linkedin.com/in/jordan-lazaro-gustave-32018976/
 
-<p>Martin Wichmann, Head of Token Sale</p>
-
-https://www.linkedin.com/in/martin-wichmann-89722561/
-
-<p>Anthony Akentiev, Blockchain Developer</p>
-
-https://www.linkedin.com/in/anthonyakentiev/
-
-<p>Jitendra Chittoda, Technical Adviser</p>
-
-https://www.linkedin.com/in/jchittoda/
-
-<p>Amir Dib, Technical Adviser</p>
-
-https://www.linkedin.com/in/amir-dib-b0345175/
-
-<p>Adnan Javed, Legal Advisor</p>
-
-https://www.linkedin.com/in/adnan-javed/
-
-<p>Sergej Stein, Financial Advisor</p>
-
-https://www.linkedin.com/in/sergej-stein/
-
-<p>Kersten Schütze, Head of Corporate Strategy</p>
-
-https://www.linkedin.com/in/kersten-sch%C3%BCtze-5ab3a2100/
-
-<p>Luca Cotta, Italian Adviser & Community Manager</p>
-
-https://www.linkedin.com/in/luca-c-0b6678145/
-
-<p>Anastasija Plotnikova, Adviser & Translations</p>
-
-https://www.linkedin.com/in/anastasija-plotnikova-9b972735/?ppe=1
-
-<p>Nolvia Serrano, Latam Adviser & Media Correspondent</p>
+<p>Nolvia Serrano, CMO</p>
 
 https://www.linkedin.com/in/nolvia-serrano-ba7362b2/
 
-<p>Philipp Vasilyev, Russian Markets Adviser</p>
+<p>Anastasija Plotnikova, Business Developer</p>
+
+https://www.linkedin.com/in/anastasija-plotnikova-9b972735/?ppe=1
+
+<p>Martin Wichmann, Growth Manager</p>
+
+https://www.linkedin.com/in/martin-wichmann-89722561/
+
+<p>Jitendra Chittoda, Blockchain Architech</p>
+
+https://www.linkedin.com/in/jchittoda/
+
+<p>Anthony Akentiev, Blockchain Engineer</p>
+
+https://www.linkedin.com/in/anthonyakentiev/
+
+<p>Shane Benjamin, Engineer</p>
+
+<p>Ernesto Boado, Jr Blockchain Engineer</p>
+
+<p>Yuki Suzuki, Frontend Engineer</p>
+
+<p>Michael Chiang, Engineer</p>
+
+<p>Amir Dib, Scientist & Researcher</p>
+
+https://www.linkedin.com/in/amir-dib-b0345175/
+
+<p>Adnan Javed, Legal Strategy</p>
+https://www.linkedin.com/in/adnan-javed/
+
+
+<p>Luca Cotta, Italian Markets & Community Manager</p>
+
+https://www.linkedin.com/in/luca-c-0b6678145/
+
+<p>Philipp Vasilyev, Russian Markets</p>
 
 https://www.linkedin.com/in/smospider/
 
-<p>Scott Malsbury, Head of Communications</p>
+<p>Scott Malsbury, Communications</p>
 
 https://www.linkedin.com/in/scott-malsbury-a6260b12/?ppe=1
 
-<p>Jin Park, Head of Marketing</p>
-
-https://www.linkedin.com/in/jin-park-27989ab8/
-
-<p>Koen Sanders, Cyber Security Adviser</p>
+<p>Koen Sanders, Cyber Security Specialist</p>
 
 https://www.linkedin.com/in/koen-sanders-54aba7151/
 
-<p>Rowan Van Ginkel, Graphics & Visualization</p>
+<p>Rowan Van Ginkel, UI/UX Designer</p>
 
 https://www.linkedin.com/in/rowanvanginkel/
-
-<p>Paras Botadra, Sr. Backend Developer<p>
-
-https://www.linkedin.com/in/parasbotadra/
-
-<p>Edmund To, Lead Junior Developer<p>
-
-https://www.linkedin.com/in/edmundto/
 
 <p>Steve Mann, Jr. Blockchain Developer<p>
 
 https://www.linkedin.com/in/stevemann2705
 
-<p>Kanhaiya Sharma, Ux Ui Designer And Frontend Developer<p>
-
-https://www.linkedin.com/in/kanhaiyasharma/
-
-<p>Kelly Pope, Social Media</p>
+<p>Kelly Pope, Social Media Manager</p>
 
 https://www.linkedin.com/in/smospider/
 
-<p>Sachin Rana, Head Of Digital Marketing</p>
-
-https://www.linkedin.com/in/sachin-rana-b7a1aa3b/
-
-<p>Opinder Preet Singh, Local Adviser on Indian Subcontinent</p>
-
-https://www.linkedin.com/in/opinderpreet/
-
-<p>Stephen You, Head of Korean Desk</p>
+<p>Stephen You, Korean Desk Manager</p>
 
 https://www.linkedin.com/in/stephen-you-59833a138/
 
-<p>Disa Braun, Copywriter And Brand Adviser</p>
-
-https://www.linkedin.com/in/disa-braun/
-
-<p>Pushkar Vohra, Growth Hacker</p>
-
-https://www.linkedin.com/in/pushkar-vohra-75451416/
 
 ## <h2>The Advisory Board</h2>
 
@@ -1075,16 +1112,16 @@ https://www.linkedin.com/in/tomoaki-sato-086a0555/
 
 <p>Road to decentralization. ETHLend introduces the following roadmap adopting changes, improvements and governance to ETHLend:</p>
 
-1.	White Paper on Decentralized Lending on Q2 2017
-2.	Creating an entity for Token Sale on Q3 2017
-3.	LEND Token Pre-Sale on Q3 2017
-4.	LEND Token Sale on Q4 2017
-5.	Relocating to Zug, Switzerland on Q1 2018
-6.	Promoting to get LEND on Exchanges from Q1 2018
+1.	White Paper on Decentralized Lending on Q2 2017 (Milestone accomplished)
+2.	Creating an entity for Token Sale on Q3 2017 (Milestone accomplished)
+3.	LEND Token Pre-Sale on Q3 2017 (Milestone accomplished)
+4.	LEND Token Sale on Q4 2017 (Milestone accomplished)
+5.	Relocating to Switzerland on Q1 2018
+6.	LEND on Exchanges from Q1 2018
 7.	Airdrops for LEND starts on Q1 2018
 8.	Opening Suggestions Venue for Public on Q4 2018
 9.	Creating and Testing Democracy DAO on Q4 2018
-10.	Voting on Suggestions Deployed on Q1 2019
+10.	Protocol Voting on Q1 2019
 11.	Vesting for LEND Ends on Q4 2019
 
 ## <h1>Introducing LEND Token and the Token Sale</h1>
@@ -1094,6 +1131,76 @@ https://www.linkedin.com/in/tomoaki-sato-086a0555/
 ![Image](images/logo_300DPI-02.png)
 
 <p>Principles of the tokens sale. ETHLend aims to provide a token sale that is democratic, decentralized, secure and fair. This also applies to the vesting model and to the future governance on ETHLend. To comply with democracy, anyone can buy LEND on Token Sale period. The Token Sale shall be provided in a decentralized manner by using an Ethereum-based Smart Contract, which would provide more security due to the decentralized nature. Moreover, all the token purchases will be verified manually before distribution to avoid any misuse.</p>
+
+## Utility function 1: Zero-fee lending with LEND - Using LEND as the lending currency on the DAPP and the Ethereum network
+
+By using LEND as the medium of exchange, all loans on the ETHLend platform would be handled in LEND tokens instead of Ethereum. The result is that LEND will become ** the main utility ** that is used for lending and borrowing within the Ethereum network. This will allow all ETH and ERC20 token holders the ability to unlock billions of dollars’ worth of liquidity. ETHLend will do the same with Bitcoin in the near future. Ethereum as a medium of exchange is still an alternative option.
+
+Lending LEND will be zero-fee lending, which creates more demand and use for the LEND token as being the lending cryptocurrency.
+
+## Utility function 2: 50% discount for fees when LEND is used as a collateral
+
+When LEND token is pledged as a collateral, the lender and the borrower are excepted from 50% of the application fees compared when other tokens are pledged.
+
+## Utility function 3: LTV (loan-to-value) Boost to 70% for LEND token
+
+Borrower can borrow up to 65% of the collateral value. However, by pledging LEND, borrower can borrow up to 70% of the collateral value.
+
+## Utility function 4: Collateral refilling with LEND token
+
+LEND can be used to defends a collateral call by sending LEND to the loan smart contract.
+
+## Utility function 5: Preview Feature
+
+New loan is completely public for funding after 60 minutes when tokens are sent and the state is set to waiting for lender.
+
+Lenders who purchase the preview feature will see the loans 60 minutes before the loan is broadcasted to the public.
+
+## Utility function 6: Featured loans
+
+Loans will be featured on the front page, which can be only paid with LEND.
+
+## Utility function 7: Late penalty fee reduction
+
+Generally, 5% of the installment amount is charged as a penalty fee on late penalties.
+
+2.5% of the late penalty fee will be sent to the lender and 2.5% will be sent to ETHLend.
+
+When LEND is used as a collateral, the penalty fee is reduced to 2.5%, which sent to the lender fully.
+
+## Utility function 8: Rewarding active borrowers and lenders
+
+Allocation: 20% of the collected fees.
+
+Use: Rewarding active borrowers and lenders.
+
+Half (50%) is allocated to active borrowers based on volume.
+
+Half (50%) is allocated to active lenders based on volume.
+
+Rewards can be claimed 30 days after the Q ends.
+
+ETHLend reserves the right to make changes to the reward plan to ensure fair distribution of rewards to users.
+
+## Utility function 9: Rewarding introducers
+
+Allocation: 5% of the collected fees.
+
+Use: Rewarding introducers to ETHLend DAPP.
+
+Details shall be defined when upon launching the program on Q2 2018.
+
+ETHLend reserves the right to change the allocation based on volume.
+
+**Utility function 10: Protocol Voting Portal**
+
+You will be part of the decision making on the protocol level.
+
+1 LEND token equals 1 vote.
+
+Protocol Voting Portal will be launched latest on Q1 2019.
+
+Example of voting is the possibility to vote for new potential additions to the collateral tokens list.
 
 ## <h2>Utility function 1: LEND token as a discount ticket on fees on ETHLend</h2>
 
@@ -1212,21 +1319,23 @@ https://www.linkedin.com/in/tomoaki-sato-086a0555/
 
 <p>Funds allocation is subject to change for providing flexibility. ETHLend will use best practices on funds allocation and its own discretion.</p>
 
-## <h1>Token Sale Entity</h1> </p>
+## <h1>Entity behind ETHLend</h1> </p>
 
-<p>Entity behind the token sale:</p>
+<p>Entity behind ETHLend</p>
 
-<p>ETHLend OÜ - Reg: 14398644 -  Tartu mnt 80, Kesklinna linnaosa, Tallinn, Harju maakond, 10112, Estonia</p>
+<p>ETHLend.io</p>
 
-<p>Complaints & assistance: hi [-at-] ethlend [dot] io</p>
+<p>Complaints & assistance: support [-at-] ethlend [dot] io</p>
 
 ## <h1>Further Updates</h1> </p>
 
-<p>Further updates on LEND Token Sale and DAPP updates are published on http://about.ETHLend.io and in our mailing list. The Token Sale launch will be announced on our mailing list and published on http://about.ETHLend.io/blog </p>
+<p>Further updates on LEND Token Sale and DAPP updates are published on http://ETHLend.io and in our mailing list.</p>
 
 Telegram: https://t.me/ETHLend
 
 Website: https://ethlend.io
+
+Blog: https://blog.ethlend.io
 
 White Paper: https://github.com/ETHLend/Documentation/blob/master/ETHLendWhitePaper.md
 
@@ -1243,13 +1352,5 @@ Facebook: https://www.facebook.com/ETHLend/
 YouTube: https://www.youtube.com/watch?v=IGaoqUoL1F4&t=2s
 
 Twitter: https://twitter.com/ethlend1
-
-Steemit: https://steemit.com/@ethlend
-
-WeChat (Chinese): @ETHLend
-
-KakaoTalk (Korean): https://open.kakao.com/o/gBzFr5y
-
-Vkontakte (Russian): https://vk.com/ethlend
 
 ![Image](images/logo_300DPI-05.png)
