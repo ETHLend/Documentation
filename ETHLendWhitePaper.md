@@ -1198,7 +1198,7 @@ Details shall be defined when upon launching the program on Q2 2018.
 
 ETHLend reserves the right to change the allocation based on volume.
 
-**Utility function 10: Protocol Voting Portal**
+## Utility function 10: Protocol Voting Portal
 
 You will be part of the decision making on the protocol level.
 
@@ -1207,34 +1207,6 @@ You will be part of the decision making on the protocol level.
 Protocol Voting Portal will be launched latest on Q1 2019.
 
 Example of voting is the possibility to vote for new potential additions to the collateral tokens list.
-
-## <h2>Utility function 1: LEND token as a discount ticket on fees on ETHLend</h2>
-
-<p>LEND token is used to pay deployment and funding fees on ETHLend. Even though that the fees can be paid with ETH, LEND would provide access to early contributors for lower fees on ETHLend. Practically LEND can be seen as a discount ticket for the early contributors to pay less fees on ETHLend.</p>
-
-<p>The amount of fees shall be determined by the market price of LEND and the value difference compared to LEND. The aim is to provide 25% discount for the fees for early contributors when using LEND to pay fees on ETHLend instead of ETH.</p>
-
-## <h2>Utility function 2: Rewarding active lenders and borrowers with airdrops of LEND</h2>
-
-<p>Increasing user adoption with LEND airdrops. ETHLend increases the usability of the product by introducing new mechanisms for user adoption. ETHLend aims to reward early adopters with the use of LEND tokens. The previously introduced LEND buybacks and burning is from now on deprecated. Instead, ETHLend will focus on creating value for the users and more value for the product, thus indirectly creating value for the token holders as well. ETHLend will use LEND token airdrops to increase the user adoption and add more volume to the loan book. An airdrop means that a certain amount of tokens is distributed to the users of the decentralized application.</p>
-
-<p>Buybacks and burning were previously introduced by ETHLend for creating more value for the token holders. However, these models have two drawbacks. First, buying LEND back from the market and permanently removing it from the circulation might decrease the total supply of LEND. This assumption implies that the token would increase in value due to the scarcity. Burning the LEND would not guarantee that the token increases in value. Secondly, pursuing the increase of the token value distracts ETHLend from the real opportunity - the users of the decentralized application.</p>
-
-<p>Creating rewarding mechanisms that aggregate more volume for the decentralized application creates more value for the product and eventually more value for the token holders as well. When the product and the venture is successful, the token holder’s LEND, which is used on the platform, has more value since the lender and borrowers seek LEND from the market to receive the 25% discount compared with paying the fees in ETH. Moreover, growing lending volumes would amount that ETHLend would need to buy more LEND from the market. These two factors drive the demand of LEND token upon user adoption. Based on the above, instead of burning the tokens, ETHLend will airdrop the tokens to lenders and borrowers who actively use the decentralized application. The reward sets the motivation to borrowers and lenders to use the return and to use the application more frequently.</p>
-
-<p>The utility function of the airdropped LEND. ETHLend will use 20% of the decentralized application fees (loan request fee and funding fee) to purchase LEND from the market and airdrop the LEND for all the lenders and borrowers on ETHLend, based on the previous period’s volume. These airdrops are done either quarterly or monthly based on the complexity of the process in practice. The airdropped LEND can be used as a collateral on ETHLend or used for paying fees on ETHLend. Lenders and borrowers can additionally sell the LEND tokens. The aim is to provide additional collateral value for the borrower, which reduces the amount the borrower needs to provide as collateral. The lenders can use the airdropped LEND for different functions on ETHLend, such as paying featured listing fees or paying prediction market or credit risk assessment bots.</p>
-
-<p>Certain limitations apply to LEND due to security reasons and efficiency. First, we acknowledge that a free market does not always equal a fair market. Large volumes might be achieved with big loans. ETHLend will apply limitation on how much LEND is airdropped to an address. Secondly, the airdropped LEND must be used within 24 months. Therefore, once the airdrop is made, the borrower or lender must engage in lending within 24 months. Otherwise the LEND will go for redistribution to the next airdrop.</p>
-
-<p>When LEND is used as stated above, LEND creates more volume on the applications since the participants are getting more value by using LEND as a collateral or paying functions on ETHLend. Eventually, the LEND replaces the amount of the collateral that the borrower requires, and could eventually lower the collateral based lending interest rates and even create more trust within the reputation based lending. These changes should switch the focus on the user adoption and to provide more value for the product.</p>
-
-## <h2>Utility function 3: Featured functions that are accessible only with LEND tokens</h2>
-
-<p>ETHLend will provide functions that are only accessible with the use of LEND. These featured functions will include featured loan listings. Featured listings are listing where the loan request is placed in the top of the search results or listing to speed the lending process for borrowers or lenders who need faster lending experience on ETHLend. Email marketing campaign for new loan request. Such marketing campaign might be beneficial for large loans. ETHLend reserves the right to provide more additional featured functions for the LEND users.</p>
-
-## <h2>Utility function 4: Rewarding Introducers with LEND</h2>
-
-<p>ETHLend will purchase additional amount of LEND (which will be decided during Q1 2018) to reward lenders and borrowers or third parties who introduce new participants on to the decentralized lending platform. The aim of the introducers’ program is to introduce new users to the platform to gain more volumes for the application. The introducers will be rewarded with a stake of the purchased LEND that is dedicated for the introducers’ program. Full details of the introducers’ program shall be disclosed during the Q1 2018 once the marketing of ETHLend goals and objectives are set.</p>
 
 ## <h2>Token Sale</h2>
 
