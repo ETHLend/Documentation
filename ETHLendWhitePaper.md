@@ -127,7 +127,7 @@ Instead of using ERC-20 tokens to provide the user a number (score) on previous 
 
 Practically all the Gateways for example Bloom Score (part of the decentralized gateway to DCR) or Fico score (feeds from centralized providers) are presented as a various kinds of badgets.
 
-Gamified credit profile encourages to collect positive lending badges and to avoid negative ones. For example, borrower with reputable badge collection would not want to tarhish the badge collection since it would effect the borrower's creditworthiness from the lender's perspective. This would amount to true personalized and repuation based lending, and could affect on the amount of collateral the borrower would need to set.
+Gamified credit profile encourages to collect positive lending badges and to avoid negative ones. For example, borrower with reputable badge collection would not want to tarhish the badge collection since it would effect the borrower's creditworthiness from the lender's perspective. This would amount to true personalized and reputation based lending, and could affect on the amount of collateral the borrower would need to set.
 
 **Mobile access with mobile DAPP browsers**
 
