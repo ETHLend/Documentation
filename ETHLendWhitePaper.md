@@ -105,7 +105,7 @@ ETHLend provides secured lending with the use of ERC-20 compatible tokens as a c
 
 **Creating the lending currency with LEND token**
 
-LEND token is used as the main medium of exchange (lending currency) on the ETHLend decentralized application. The main use of LEND is to be a lending currency, such demand is created by removing all smart contract fees on lending with LEND. Therefore, when users are using LEND token lending is zero-fee. LEND would be additionally the only currency to use Ethereum as a collateral. Becoming the medium of exchanges creates the main use-casr and demand for the LEND token. 
+LEND token is used as the main medium of exchange (lending currency) on the ETHLend decentralized application. The main use of LEND is to be a lending currency, such demand is created by removing all smart contract fees on lending with LEND. Therefore, when users are using LEND token lending is zero-fee. LEND would be additionally the only currency to use Ethereum as a collateral. Becoming the medium of exchanges creates the main use-case and demand for the LEND token. 
 
 **Gamified Credit Profile**
 
