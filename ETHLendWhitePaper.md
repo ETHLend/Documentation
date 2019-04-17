@@ -929,21 +929,21 @@ Example of voting is the possibility to vote for new potential additions to the 
 4.	Token Sale Smart Contract on Q3 2017 (Milestone reached)
 5.	Security Audit for the Token Sale Smart Contract on Q3 2017 (Milestone reached)
 6.	USD Based Loans (pegging to USD) and Installments Q4 2017 (Milestone reached)
-7.	On-Demand and Crowd Lending (Loan Offers from Lenders) on Q1 2018 (Under development)
-8.	User Experience Upgrade on Q1 2018 (Under development)
-9.	Decentralized Credit Rating (DCR) on Q1 2018 (Under development)
+7.	On-Demand and Crowd Lending (Loan Offers from Lenders) on Q1 2018 (Milestone reached)
+8.	User Experience Upgrade on Q1 2018 (Milestone reached)
+9.	Decentralized Credit Rating (DCR) on Q1 2018 (Milestone reached - Feature in stealth)
 10. Penalties for Late Payment on Q2 2018 (Milestone reached)
-11.	Lending Bitcoin on Q2 2018 (Under development)
-12. LEND accepted as the medium of exchange and 50% discounts on LEND collateral on Q2 2018
-13.	Gateway for Decentralized Providers (uPort, Civic) to DCR on Q2 2018*
-14.	Oracles: Centralized feeds to DCR on Q2 2018*
-15.	Second User Experience Upgrade on Q3 2018
-16.	Protocol to enable AI and Big Data to assess Credit Risk on Q3 2018*
+11.	Lending Bitcoin on Q2 2018 (Milestone reached)
+12. LEND accepted as the medium of exchange and 50% discounts on LEND collateral on Q2 2018 (Milestone reached)
+13.	Gateway for Decentralized Providers (uPort, Civic) to DCR on Q2 2018 (API Milestone reached)
+14.	Oracles: Centralized feeds to DCR on Q2 2018 (API Milestone reached)
+15.	Second User Experience Upgrade on Q3 2018 (Milestone reached)
+16.	Protocol to enable AI and Big Data to assess Credit Risk on Q3 2018 (API Milestone reached)
 17.	Revenue scheme for AI Credit Risk bot creators on Q3 2018*
 18.	Prediction Market to Assess Credit Risk on Q4 2018*
 19.	Lending Other Altcoins and tokens on Q4 2018*
 20. Protocol to Enable Insurance Policies (with AI bots) on Q1 2019
-21. Sophisticated collateral control (Calling & Liquidating the collateral) on Q2 2019 (Collateral calling reached on Q1 2018)
+21. Sophisticated collateral control (Calling & Liquidating the collateral) on Q2 2019 (Milestone reached)
 22. Competetive bidding on interest rate between lenders on Q3 2019
 23. Expanding Decentralized Lending and Decentralized Credit Rating beyond Ethereum network Q4 2019*
 
@@ -1122,9 +1122,9 @@ https://www.linkedin.com/in/tomoaki-sato-086a0555/
 2.	Creating an entity for Token Sale on Q3 2017 (Milestone accomplished)
 3.	LEND Token Pre-Sale on Q3 2017 (Milestone accomplished)
 4.	LEND Token Sale on Q4 2017 (Milestone accomplished)
-5.	Relocating to Switzerland on Q1 2018
-6.	LEND on Exchanges from Q1 2018
-7.	Airdrops for LEND starts on Q1 2018
+5.	Relocating to Switzerland on Q1 2018 (Milestone accomplished)
+6.	LEND on Exchanges from Q1 2018 (Milestone accomplished)
+7.	Airdrops for LEND starts on Q1 2018 (Milestone accomplished)
 8.	Opening Suggestions Venue for Public on Q4 2018
 9.	Creating and Testing Democracy DAO on Q4 2018
 10.	Protocol Voting on Q1 2019
