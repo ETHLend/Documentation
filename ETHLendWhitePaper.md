@@ -944,7 +944,7 @@ Example of voting is the possibility to vote for new potential additions to the 
 19.	Lending Other Altcoins and tokens on Q4 2018*
 20. Protocol to Enable Insurance Policies (with AI bots) on Q1 2019
 21. Sophisticated collateral control (Calling & Liquidating the collateral) on Q2 2019 (Milestone reached)
-22. Competetive bidding on interest rate between lenders on Q3 2019
+22. Competetive bidding on interest rate between lenders on Q3 2019 (Milestone reached)
 23. Expanding Decentralized Lending and Decentralized Credit Rating beyond Ethereum network Q4 2019*
 
 <p>* These milestones are developed if the token sale cap (1 000 000 000 LEND is reached) due to the vast amount of resources these particular milestones require.</p>
