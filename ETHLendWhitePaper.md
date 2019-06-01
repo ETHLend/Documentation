@@ -105,7 +105,7 @@ ETHLend provides secured lending with the use of ERC-20 compatible tokens as a c
 
 **Creating the lending currency with LEND token**
 
-LEND token is used as the main medium of exchange (lending currency) on the ETHLend decentralized application. The main use of LEND is to be a lending currency, such demand is created by removing all smart contract fees on lending with LEND. Therefore, when users are using LEND token lending is zero-fee. LEND would be additionally the only currency to use Ethereum as a collateral. Becoming the medium of exchanges creates the main use-casr and demand for the LEND token. 
+LEND token is used as the main medium of exchange (lending currency) on the ETHLend decentralized application. The main use of LEND is to be a lending currency, such demand is created by removing all smart contract fees on lending with LEND. Therefore, when users are using LEND token lending is zero-fee. LEND would be additionally the only currency to use Ethereum as a collateral. Becoming the medium of exchanges creates the main use-case and demand for the LEND token. 
 
 **Gamified Credit Profile**
 
@@ -127,7 +127,7 @@ Instead of using ERC-20 tokens to provide the user a number (score) on previous 
 
 Practically all the Gateways for example Bloom Score (part of the decentralized gateway to DCR) or Fico score (feeds from centralized providers) are presented as a various kinds of badgets.
 
-Gamified credit profile encourages to collect positive lending badges and to avoid negative ones. For example, borrower with reputable badge collection would not want to tarhish the badge collection since it would effect the borrower's creditworthiness from the lender's perspective. This would amount to true personalized and repuation based lending, and could affect on the amount of collateral the borrower would need to set.
+Gamified credit profile encourages to collect positive lending badges and to avoid negative ones. For example, borrower with reputable badge collection would not want to tarhish the badge collection since it would effect the borrower's creditworthiness from the lender's perspective. This would amount to true personalized and reputation based lending, and could affect on the amount of collateral the borrower would need to set.
 
 **Mobile access with mobile DAPP browsers**
 
